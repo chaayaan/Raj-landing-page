@@ -39,12 +39,10 @@
   <div class="rg-sc-block rg-reveal">
     <div class="rg-sc-images">
       <div class="rg-sc-img-main-wrap">
-        <img src="raj-aiswari-machines.jpg" alt="Raj Aiswari Machinery" width="700" height="500"
-          onerror="this.src='https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=700&q=80'">
+        <img src="lab-to-market.jpg" alt="Raj Aiswari Machinery" width="700" height="500">
       </div>
       <div class="rg-sc-img-sub-wrap">
-        <img src="raj-aiswari-xrf.jpg" alt="Fischer XRF Machine" width="400" height="300"
-          onerror="this.src='https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&q=80'">
+        <img src="interview.jpg" alt="Fischer XRF Machine" width="400" height="300">
       </div>
     </div>
     <div class="rg-sc-content">
@@ -76,12 +74,10 @@
   <div class="rg-sc-block rg-sc-block-reverse rg-reveal">
     <div class="rg-sc-images">
       <div class="rg-sc-img-main-wrap">
-        <img src="gold-testing-center.jpg" alt="Raj Aiswari Gold Testing Center" width="700" height="500"
-          onerror="this.src='https://images.unsplash.com/photo-1543699565-003b8adda5fc?w=700&q=80'">
+        <img src="lab-customer.jpg" alt="Raj Aiswari Gold Testing Center" width="700" height="500">
       </div>
       <div class="rg-sc-img-sub-wrap">
-        <img src="gold-testing-lab.jpg" alt="Gold Testing Lab Interior" width="400" height="300"
-          onerror="this.src='https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400&q=80'">
+        <img src="jewlry-testing-machne.jpg" alt="Gold Testing Lab Interior" width="400" height="300">
       </div>
     </div>
     <div class="rg-sc-content">
@@ -113,12 +109,10 @@
   <div class="rg-sc-block rg-reveal">
     <div class="rg-sc-images">
       <div class="rg-sc-img-main-wrap">
-        <img src="ms-raj-aiswari-factory.jpg" alt="M/S Raj Aiswari Gold Chain Factory" width="700" height="500"
-          onerror="this.src='https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80'">
+        <img src="melting.png" alt="M/S Raj Aiswari Gold Chain Factory" width="700" height="500">
       </div>
       <div class="rg-sc-img-sub-wrap">
-        <img src="italian-machines.jpg" alt="Automated Italian Gold Chain Machines" width="400" height="300"
-          onerror="this.src='https://images.unsplash.com/photo-1565618754657-de18f0c5bd8e?w=400&q=80'">
+        <img src="laser.jpg" alt="Automated Italian Gold Chain Machines" width="400" height="300">
       </div>
     </div>
     <div class="rg-sc-content">
@@ -146,12 +140,10 @@
   <div class="rg-sc-block rg-sc-block-reverse rg-reveal">
     <div class="rg-sc-images">
       <div class="rg-sc-img-main-wrap">
-        <img src="chain-house.jpg" alt="Raj Aiswari Chain House" width="700" height="500"
-          onerror="this.src='https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=700&q=80'">
+        <img src="chain-house-1.jpg" alt="Raj Aiswari Chain House" width="700" height="500">
       </div>
       <div class="rg-sc-img-sub-wrap">
-        <img src="gold-chains-handcraft.jpg" alt="Handcrafted Gold Chains" width="400" height="300"
-          onerror="this.src='https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=400&q=80'">
+        <img src="chain-house-2.jpg" alt="Handcrafted Gold Chains" width="400" height="300"->
       </div>
     </div>
     <div class="rg-sc-content">
