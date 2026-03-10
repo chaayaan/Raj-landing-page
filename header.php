@@ -56,6 +56,63 @@
   </div>
 </nav>
 
+<!-- ========== WHATSAPP FLOATING BUTTON ========== -->
+<div class="rg-wa-wrap" id="rgWaWrap">
+
+  <!-- Popup card -->
+  <div class="rg-wa-popup" id="rgWaPopup" role="dialog" aria-label="Chat with us on WhatsApp">
+    <!-- Close button -->
+    <button class="rg-wa-close" id="rgWaClose" aria-label="Close chat popup">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <!-- Header -->
+    <div class="rg-wa-popup-head">
+      <div class="rg-wa-avatar">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        <span class="rg-wa-online-dot"></span>
+      </div>
+      <div class="rg-wa-popup-info">
+        <span class="rg-wa-popup-name">Raj Aiswari</span>
+        <span class="rg-wa-popup-status">
+          <span class="rg-wa-status-dot"></span>Online — typically replies instantly
+        </span>
+      </div>
+    </div>
+    <!-- Chat bubble -->
+    <div class="rg-wa-popup-body">
+      <div class="rg-wa-bubble">
+        <p>Hello! 👋</p>
+        <p>How can we help you today? Feel free to ask us anything about our products or services.</p>
+        <span class="rg-wa-time">Just now</span>
+      </div>
+    </div>
+    <!-- CTA -->
+    <a href="https://wa.me/8801716469866?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products." target="_blank" rel="noopener" class="rg-wa-popup-btn">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+      Start Chat on WhatsApp
+    </a>
+  </div>
+
+  <!-- Floating trigger button -->
+  <button class="rg-wa-fab" id="rgWaFab" aria-label="Chat with us on WhatsApp">
+    <span class="rg-wa-fab-icon rg-wa-fab-icon--wa">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="white">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </span>
+    <span class="rg-wa-fab-icon rg-wa-fab-icon--close">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </span>
+    <span class="rg-wa-label">Chat with us</span>
+    <span class="rg-wa-fab-ping"></span>
+  </button>
+
+</div>
+
 <!-- ========== HEADER SCOPED CSS ========== -->
 <!-- All styles prefixed rg- to avoid bleeding into page CSS -->
 <style>
@@ -72,6 +129,8 @@
   --rg-bg2:         #F7F2E8;
   --rg-white:       #FFFFFF;
   --rg-nav-h:       72px;
+  --rg-wa-green:    #25D366;
+  --rg-wa-dark:     #128C7E;
 }
 
 /* ── Reset & Base ────────────────────────────────────────── */
@@ -412,6 +471,191 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
 .rg-d2 { transition-delay: 0.16s; }
 .rg-d3 { transition-delay: 0.24s; }
 
+/* ══════════════════════════════════════════════════════════
+   WHATSAPP FLOATING BUTTON
+══════════════════════════════════════════════════════════ */
+.rg-wa-wrap {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+/* ── Popup card ── */
+.rg-wa-popup {
+  width: 300px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 48px rgba(0,0,0,0.16), 0 2px 8px rgba(0,0,0,0.08);
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(16px) scale(0.96);
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform-origin: bottom right;
+}
+.rg-wa-popup.rg-wa-open {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: all;
+}
+
+/* Close button */
+.rg-wa-close {
+  position: absolute; top: 10px; right: 12px;
+  width: 22px; height: 22px;
+  background: rgba(255,255,255,0.2); border: none; border-radius: 50%;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  color: #fff; transition: background 0.2s;
+  z-index: 2;
+}
+.rg-wa-close:hover { background: rgba(255,255,255,0.35); }
+
+/* Popup header */
+.rg-wa-popup-head {
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  padding: 18px 16px 16px;
+  display: flex; align-items: center; gap: 12px;
+  position: relative;
+}
+.rg-wa-avatar {
+  width: 44px; height: 44px; border-radius: 50%;
+  background: rgba(255,255,255,0.2);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; position: relative;
+}
+.rg-wa-online-dot {
+  position: absolute; bottom: 1px; right: 1px;
+  width: 10px; height: 10px; border-radius: 50%;
+  background: #4ADE80;
+  border: 2px solid #25D366;
+  animation: rg-wa-pulse 2s ease-in-out infinite;
+}
+@keyframes rg-wa-pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50%       { transform: scale(1.2); opacity: 0.8; }
+}
+.rg-wa-popup-info { flex: 1; min-width: 0; }
+.rg-wa-popup-name {
+  display: block; color: #fff; font-weight: 600;
+  font-size: 0.92rem; letter-spacing: 0.02em; line-height: 1.2;
+}
+.rg-wa-popup-status {
+  display: flex; align-items: center; gap: 5px;
+  color: rgba(255,255,255,0.82); font-size: 0.7rem; margin-top: 3px;
+}
+.rg-wa-status-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: #4ADE80; flex-shrink: 0;
+}
+
+/* Chat body */
+.rg-wa-popup-body {
+  padding: 16px;
+  background: #E5DDD5;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c5bdb5' fill-opacity='0.3'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.rg-wa-bubble {
+  background: #fff;
+  border-radius: 0 12px 12px 12px;
+  padding: 10px 14px 8px;
+  max-width: 85%;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  position: relative;
+}
+.rg-wa-bubble::before {
+  content: '';
+  position: absolute; top: 0; left: -8px;
+  border: 8px solid transparent;
+  border-top-color: #fff;
+  border-left: 0;
+}
+.rg-wa-bubble p {
+  font-size: 0.84rem; color: #2E2A22;
+  line-height: 1.55; margin-bottom: 4px;
+}
+.rg-wa-bubble p:last-of-type { margin-bottom: 0; }
+.rg-wa-time {
+  display: block; text-align: right;
+  font-size: 0.62rem; color: #999; margin-top: 6px;
+}
+
+/* Start chat button */
+.rg-wa-popup-btn {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  width: 100%; padding: 14px;
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  color: #fff; font-size: 0.82rem; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  transition: opacity 0.2s, transform 0.2s;
+  border: none; cursor: pointer;
+}
+.rg-wa-popup-btn:hover { opacity: 0.92; transform: translateY(-1px); }
+
+/* ── FAB button ── */
+.rg-wa-fab {
+  width: auto; min-width: 56px; height: 56px;
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  border: none; border-radius: 100px;
+  display: flex; align-items: center; gap: 10px;
+  padding: 0 20px 0 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+  position: relative;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, padding 0.25s ease;
+  overflow: hidden;
+}
+.rg-wa-fab:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 8px 28px rgba(37,211,102,0.5);
+}
+.rg-wa-fab:active { transform: scale(0.97); }
+
+/* Icon slots */
+.rg-wa-fab-icon {
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; transition: opacity 0.2s, transform 0.2s;
+}
+.rg-wa-fab-icon--close {
+  position: absolute; left: 16px;
+  opacity: 0; transform: rotate(-90deg);
+}
+.rg-wa-fab.rg-wa-active .rg-wa-fab-icon--wa  { opacity: 0; transform: rotate(90deg); }
+.rg-wa-fab.rg-wa-active .rg-wa-fab-icon--close { opacity: 1; transform: rotate(0); }
+
+.rg-wa-label {
+  color: #fff; font-size: 0.8rem; font-weight: 600;
+  letter-spacing: 0.06em; white-space: nowrap;
+  transition: opacity 0.2s, max-width 0.3s;
+  max-width: 120px; overflow: hidden;
+}
+.rg-wa-fab.rg-wa-active .rg-wa-label { opacity: 0; max-width: 0; }
+
+/* Ping ring */
+.rg-wa-fab-ping {
+  position: absolute; inset: 0; border-radius: 100px;
+  border: 2px solid rgba(37,211,102,0.6);
+  animation: rg-wa-ring 2.5s ease-out infinite;
+  pointer-events: none;
+}
+@keyframes rg-wa-ring {
+  0%   { transform: scale(1);   opacity: 0.7; }
+  70%  { transform: scale(1.35); opacity: 0; }
+  100% { transform: scale(1.35); opacity: 0; }
+}
+
+/* ── Mobile adjustments ── */
+@media (max-width: 600px) {
+  .rg-wa-wrap { bottom: 18px; right: 16px; }
+  .rg-wa-popup { width: 272px; }
+  .rg-wa-fab { height: 52px; padding: 0 16px 0 13px; }
+  .rg-wa-label { font-size: 0.75rem; }
+}
+
 /* ── Responsive — Tablet (≤900px) ───────────────────────── */
 @media (max-width: 900px) {
   .rg-nav { padding: 0 20px; }
@@ -471,7 +715,6 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
   /* ── Hamburger ── */
   var hamburger  = document.getElementById('rgHamburger');
   var mobileMenu = document.getElementById('rgMobileMenu');
-
   if (hamburger) {
     hamburger.addEventListener('click', function () {
       hamburger.classList.toggle('rg-open');
@@ -484,6 +727,53 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
   window.addEventListener('scroll', function () {
     navbar.classList.toggle('rg-scrolled', window.scrollY > 60);
   });
+
+  /* ── WhatsApp Popup ── */
+  var fab     = document.getElementById('rgWaFab');
+  var popup   = document.getElementById('rgWaPopup');
+  var closeBtn= document.getElementById('rgWaClose');
+  var shown   = false;
+
+  function openPopup() {
+    popup.classList.add('rg-wa-open');
+    fab.classList.add('rg-wa-active');
+    shown = true;
+  }
+  function closePopup() {
+    popup.classList.remove('rg-wa-open');
+    fab.classList.remove('rg-wa-active');
+    shown = false;
+  }
+
+  if (fab) {
+    fab.addEventListener('click', function () {
+      shown ? closePopup() : openPopup();
+    });
+  }
+  if (closeBtn) {
+    closeBtn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      closePopup();
+    });
+  }
+
+  /* Auto-open after 4 seconds on first visit */
+  var waShownKey = 'rg_wa_shown';
+  if (!sessionStorage.getItem(waShownKey)) {
+    setTimeout(function () {
+      openPopup();
+      sessionStorage.setItem(waShownKey, '1');
+    }, 4000);
+  }
+
+  /* Close popup when clicking outside */
+  document.addEventListener('click', function (e) {
+    var wrap = document.getElementById('rgWaWrap');
+    if (shown && wrap && !wrap.contains(e.target)) {
+      closePopup();
+    }
+  });
+
 })();
 
 /* exposed globally for onclick="rgCloseMenu()" in mobile links */

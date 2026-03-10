@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Raj Aiswari – Fischer Measurement Technologies Bangladesh</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <meta name="theme-color" content="#B8881E">
+  <!-- Stylesheet -->
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -385,7 +390,7 @@
         <div class="rg-contact-icon">✉️</div>
         <div>
           <div class="rg-contact-label">Email</div>
-          <div class="rg-contact-val"><a href="/cdn-cgi/l/email-protection#1d74737b725d6f7c777c746e6a7c6f74337e7270" style="color:var(--rg-text)"><span class="__cf_email__" data-cfemail="6e070008012e1c0f040f071d190f1c07400d0103">[email&#160;protected]</span></a></div>
+          <div class="rg-contact-val"><a href="mailto:shimudeb@gmail.com" style="color:var(--rg-text)" >shimudeb@gmail.com</a></div>
         </div>
       </div>
     </div>
