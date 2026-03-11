@@ -12,6 +12,20 @@
         <span class="rg-footer-brand-fallback" style="display:none;">Raj Aiswari</span>
       </div>
       <p class="rg-footer-tagline">Bangladesh's trusted partner for gold testing &amp; precision measurement technology since 1998.</p>
+
+      <!-- Google Maps embed -->
+      <div class="rg-footer-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14761.482892067597!2d91.81729316711423!3d22.33962664130348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad2759615a1a91%3A0xc536ffd9b88afada!2sRajaiswari%20Gold%20Testing%20Center!5e0!3m2!1sen!2sbd!4v1773204381328!5m2!1sen!2sbd"
+          width="100%"
+          height="140"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Raj Aiswari Location">
+        </iframe>
+      </div>
       <div class="rg-footer-socials">
         <a href="https://www.facebook.com/rajasiwari" target="_blank" rel="noopener" class="rg-footer-social rg-footer-social-fb" title="Facebook">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
@@ -116,6 +130,18 @@
   font-size: 0.78rem; font-weight: 300;
   line-height: 1.75; margin-bottom: 20px;
 }
+/* ── Map embed ────────────────────────────── */
+.rg-footer-map {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(184,136,30,0.2);
+  margin-bottom: 20px;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+.rg-footer-map:hover { opacity: 1; }
+.rg-footer-map iframe { display: block; }
 .rg-footer-socials {
   display: flex; gap: 10px;
 }

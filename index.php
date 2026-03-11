@@ -471,7 +471,7 @@
         <div class="rg-contact-icon">✉️</div>
         <div>
           <div class="rg-contact-label">Email</div>
-          <div class="rg-contact-val"><a href="/cdn-cgi/l/email-protection#1d74737b725d6f7c777c746e6a7c6f74337e7270" style="color:var(--rg-text)"><span class="__cf_email__" data-cfemail="6e070008012e1c0f040f071d190f1c07400d0103">[email&#160;protected]</span></a></div>
+          <div class="rg-contact-val"><a href="mailto:shimudeb@gmail.com" style="color:var(--rg-text)">shimudeb@gmail.com</a></div>
         </div>
       </div>
     </div>
