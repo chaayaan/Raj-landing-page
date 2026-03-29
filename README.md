@@ -1,24 +1,21 @@
-# Rajaiswari Brand Website
+# Rajaiswari — Official Brand Website
 
-[Live Website](https://rajaiswari.com/)
+[![Live Website](https://img.shields.io/badge/Live-rajaiswari.com-B8881E?style=flat-square)](https://rajaiswari.com/)
 
-## Overview
-This is the official website for the **Rajaiswari** brand, built to provide a modern, responsive, and user-friendly online presence. The website showcases the brand's offerings, provides information for visitors, and ensures seamless navigation across devices.
+Official website for **Raj Aiswari**, Bangladesh's trusted partner for gold testing and precision measurement technology since 1998. They are the authorized representative of **Fischer Measurement Technologies (Germany)** in Bangladesh, serving 500+ clients with world-class instruments from Germany, Italy, Switzerland, Hong Kong, and Turkey.
 
-The website is fully **custom-built** using HTML, CSS, JavaScript, and PHP, and is hosted on the official domain using **cPanel**.  
+This website was custom-built by me for the Raj Aiswari brand to establish their online presence — showcasing their products, global partnerships, client testimonials, and making it easy for customers to reach them.
 
-## Features
-- Fully responsive design (mobile, tablet, desktop)
-- Interactive navigation and UI components
-- Dynamic PHP-based functionalities for forms or backend tasks
-- Brand-oriented content presentation
-- Easy-to-manage structure via hosting tools (cPanel)
-- Optimized performance and cross-browser compatibility
+## Built With
 
-## Technologies Used
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Backend:** PHP
-- **Hosting & Deployment:** cPanel, custom domain ([rajaiswari.com](https://rajaiswari.com/))
-- **Tools:** Standard web development tools (text editors, browser dev tools)
+- **Hosting:** cPanel — [rajaiswari.com](https://rajaiswari.com/)
 
-## Project Structure
+## Features
+
+- Fully responsive across mobile, tablet, and desktop
+- Product catalogue with inquiry system
+- WhatsApp live chat integration
+- Partner & client showcase
+- Contact form with PHP backend
