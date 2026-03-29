@@ -1,6 +1,6 @@
 # Rajaiswari — Official Brand Website
 
-[![Rajaiswari Website Preview](preview.png))
+![Rajaiswari Website Preview](preview.png)
 
 Official website for **Raj Aiswari**, Bangladesh's trusted partner for gold testing and precision measurement technology since 1998. They are the authorized representative of **Fischer Measurement Technologies (Germany)** in Bangladesh, serving 500+ clients with world-class instruments from Germany, Italy, Switzerland, Hong Kong, and Turkey.
 
