@@ -28,7 +28,7 @@
     <div class="rg-emp-grid">
 
       <?php
-        $dir   = 'employee-id/';
+        $dir   = 'uploads/employees/';
         $exts  = ['png', 'jpg', 'jpeg', 'webp'];
         $files = [];
 
