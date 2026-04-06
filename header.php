@@ -11,11 +11,11 @@
     <li><a href="index.php">Home</a></li>
     <li><a href="index.php#about">About Us</a></li>
     <li><a href="products.php">Products</a></li>
-    <li><a href="index.php#gallery">Gallery</a></li>
+    <li><a href="gold_lab.php">Gold Lab</a></li>
     <li><a href="index.php#clients">Clients</a></li>
     <li><a href="sister-concern.php">Sister Concern</a></li>
     <li><a href="software.php">Softwares</a></li>
-    <li><a href="index.php#contact">Contact</a></li>
+    <li><a href="contact.php">Contact</a></li>
   </ul>
 
   <div class="rg-nav-social">
@@ -41,11 +41,11 @@
   <a href="index.php"          onclick="rgCloseMenu()">Home</a>
   <a href="index.php#about"    onclick="rgCloseMenu()">About Us</a>
   <a href="products.php"       onclick="rgCloseMenu()">Products</a>
-  <a href="index.php#gallery"  onclick="rgCloseMenu()">Gallery</a>
+  <a href="gold_lab.php"  onclick="rgCloseMenu()">Gold Lab</a>
   <a href="index.php#clients"  onclick="rgCloseMenu()">Clients</a>
   <a href="sister-concern.php" onclick="rgCloseMenu()">Sister Concern</a>
   <a href="software.php"       onclick="rgCloseMenu()">Softwares</a>
-  <a href="index.php#contact"  onclick="rgCloseMenu()">Contact</a>
+  <a href="contact.php"  onclick="rgCloseMenu()">Contact</a>
   <div class="rg-mob-social">
     <a href="https://www.facebook.com/rajasiwari" target="_blank" rel="noopener" class="rg-fb">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="pointer-events:none;"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.267h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
