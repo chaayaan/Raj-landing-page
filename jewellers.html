@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>রাজ ঐশ্বরী জুয়েলার্স | Raj Aishwari Jewellers</title>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+  :root {
+    --brown: #4B2C20;
+    --gold: #D4A017;
+    --gold-light: #e8b84b;
+    --maroon: #800000;
+    --cream: #FCF9F5;
+    --cream-dark: #F5EFE6;
+    --text-dark: #2a1a10;
+    --text-mid: #6b4c3b;
+    --text-light: #9b7b6a;
+    --white: #ffffff;
+    --shadow: 0 8px 40px rgba(75,44,32,0.10);
+    --shadow-hover: 0 16px 60px rgba(75,44,32,0.18);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Hind Siliguri', sans-serif;
+    background: var(--cream);
+    color: var(--text-dark);
+    overflow-x: hidden;
+  }
+
+  /* ===== SCROLLBAR ===== */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--cream); }
+  ::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 3px; }
+
+  /* ===== NAVBAR ===== */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: rgba(252,249,245,0.96);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(212,160,23,0.15);
+    padding: 0 5%;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 72px;
+    transition: box-shadow 0.3s;
+  }
+  nav.scrolled { box-shadow: 0 4px 30px rgba(75,44,32,0.12); }
+
+  .nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--brown);
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .nav-logo span { color: var(--gold); }
+  .logo-icon {
+    width: 36px; height: 36px;
+    background: linear-gradient(135deg, var(--gold), var(--brown));
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-size: 0.9rem;
+  }
+
+  .nav-links {
+    display: flex; gap: 2rem; list-style: none;
+    align-items: center;
+  }
+  .nav-links a {
+    text-decoration: none;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 0.92rem;
+    font-weight: 500;
+    color: var(--text-mid);
+    transition: color 0.2s;
+    position: relative;
+  }
+  .nav-links a::after {
+    content: ''; position: absolute; bottom: -4px; left: 0; right: 0;
+    height: 1.5px; background: var(--gold);
+    transform: scaleX(0); transition: transform 0.25s;
+  }
+  .nav-links a:hover { color: var(--gold); }
+  .nav-links a:hover::after { transform: scaleX(1); }
+
+  .nav-icons { display: flex; gap: 1rem; align-items: center; }
+  .nav-icons a {
+    color: var(--text-mid); font-size: 1rem;
+    text-decoration: none; transition: color 0.2s;
+  }
+  .nav-icons a:hover { color: var(--gold); }
+
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+  .hamburger span { width: 22px; height: 2px; background: var(--brown); border-radius: 2px; transition: all 0.3s; }
+
+  /* ===== HERO SLIDER ===== */
+  .hero {
+    margin-top: 72px;
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 72px);
+    min-height: 560px;
+    overflow: hidden;
+    background: var(--cream-dark);
+  }
+
+  .slide {
+    position: absolute; inset: 0;
+    display: flex; align-items: center;
+    padding: 0 8%;
+    opacity: 0; transition: opacity 0.8s ease;
+    pointer-events: none;
+  }
+  .slide.active { opacity: 1; pointer-events: all; }
+
+  .slide-bg {
+    position: absolute; inset: 0;
+    background-size: cover; background-position: center;
+    transform: scale(1.05);
+    transition: transform 6s ease;
+  }
+  .slide.active .slide-bg { transform: scale(1); }
+
+  .slide-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(90deg, rgba(252,249,245,0.92) 0%, rgba(252,249,245,0.70) 50%, rgba(252,249,245,0.1) 100%);
+  }
+
+  .slide-content {
+    position: relative; z-index: 2;
+    max-width: 500px;
+  }
+  .slide-tag {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--gold);
+    color: white; font-size: 0.72rem;
+    padding: 4px 14px; border-radius: 20px;
+    font-weight: 600; letter-spacing: 1px;
+    text-transform: uppercase; margin-bottom: 1.2rem;
+  }
+  .slide-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.9rem, 4vw, 3rem);
+    font-weight: 700;
+    color: var(--brown);
+    line-height: 1.3;
+    margin-bottom: 1rem;
+  }
+  .slide-content p {
+    font-size: 1.05rem;
+    color: var(--text-mid);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+
+  .slide-image-wrap {
+    position: absolute; right: 6%; top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  .arch-frame {
+    width: clamp(220px, 28vw, 380px);
+    aspect-ratio: 3/4;
+    border-radius: 50% 50% 0 0 / 60% 60% 0 0;
+    overflow: hidden;
+    border: 4px solid var(--gold);
+    box-shadow: 0 20px 60px rgba(75,44,32,0.2);
+    position: relative;
+  }
+  .arch-frame img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+  }
+  .arch-frame:hover img { transform: scale(1.05); }
+
+  /* Slider dots */
+  .slider-dots {
+    position: absolute; bottom: 30px; left: 8%;
+    z-index: 10; display: flex; gap: 10px;
+  }
+  .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: rgba(75,44,32,0.3); cursor: pointer;
+    transition: all 0.3s;
+  }
+  .dot.active { background: var(--gold); width: 28px; border-radius: 4px; }
+
+  /* Slider arrows */
+  .slider-arrows {
+    position: absolute; bottom: 30px; right: 8%;
+    z-index: 10; display: flex; gap: 10px;
+  }
+  .arrow-btn {
+    width: 42px; height: 42px; border-radius: 50%;
+    border: 1.5px solid var(--gold);
+    background: transparent; cursor: pointer;
+    color: var(--gold); font-size: 1rem;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.3s;
+  }
+  .arrow-btn:hover { background: var(--gold); color: white; }
+
+  /* ===== BUTTONS ===== */
+  .btn-primary {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--gold);
+    color: white;
+    padding: 13px 28px;
+    border-radius: 30px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 0.95rem; font-weight: 600;
+    text-decoration: none; border: none; cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 20px rgba(212,160,23,0.35);
+  }
+  .btn-primary:hover {
+    background: var(--gold-light);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(212,160,23,0.45);
+  }
+
+  .btn-outline {
+    display: inline-flex; align-items: center; gap: 8px;
+    border: 2px solid var(--gold);
+    color: var(--gold);
+    padding: 11px 26px; border-radius: 30px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 0.95rem; font-weight: 600;
+    text-decoration: none; background: transparent; cursor: pointer;
+    transition: all 0.3s;
+  }
+  .btn-outline:hover {
+    background: var(--gold); color: white;
+    transform: translateY(-2px);
+  }
+
+  /* ===== SECTIONS COMMON ===== */
+  section { padding: 80px 8%; }
+
+  .section-header { text-align: center; margin-bottom: 3rem; }
+  .section-tag {
+    display: inline-block;
+    font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 2.5px; text-transform: uppercase;
+    color: var(--gold); margin-bottom: 0.7rem;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-weight: 700; color: var(--brown);
+    line-height: 1.3;
+  }
+  .section-title em { font-style: italic; color: var(--gold); }
+  .section-line {
+    width: 60px; height: 2px;
+    background: linear-gradient(90deg, var(--gold), transparent);
+    margin: 1rem auto 0;
+  }
+
+  /* fade-in animation */
+  .fade-in {
+    opacity: 0; transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+  /* ===== COLLECTIONS ===== */
+  #collections { background: var(--cream); }
+
+  .collections-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.2rem;
+  }
+
+  .collection-card {
+    position: relative; overflow: hidden;
+    border-radius: 16px;
+    aspect-ratio: 3/4;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  .collection-card:hover {
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-6px);
+  }
+  .collection-card img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  .collection-card:hover img { transform: scale(1.08); }
+  .collection-card:hover .card-overlay { opacity: 1; }
+  .card-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, transparent 40%, rgba(75,44,32,0.75) 100%);
+    opacity: 0.7; transition: opacity 0.3s;
+    display: flex; align-items: flex-end; padding: 1rem 0.8rem;
+  }
+  .card-label {
+    color: white;
+    font-weight: 600; font-size: 0.95rem;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  }
+  .card-gold-border {
+    position: absolute; inset: 0;
+    border-radius: 16px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  .collection-card:hover .card-gold-border { border-color: var(--gold); }
+
+  /* ===== NEW ARRIVALS ===== */
+  #new-arrivals { background: var(--cream-dark); }
+
+  .arrivals-header {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    margin-bottom: 2rem;
+  }
+  .arrivals-header .section-header { margin-bottom: 0; text-align: left; }
+
+  .products-slider-wrap { position: relative; overflow: hidden; }
+  .products-track {
+    display: flex; gap: 1.4rem;
+    transition: transform 0.5s ease;
+  }
+
+  .product-card {
+    min-width: 240px;
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+    flex-shrink: 0;
+  }
+  .product-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
+
+  .product-img-wrap {
+    position: relative;
+    aspect-ratio: 1;
+    overflow: hidden;
+    background: var(--cream-dark);
+  }
+  .product-img-wrap img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 0.5s;
+  }
+  .product-card:hover .product-img-wrap img { transform: scale(1.07); }
+
+  .wishlist-btn {
+    position: absolute; top: 12px; right: 12px;
+    width: 34px; height: 34px;
+    background: white; border-radius: 50%;
+    border: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--text-light); font-size: 0.9rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+  }
+  .wishlist-btn:hover { color: #e05252; transform: scale(1.1); }
+
+  .product-info { padding: 1rem 1rem 1.2rem; }
+  .product-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem; font-weight: 600;
+    color: var(--brown); margin-bottom: 0.3rem;
+  }
+  .product-desc {
+    font-size: 0.8rem; color: var(--text-light);
+    line-height: 1.5; margin-bottom: 0.8rem;
+  }
+  .product-cta {
+    display: flex; align-items: center; gap: 6px;
+    background: transparent;
+    border: 1.5px solid var(--gold);
+    color: var(--gold);
+    padding: 7px 16px; border-radius: 20px;
+    font-size: 0.82rem; font-weight: 600;
+    cursor: pointer; text-decoration: none;
+    transition: all 0.3s; width: fit-content;
+  }
+  .product-cta:hover { background: var(--gold); color: white; }
+
+  .slider-nav {
+    display: flex; justify-content: center; gap: 10px; margin-top: 2rem;
+  }
+
+  /* ===== HALLMARK SECTION ===== */
+  #hallmark {
+    background: linear-gradient(135deg, var(--brown) 0%, #6b3a28 100%);
+    text-align: center;
+    position: relative; overflow: hidden;
+  }
+  #hallmark::before {
+    content: ''; position: absolute; inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D4A017' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  .hallmark-badge {
+    width: 100px; height: 100px;
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 2.4rem; color: white;
+    box-shadow: 0 8px 40px rgba(212,160,23,0.4);
+    position: relative; z-index: 1;
+  }
+  .hallmark-badge::after {
+    content: ''; position: absolute;
+    inset: -8px; border-radius: 50%;
+    border: 2px solid rgba(212,160,23,0.3);
+    animation: pulse-ring 2s infinite;
+  }
+  @keyframes pulse-ring {
+    0% { transform: scale(1); opacity: 0.8; }
+    100% { transform: scale(1.3); opacity: 0; }
+  }
+
+  #hallmark .section-title { color: white; }
+  #hallmark .section-tag { color: var(--gold-light); }
+  #hallmark p {
+    color: rgba(255,255,255,0.8); max-width: 560px;
+    margin: 1rem auto 2rem;
+    font-size: 1rem; line-height: 1.8;
+    position: relative; z-index: 1;
+  }
+  .hallmark-features {
+    display: flex; justify-content: center; gap: 3rem;
+    flex-wrap: wrap; margin-top: 2.5rem;
+    position: relative; z-index: 1;
+  }
+  .hallmark-feat {
+    display: flex; flex-direction: column; align-items: center; gap: 8px;
+    color: rgba(255,255,255,0.85); font-size: 0.9rem;
+  }
+  .hallmark-feat i { font-size: 1.5rem; color: var(--gold); }
+
+  /* ===== WHY CHOOSE US ===== */
+  #why-us { background: var(--cream); }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  .why-card {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-bottom: 3px solid transparent;
+  }
+  .why-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+    border-bottom-color: var(--gold);
+  }
+  .why-icon {
+    width: 64px; height: 64px;
+    background: linear-gradient(135deg, var(--cream-dark), var(--cream));
+    border-radius: 50%; margin: 0 auto 1.2rem;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.6rem; color: var(--gold);
+    box-shadow: 0 4px 16px rgba(212,160,23,0.2);
+    transition: transform 0.3s;
+  }
+  .why-card:hover .why-icon { transform: scale(1.1) rotate(-5deg); }
+  .why-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem; font-weight: 600;
+    color: var(--brown); margin-bottom: 0.5rem;
+  }
+  .why-desc { font-size: 0.87rem; color: var(--text-light); line-height: 1.6; }
+
+  /* ===== TESTIMONIALS ===== */
+  #testimonials { background: var(--cream-dark); }
+
+  .testimonials-slider { position: relative; overflow: hidden; }
+  .testimonials-track {
+    display: flex; gap: 1.5rem;
+    transition: transform 0.5s ease;
+  }
+  .testimonial-card {
+    min-width: calc(33.33% - 1rem);
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    flex-shrink: 0;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .testimonial-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-hover); }
+  .quote-icon {
+    font-size: 2.5rem; color: var(--gold);
+    opacity: 0.3; line-height: 1; margin-bottom: 0.5rem;
+    font-family: Georgia, serif;
+  }
+  .testimonial-text {
+    font-size: 0.92rem; color: var(--text-mid);
+    line-height: 1.8; margin-bottom: 1.5rem;
+    font-style: italic;
+  }
+  .testimonial-author {
+    display: flex; align-items: center; gap: 12px;
+  }
+  .author-avatar {
+    width: 46px; height: 46px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--gold), var(--brown));
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-weight: 700; font-size: 1rem;
+    flex-shrink: 0;
+  }
+  .author-name { font-weight: 600; color: var(--brown); font-size: 0.92rem; }
+  .author-place { font-size: 0.78rem; color: var(--text-light); }
+  .stars { color: var(--gold); font-size: 0.8rem; letter-spacing: 2px; margin-bottom: 0.2rem; }
+
+  /* ===== OFFER BANNER ===== */
+  #offer {
+    background: var(--maroon);
+    position: relative; overflow: hidden;
+    padding: 70px 8%;
+    display: flex; align-items: center;
+    gap: 4rem;
+  }
+  #offer::before {
+    content: ''; position: absolute;
+    right: -60px; top: -60px;
+    width: 400px; height: 400px;
+    background: rgba(212,160,23,0.08);
+    border-radius: 50%;
+  }
+  #offer::after {
+    content: ''; position: absolute;
+    left: -40px; bottom: -80px;
+    width: 300px; height: 300px;
+    background: rgba(212,160,23,0.05);
+    border-radius: 50%;
+  }
+  .offer-content { flex: 1; position: relative; z-index: 2; }
+  .offer-tag {
+    display: inline-block;
+    background: var(--gold); color: white;
+    padding: 4px 16px; border-radius: 20px;
+    font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  .offer-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+    font-weight: 700; color: white;
+    line-height: 1.25; margin-bottom: 1rem;
+  }
+  .offer-content h2 em { color: var(--gold); font-style: italic; }
+  .offer-content p {
+    color: rgba(255,255,255,0.75);
+    font-size: 1rem; line-height: 1.7;
+    margin-bottom: 2rem; max-width: 440px;
+  }
+  .offer-image {
+    flex: 0 0 340px;
+    position: relative; z-index: 2;
+  }
+  .offer-image-frame {
+    width: 300px; aspect-ratio: 3/4;
+    border-radius: 50% 50% 0 0 / 50% 50% 0 0;
+    overflow: hidden;
+    border: 3px solid rgba(212,160,23,0.5);
+    margin: 0 auto;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  }
+  .offer-image-frame img { width: 100%; height: 100%; object-fit: cover; }
+
+  /* ===== ABOUT US ===== */
+  #about {
+    background: var(--cream);
+    display: flex; align-items: center; gap: 5rem;
+  }
+  .about-image-stack { flex: 0 0 420px; position: relative; }
+  .about-img-main {
+    width: 320px; aspect-ratio: 3/4;
+    border-radius: 50% 50% 0 0 / 40% 40% 0 0;
+    overflow: hidden;
+    border: 4px solid var(--gold);
+    box-shadow: var(--shadow-hover);
+  }
+  .about-img-main img { width: 100%; height: 100%; object-fit: cover; }
+  .about-img-accent {
+    position: absolute; bottom: 30px; right: 20px;
+    width: 140px; aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+    box-shadow: var(--shadow);
+  }
+  .about-img-accent img { width: 100%; height: 100%; object-fit: cover; }
+  .about-year-badge {
+    position: absolute; top: 30px; right: 0;
+    background: var(--gold);
+    color: white; padding: 14px 18px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(212,160,23,0.3);
+  }
+  .about-year-badge .year { font-size: 1.8rem; font-weight: 700; display: block; line-height: 1; }
+  .about-year-badge .year-label { font-size: 0.7rem; letter-spacing: 1px; opacity: 0.9; }
+  .about-content { flex: 1; }
+  .about-content p {
+    font-size: 1rem; color: var(--text-mid);
+    line-height: 1.85; margin: 1.2rem 0 2rem;
+  }
+  .about-stats {
+    display: flex; gap: 2rem; margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  .stat { text-align: center; }
+  .stat-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem; font-weight: 700;
+    color: var(--brown); display: block;
+  }
+  .stat-label { font-size: 0.8rem; color: var(--text-light); }
+
+  /* ===== LOCATION ===== */
+  #location { background: var(--cream-dark); }
+
+  .location-content {
+    display: flex; gap: 4rem; align-items: center;
+  }
+  .location-map {
+    flex: 1; border-radius: 20px; overflow: hidden;
+    box-shadow: var(--shadow-hover); min-height: 360px;
+  }
+  .location-map iframe {
+    width: 100%; height: 360px; border: none; display: block;
+  }
+  .location-info { flex: 0 0 340px; }
+  .location-item {
+    display: flex; gap: 14px; margin-bottom: 1.5rem;
+    align-items: flex-start;
+  }
+  .loc-icon {
+    width: 42px; height: 42px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-size: 0.9rem; flex-shrink: 0;
+  }
+  .loc-text h4 { font-size: 0.85rem; font-weight: 600; color: var(--brown); margin-bottom: 3px; }
+  .loc-text p { font-size: 0.88rem; color: var(--text-mid); line-height: 1.6; }
+
+  /* ===== FOOTER ===== */
+  footer {
+    background: var(--brown);
+    padding: 60px 8% 30px;
+    color: rgba(255,255,255,0.8);
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.3fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  .footer-brand .nav-logo { color: white; font-size: 1.3rem; margin-bottom: 1rem; display: flex; }
+  .footer-brand .nav-logo span { color: var(--gold); }
+  .footer-brand p { font-size: 0.88rem; line-height: 1.7; opacity: 0.75; margin-bottom: 1.2rem; }
+  .social-links { display: flex; gap: 10px; }
+  .social-link {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    display: flex; align-items: center; justify-content: center;
+    color: rgba(255,255,255,0.7); font-size: 0.9rem;
+    text-decoration: none; transition: all 0.2s;
+  }
+  .social-link:hover { background: var(--gold); color: white; transform: translateY(-2px); }
+
+  .footer-col h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem; font-weight: 600;
+    color: white; margin-bottom: 1.2rem;
+    position: relative; padding-bottom: 0.6rem;
+  }
+  .footer-col h4::after {
+    content: ''; position: absolute; bottom: 0; left: 0;
+    width: 30px; height: 2px; background: var(--gold);
+  }
+  .footer-col ul { list-style: none; }
+  .footer-col ul li { margin-bottom: 0.6rem; }
+  .footer-col ul li a {
+    color: rgba(255,255,255,0.65); text-decoration: none;
+    font-size: 0.88rem; transition: color 0.2s;
+  }
+  .footer-col ul li a:hover { color: var(--gold); }
+  .footer-col .contact-item {
+    display: flex; gap: 10px; align-items: flex-start;
+    margin-bottom: 0.9rem; font-size: 0.88rem;
+  }
+  .footer-col .contact-item i { color: var(--gold); margin-top: 2px; font-size: 0.85rem; }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 1.5rem;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 0.82rem; opacity: 0.6; flex-wrap: wrap; gap: 1rem;
+  }
+
+  /* ===== FLOATING WHATSAPP ===== */
+  .whatsapp-float {
+    position: fixed; bottom: 28px; right: 28px;
+    z-index: 999;
+    width: 58px; height: 58px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: white; font-size: 1.6rem;
+    text-decoration: none;
+    box-shadow: 0 6px 24px rgba(37,211,102,0.45);
+  }
+  .whatsapp-float::before {
+    content: ''; position: absolute; inset: 0;
+    border-radius: 50%;
+    background: rgba(37,211,102,0.4);
+    animation: wa-pulse 2s infinite;
+  }
+  @keyframes wa-pulse {
+    0% { transform: scale(1); opacity: 0.7; }
+    70% { transform: scale(1.6); opacity: 0; }
+    100% { transform: scale(1.6); opacity: 0; }
+  }
+  .whatsapp-float i { position: relative; z-index: 1; }
+  .whatsapp-float:hover { transform: scale(1.08); }
+
+  /* ===== MOBILE MENU ===== */
+  .mobile-menu {
+    display: none;
+    position: fixed; top: 72px; left: 0; right: 0;
+    background: rgba(252,249,245,0.98);
+    backdrop-filter: blur(12px);
+    z-index: 999;
+    padding: 1.5rem 6% 2rem;
+    border-bottom: 2px solid rgba(212,160,23,0.2);
+    box-shadow: 0 10px 40px rgba(75,44,32,0.1);
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  .mobile-menu.open {
+    display: block;
+    opacity: 1; transform: translateY(0);
+  }
+  .mobile-menu ul { list-style: none; }
+  .mobile-menu ul li { border-bottom: 1px solid rgba(212,160,23,0.1); }
+  .mobile-menu ul li a {
+    display: block; padding: 0.9rem 0;
+    color: var(--text-mid); text-decoration: none;
+    font-size: 1rem; font-weight: 500;
+    transition: color 0.2s;
+  }
+  .mobile-menu ul li a:hover { color: var(--gold); }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 1100px) {
+    .collections-grid { grid-template-columns: repeat(3, 1fr); }
+    .why-grid { grid-template-columns: repeat(2, 1fr); }
+    .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .about-image-stack { flex: 0 0 320px; }
+    .about-img-main { width: 260px; }
+  }
+
+  @media (max-width: 900px) {
+    section { padding: 60px 6%; }
+    .hero { height: auto; min-height: 500px; padding: 4rem 6%; }
+    .slide-image-wrap { display: none; }
+    .slide-content { max-width: 100%; }
+    .testimonial-card { min-width: calc(50% - 0.75rem); }
+    #about { flex-direction: column; gap: 2.5rem; }
+    .about-image-stack { flex: none; width: 100%; max-width: 340px; }
+    .location-content { flex-direction: column; }
+    .location-info { flex: none; width: 100%; }
+    #offer { flex-direction: column; gap: 2.5rem; text-align: center; }
+    .offer-content p { margin-left: auto; margin-right: auto; }
+    .offer-image { width: 100%; display: flex; justify-content: center; }
+  }
+
+  @media (max-width: 680px) {
+    nav { padding: 0 5%; }
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+    .collections-grid { grid-template-columns: repeat(2, 1fr); }
+    .why-grid { grid-template-columns: 1fr 1fr; }
+    .testimonial-card { min-width: 85%; }
+    .footer-grid { grid-template-columns: 1fr; }
+    .footer-bottom { flex-direction: column; text-align: center; }
+    .slide-content h1 { font-size: 1.6rem; }
+    .slider-arrows { display: none; }
+    .about-stats { gap: 1rem; }
+    .hallmark-features { gap: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="#" class="nav-logo">
+    <img src="favicon.png" alt="Rajaiswari Jewellers" style="height: 50px;">রাজ <span>ঐশ্বরী</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#collections">Collections</a></li>
+    <li><a href="#new-arrivals">Shop</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#location">Contact</a></li>
+  </ul>
+  <div class="nav-icons">
+    <a href="#"><i class="fas fa-search"></i></a>
+    <a href="#"><i class="fas fa-shopping-bag"></i></a>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#collections">Collections</a></li>
+    <li><a href="#new-arrivals">Shop</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#location">Contact</a></li>
+  </ul>
+</div>
+
+<!-- HERO SLIDER -->
+<section class="hero" id="heroSlider">
+
+  <!-- Slide 1 -->
+  <div class="slide active" id="slide1">
+    <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1616671276441-2f2c277b8bf6?w=1400&q=80');"></div>
+    <div class="slide-overlay"></div>
+    <div class="slide-content fade-in visible">
+      <span class="slide-tag">✦ New Collection 2025</span>
+      <h1>আধুনিক সাজে<br><em style="font-style:italic; color:var(--gold)">রাজকীয় ছোঁয়া</em></h1>
+      <p>আপনার স্টাইল হোক অনন্য —<br>ট্রেন্ডি কালেকশন + ব্রাইডাল গহনা</p>
+      <a href="https://wa.me/8801714220665?text=আসসালামু%20আলাইকুম,%20আমি%20আপনাদের%20গহনার%20কালেকশন%20এবং%20হলমার্ক%20সম্পর্কে%20জানতে%20চাই।" class="btn-primary" target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp-এ জানুন
+      </a>
+    </div>
+    <div class="slide-image-wrap">
+      <div class="arch-frame">
+        <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&q=80" alt="Jewelry">
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="slide" id="slide2">
+    <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1573408301185-9519f94815fd?w=1400&q=80');"></div>
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <span class="slide-tag">✦ Bridal Special</span>
+      <h1>ব্রাইডাল সংগ্রহ<br><em style="font-style:italic; color:var(--gold)">২০২৫</em></h1>
+      <p>আপনার বিশেষ দিনটিকে করুন<br>আরও স্মরণীয় ও জাঁকজমকপূর্ণ।</p>
+      <a href="https://wa.me/8801714220665?text=আমি%20ব্রাইডাল%20কালেকশন%20সম্পর্কে%20জানতে%20চাই।" class="btn-primary" target="_blank">
+        <i class="fab fa-whatsapp"></i> ব্রাইডাল কালেকশন দেখুন
+      </a>
+    </div>
+    <div class="slide-image-wrap">
+      <div class="arch-frame">
+        <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80" alt="Bridal Jewelry">
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="slide" id="slide3">
+    <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1400&q=80');"></div>
+    <div class="slide-overlay"></div>
+    <div class="slide-content">
+      <span class="slide-tag">✦ Hallmark Certified</span>
+      <h1>শতভাগ বিশুদ্ধ<br><em style="font-style:italic; color:var(--gold)">হলমার্ক গোল্ড</em></h1>
+      <p>আমাদের প্রতিটি গহনা হলমার্ক সার্টিফাইড।<br>বিশ্বাস ও গুণগত মানের নিশ্চয়তা।</p>
+      <a href="https://wa.me/8801714220665?text=হলমার্ক%20গহনা%20সম্পর্কে%20জানতে%20চাই।" class="btn-primary" target="_blank">
+        <i class="fab fa-whatsapp"></i> আরও জানুন
+      </a>
+    </div>
+    <div class="slide-image-wrap">
+      <div class="arch-frame">
+        <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&q=80" alt="Gold Jewelry">
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <div class="slider-dots" id="sliderDots">
+    <div class="dot active" onclick="goToSlide(0)"></div>
+    <div class="dot" onclick="goToSlide(1)"></div>
+    <div class="dot" onclick="goToSlide(2)"></div>
+  </div>
+  <div class="slider-arrows">
+    <button class="arrow-btn" onclick="prevSlide()"><i class="fas fa-chevron-left"></i></button>
+    <button class="arrow-btn" onclick="nextSlide()"><i class="fas fa-chevron-right"></i></button>
+  </div>
+</section>
+
+<!-- COLLECTIONS -->
+<section id="collections">
+  <div class="section-header fade-in">
+    <span class="section-tag">✦ Browse By Category</span>
+    <h2 class="section-title">আমাদের <em>কালেকশন</em></h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="collections-grid fade-in">
+    <div class="collection-card">
+      <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&q=80" alt="Necklace">
+      <div class="card-overlay"><span class="card-label">নেকলেস</span></div>
+      <div class="card-gold-border"></div>
+    </div>
+    <div class="collection-card">
+      <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500&q=80" alt="Earrings">
+      <div class="card-overlay"><span class="card-label">কানের দুল</span></div>
+      <div class="card-gold-border"></div>
+    </div>
+    <div class="collection-card">
+      <img src="https://images.unsplash.com/photo-1598560917807-1bae44bd2be8?w=500&q=80" alt="Rings">
+      <div class="card-overlay"><span class="card-label">আংটি</span></div>
+      <div class="card-gold-border"></div>
+    </div>
+    <div class="collection-card">
+      <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&q=80" alt="Bracelets">
+      <div class="card-overlay"><span class="card-label">ব্রেসলেট</span></div>
+      <div class="card-gold-border"></div>
+    </div>
+    <div class="collection-card">
+      <img src="https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=500&q=80" alt="Bangles">
+      <div class="card-overlay"><span class="card-label">চুড়ি</span></div>
+      <div class="card-gold-border"></div>
+    </div>
+  </div>
+</section>
+
+<!-- NEW ARRIVALS -->
+<section id="new-arrivals">
+  <div class="arrivals-header fade-in">
+    <div class="section-header">
+      <span class="section-tag">✦ Just Arrived</span>
+      <h2 class="section-title">নতুন <em>কালেকশন</em></h2>
+    </div>
+    <a href="https://wa.me/8801714220665?text=সকল%20কালেকশন%20দেখতে%20চাই।" class="btn-outline" target="_blank">সব দেখুন <i class="fas fa-arrow-right"></i></a>
+  </div>
+  <div class="products-slider-wrap fade-in">
+    <div class="products-track" id="productsTrack">
+      <!-- Card 1 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&q=80" alt="Gold Necklace">
+          <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="product-info">
+          <div class="product-name">সোনার হার</div>
+          <div class="product-desc">২২ ক্যারেট হলমার্ক সোনার ঐতিহ্যবাহী নকশা</div>
+          <a href="https://wa.me/8801714220665?text=সোনার%20হারের%20দাম%20জানতে%20চাই।" class="product-cta" target="_blank"><i class="fab fa-whatsapp"></i> দাম জানুন</a>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="https://images.unsplash.com/photo-1573408301185-9519f94815fd?w=400&q=80" alt="Diamond Ring">
+          <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="product-info">
+          <div class="product-name">ডায়মন্ড আংটি</div>
+          <div class="product-desc">বিশেষ মুহূর্তের জন্য অনন্য ডায়মন্ড রিং</div>
+          <a href="https://wa.me/8801714220665?text=ডায়মন্ড%20আংটির%20দাম%20জানতে%20চাই।" class="product-cta" target="_blank"><i class="fab fa-whatsapp"></i> দাম জানুন</a>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&q=80" alt="Gold Earrings">
+          <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="product-info">
+          <div class="product-name">সোনার কানের দুল</div>
+          <div class="product-desc">আধুনিক ডিজাইনে ঐতিহ্যের ছোঁয়া</div>
+          <a href="https://wa.me/8801714220665?text=কানের%20দুলের%20দাম%20জানতে%20চাই।" class="product-cta" target="_blank"><i class="fab fa-whatsapp"></i> দাম জানুন</a>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=400&q=80" alt="Gold Bangles">
+          <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="product-info">
+          <div class="product-name">সোনার চুড়ি</div>
+          <div class="product-desc">বিভিন্ন ডিজাইনে পাওয়া যায় সোনার চুড়ি</div>
+          <a href="https://wa.me/8801714220665?text=সোনার%20চুড়ির%20দাম%20জানতে%20চাই।" class="product-cta" target="_blank"><i class="fab fa-whatsapp"></i> দাম জানুন</a>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&q=80" alt="Bracelet">
+          <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="product-info">
+          <div class="product-name">ব্রাইডাল সেট</div>
+          <div class="product-desc">বিবাহের জন্য সম্পূর্ণ গহনার সেট</div>
+          <a href="https://wa.me/8801714220665?text=ব্রাইডাল%20সেটের%20দাম%20জানতে%20চাই।" class="product-cta" target="_blank"><i class="fab fa-whatsapp"></i> দাম জানুন</a>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="product-card">
+        <div class="product-img-wrap">
+          <img src="https://images.unsplash.com/photo-1598560917807-1bae44bd2be8?w=400&q=80" alt="Ring">
+          <button class="wishlist-btn"><i class="far fa-heart"></i></button>
+        </div>
+        <div class="product-info">
+          <div class="product-name">এনগেজমেন্ট রিং</div>
+          <div class="product-desc">প্রিয়জনকে দিন হৃদয়ের কথা বলুন</div>
+          <a href="https://wa.me/8801714220665?text=এনগেজমেন্ট%20রিং%20সম্পর্কে%20জানতে%20চাই।" class="product-cta" target="_blank"><i class="fab fa-whatsapp"></i> দাম জানুন</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slider-nav fade-in">
+    <button class="arrow-btn" onclick="slideProducts(-1)"><i class="fas fa-chevron-left"></i></button>
+    <button class="arrow-btn" onclick="slideProducts(1)"><i class="fas fa-chevron-right"></i></button>
+  </div>
+</section>
+
+<!-- HALLMARK SECTION -->
+<section id="hallmark">
+  <div class="hallmark-badge">✦</div>
+  <div class="section-header fade-in">
+    <span class="section-tag">✦ 100% Certified</span>
+    <h2 class="section-title">বিশুদ্ধতার শতভাগ<br><em>গ্যারান্টি</em></h2>
+  </div>
+  <p class="fade-in">আমাদের প্রতিটি গহনা বাংলাদেশ স্ট্যান্ডার্ড অ্যান্ড টেস্টিং ইনস্টিটিউশন (BSTI) কর্তৃক হলমার্ক সার্টিফাইড। আপনি যা কিনছেন তা শতভাগ খাঁটি সোনার নিশ্চয়তা দিচ্ছি আমরা।</p>
+  <div class="hallmark-features fade-in">
+    <div class="hallmark-feat"><i class="fas fa-certificate"></i><span>BSTI হলমার্ক</span></div>
+    <div class="hallmark-feat"><i class="fas fa-shield-alt"></i><span>১০০% বিশুদ্ধ</span></div>
+    <div class="hallmark-feat"><i class="fas fa-award"></i><span>সার্টিফিকেট সহ</span></div>
+    <div class="hallmark-feat"><i class="fas fa-sync-alt"></i><span>গোল্ড এক্সচেঞ্জ</span></div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why-us">
+  <div class="section-header fade-in">
+    <span class="section-tag">✦ Our Promise</span>
+    <h2 class="section-title">কেন বেছে নেবেন <em>আমাদের?</em></h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="why-grid fade-in">
+    <div class="why-card">
+      <div class="why-icon"><i class="fas fa-pencil-ruler"></i></div>
+      <div class="why-title">কাস্টম ডিজাইন</div>
+      <div class="why-desc">আপনার পছন্দ মতো যেকোনো ডিজাইন তৈরি করে দেওয়া হয় দক্ষ কারিগরদের হাতে।</div>
+    </div>
+    <div class="why-card">
+      <div class="why-icon"><i class="fas fa-exchange-alt"></i></div>
+      <div class="why-title">গোল্ড এক্সচেঞ্জ</div>
+      <div class="why-desc">পুরনো সোনা দিয়ে নতুন গহনা বানান — সহজ, স্বচ্ছ এবং ন্যায্য মূল্যে।</div>
+    </div>
+    <div class="why-card">
+      <div class="why-icon"><i class="fas fa-certificate"></i></div>
+      <div class="why-title">হলমার্ক গ্যারান্টি</div>
+      <div class="why-desc">প্রতিটি গহনায় সরকারি হলমার্ক সিল — বিশুদ্ধতার সর্বোচ্চ নিশ্চয়তা।</div>
+    </div>
+    <div class="why-card">
+      <div class="why-icon"><i class="fas fa-heart"></i></div>
+      <div class="why-title">বিশ্বস্ত সেবা</div>
+      <div class="why-desc">২০১৮ সাল থেকে হাজারো সন্তুষ্ট গ্রাহকের বিশ্বাস ও ভালোবাসা আমাদের শক্তি।</div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-header fade-in">
+    <span class="section-tag">✦ Happy Customers</span>
+    <h2 class="section-title">আমাদের <em>সন্তুষ্ট গ্রাহকরা</em></h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="testimonials-slider fade-in">
+    <div class="testimonials-track" id="testimonialsTrack">
+      <div class="testimonial-card">
+        <div class="quote-icon">"</div>
+        <p class="testimonial-text">বিবাহের গহনা কিনলাম রাজ ঐশ্বরী জুয়েলার্স থেকে। হলমার্ক সার্টিফিকেট পেলাম এবং দাম ছিল একদম সহনীয়। সার্ভিস অসাধারণ ছিল।</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">ন</div>
+          <div>
+            <div class="stars">★★★★★</div>
+            <div class="author-name">নাফিসা আক্তার</div>
+            <div class="author-place">ঢাকা, বাংলাদেশ</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="quote-icon">"</div>
+        <p class="testimonial-text">কাস্টম ডিজাইনে আংটি বানিয়েছিলাম। মাত্র ৭ দিনে পেয়েছি এবং ডিজাইন একদম মনের মতো হয়েছে। অত্যন্ত দক্ষ কারিগর।</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">র</div>
+          <div>
+            <div class="stars">★★★★★</div>
+            <div class="author-name">রহিমা বেগম</div>
+            <div class="author-place">চট্টগ্রাম, বাংলাদেশ</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="quote-icon">"</div>
+        <p class="testimonial-text">WhatsApp-এ অর্ডার করেছিলাম। খুব দ্রুত রেসপন্স পেয়েছি। গহনার মান অত্যন্ত উচ্চ এবং দামও যুক্তিসংগত।</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">স</div>
+          <div>
+            <div class="stars">★★★★★</div>
+            <div class="author-name">সালমা খানম</div>
+            <div class="author-place">সিলেট, বাংলাদেশ</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="quote-icon">"</div>
+        <p class="testimonial-text">পুরনো সোনা এক্সচেঞ্জ করলাম — দাম ভালো পেলাম এবং নতুন নকশায় গহনা বানালাম। পুরো প্রক্রিয়া ছিল স্বচ্ছ।</p>
+        <div class="testimonial-author">
+          <div class="author-avatar">ম</div>
+          <div>
+            <div class="stars">★★★★★</div>
+            <div class="author-name">মরিয়ম হোসেন</div>
+            <div class="author-place">রাজশাহী, বাংলাদেশ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slider-nav fade-in">
+    <button class="arrow-btn" onclick="slideTestimonials(-1)"><i class="fas fa-chevron-left"></i></button>
+    <button class="arrow-btn" onclick="slideTestimonials(1)"><i class="fas fa-chevron-right"></i></button>
+  </div>
+</section>
+
+<!-- OFFER BANNER -->
+<section id="offer" class="fade-in">
+  <div class="offer-content">
+    <span class="offer-tag">✦ Special Offer</span>
+    <h2>বিশেষ ছাড়ের<br><em>কালেকশন</em> এখন!</h2>
+    <p>এই মৌসুমে আমাদের বিশেষ অফারে পাচ্ছেন সেরা মানের গহনা আকর্ষণীয় মূল্যে। সুযোগ সীমিত — এখনই যোগাযোগ করুন।</p>
+    <a href="https://wa.me/8801714220665?text=বিশেষ%20অফার%20সম্পর্কে%20জানতে%20চাই।" class="btn-primary" target="_blank" style="background: var(--gold);">
+      <i class="fab fa-whatsapp"></i> অফার দেখুন
+    </a>
+  </div>
+  <div class="offer-image">
+    <div class="offer-image-frame">
+      <img src="https://images.unsplash.com/photo-1573408301185-9519f94815fd?w=500&q=80" alt="Offer Collection">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT US -->
+<section id="about">
+  <div class="about-image-stack fade-in">
+    <div class="about-img-main">
+      <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&q=80" alt="About Jewellers">
+    </div>
+    <div class="about-img-accent">
+      <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=300&q=80" alt="Jewelry Close">
+    </div>
+    <div class="about-year-badge">
+      <span class="year">2018</span>
+      <span class="year-label">থেকে সেবায়</span>
+    </div>
+  </div>
+  <div class="about-content fade-in">
+    <span class="section-tag">✦ Our Story</span>
+    <h2 class="section-title">আমাদের <em>সম্পর্কে</em></h2>
+    <p>২০১৮ সাল থেকে আমরা রাজ ঐশ্বরী জুয়েলার্সে বিশ্বাস করি—প্রতিটি গহনা শুধু অলংকার নয়, এটি আপনার ব্যক্তিত্বের প্রকাশ। গ্রাহকের পছন্দ, রুচি এবং স্বপ্নকে গুরুত্ব দিয়ে আমরা তৈরি করি ইউনিক ডিজাইন, যেখানে আধুনিকতা ও ঐতিহ্যের সুন্দর মেলবন্ধন থাকে।</p>
+    <div class="about-stats">
+      <div class="stat"><span class="stat-num">5000+</span><span class="stat-label">সন্তুষ্ট গ্রাহক</span></div>
+      <div class="stat"><span class="stat-num">1200+</span><span class="stat-label">ইউনিক ডিজাইন</span></div>
+      <div class="stat"><span class="stat-num">7+</span><span class="stat-label">বছরের অভিজ্ঞতা</span></div>
+    </div>
+    <a href="https://wa.me/8801714220665?text=আপনাদের%20সম্পর্কে%20আরও%20জানতে%20চাই।" class="btn-primary" target="_blank">
+      <i class="fab fa-whatsapp"></i> আমাদের সাথে কথা বলুন
+    </a>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section id="location">
+  <div class="section-header fade-in">
+    <span class="section-tag">✦ Find Us</span>
+    <h2 class="section-title">আমাদের <em>শোরুম</em> পরিদর্শন করুন</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="location-content fade-in">
+    <div class="location-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.872070029819!2d91.77918867480535!3d22.358458840785765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd9269f24a6cb%3A0x2eb238d3319751f6!2sRajaiswari%20Jewellers!5e0!3m2!1sen!2sbd!4v1775838263654!5m2!1sen!2sbd" loading="lazy" allowfullscreen></iframe>
+    </div>
+    <div class="location-info">
+      <h3 style="font-family:'Playfair Display',serif; font-size:1.5rem; color:var(--brown); margin-bottom:1.5rem;">যোগাযোগ করুন</h3>
+      <div class="location-item">
+        <div class="loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <div class="loc-text">
+          <h4>আমাদের ঠিকানা</h4>
+          <p>রাজ ঐশ্বরী জুয়েলার্স, 
+১০০ নং দোকান, অলংকার শপিং কমপ্লেক্স, সিডিএ প্লট নং পি৭, বন্দর সংযোগ সড়ক, চট্টগ্রাম</p>
+        </div>
+      </div>
+      <div class="location-item">
+        <div class="loc-icon"><i class="fas fa-clock"></i></div>
+        <div class="loc-text">
+          <h4>খোলার সময়</h4>
+          <p>সোমবার - শনিবার : সকাল ১১টা – রাত ১০টা</p>
+        </div>
+      </div>
+      <div class="location-item">
+        <div class="loc-icon"><i class="fas fa-phone"></i></div>
+        <div class="loc-text">
+          <h4>ফোন ও WhatsApp</h4>
+          <p>+880 1714 220665<br>+880 1700-000000</p>
+        </div>
+      </div>
+      <a href="https://wa.me/8801714220665?text=আমি%20আপনাদের%20শোরুমে%20আসতে%20চাই।" class="btn-primary" target="_blank" style="margin-top:1rem;">
+        <i class="fab fa-whatsapp"></i> দিকনির্দেশনা নিন
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a class="nav-logo" href="#">
+        <img src="favicon.png" alt="Rajaiswari Jewellers" style="height: 50px;">
+        রাজ <span>ঐশ্বরী</span> জুয়েলার্স
+      </a>
+      <p>২০১৮ সাল থেকে বিশ্বাস, মান এবং সৌন্দর্যের সাথে আপনার পাশে। প্রতিটি গহনায় থাকে আমাদের হৃদয়ের ছোঁয়া।</p>
+      <div class="social-links">
+        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+        <a href="https://wa.me/8801714220665" class="social-link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>কুইক লিংক</h4>
+      <ul>
+        <li><a href="#">হোম</a></li>
+        <li><a href="#collections">কালেকশন</a></li>
+        <li><a href="#new-arrivals">নতুন আইটেম</a></li>
+        <li><a href="#about">আমাদের সম্পর্কে</a></li>
+        <li><a href="#location">যোগাযোগ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>ক্যাটাগরি</h4>
+      <ul>
+        <li><a href="#">নেকলেস</a></li>
+        <li><a href="#">কানের দুল</a></li>
+        <li><a href="#">আংটি</a></li>
+        <li><a href="#">চুড়ি</a></li>
+        <li><a href="#">ব্রাইডাল সেট</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>যোগাযোগ</h4>
+      <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>মিরপুর-১০, ঢাকা-১২১৬</span></div>
+      <div class="contact-item"><i class="fas fa-phone"></i><span>+880 1714 220665</span></div>
+      <div class="contact-item"><i class="fab fa-whatsapp"></i><span>+880 1714 220665</span></div>
+      <div class="contact-item"><i class="fas fa-envelope"></i><span>info@rajaishwari.com</span></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© ২০২৬ রাজ ঐশ্বরী জুয়েলার্স। সর্বস্বত্ব সংরক্ষিত।</span>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/8801714220665?text=আসসালামু%20আলাইকুম,%20আমি%20আপনাদের%20গহনার%20কালেকশন%20এবং%20হলমার্ক%20সম্পর্কে%20জানতে%20চাই।" class="whatsapp-float" target="_blank" title="WhatsApp এ যোগাযোগ করুন">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<script>
+// ===== NAVBAR SCROLL =====
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 10);
+});
+
+// ===== HAMBURGER =====
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.toggle('open');
+});
+document.querySelectorAll('.mobile-menu a').forEach(a => {
+  a.addEventListener('click', () => mobileMenu.classList.remove('open'));
+});
+
+// ===== HERO SLIDER =====
+let currentSlide = 0;
+const slides = document.querySelectorAll('.slide');
+const dots = document.querySelectorAll('.dot');
+
+function goToSlide(n) {
+  slides[currentSlide].classList.remove('active');
+  dots[currentSlide].classList.remove('active');
+  currentSlide = (n + slides.length) % slides.length;
+  slides[currentSlide].classList.add('active');
+  dots[currentSlide].classList.add('active');
+}
+function nextSlide() { goToSlide(currentSlide + 1); }
+function prevSlide() { goToSlide(currentSlide - 1); }
+
+setInterval(nextSlide, 5500);
+
+// ===== PRODUCTS SLIDER =====
+let productsOffset = 0;
+const cardWidth = 254;
+
+function slideProducts(dir) {
+  const track = document.getElementById('productsTrack');
+  const maxOffset = (track.children.length - Math.floor(track.parentElement.offsetWidth / cardWidth)) * cardWidth;
+  productsOffset = Math.max(0, Math.min(productsOffset + dir * cardWidth, maxOffset));
+  track.style.transform = `translateX(-${productsOffset}px)`;
+}
+
+// ===== TESTIMONIALS SLIDER =====
+let testimonialsOffset = 0;
+
+function slideTestimonials(dir) {
+  const track = document.getElementById('testimonialsTrack');
+  const card = track.querySelector('.testimonial-card');
+  const cardW = card.offsetWidth + 24;
+  const maxOffset = (track.children.length - Math.floor(track.parentElement.offsetWidth / cardW)) * cardW;
+  testimonialsOffset = Math.max(0, Math.min(testimonialsOffset + dir * cardW, maxOffset));
+  track.style.transform = `translateX(-${testimonialsOffset}px)`;
+}
+
+// ===== WISHLIST TOGGLE =====
+document.querySelectorAll('.wishlist-btn').forEach(btn => {
+  btn.addEventListener('click', function() {
+    const icon = this.querySelector('i');
+    icon.classList.toggle('far');
+    icon.classList.toggle('fas');
+    icon.style.color = icon.classList.contains('fas') ? '#e05252' : '';
+  });
+});
+
+// ===== FADE-IN ON SCROLL =====
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.12 });
+
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
