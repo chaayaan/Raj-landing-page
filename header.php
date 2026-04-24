@@ -1,4 +1,15 @@
 <!-- ========== HEADER / NAVBAR ========== -->
+ <!-- ══ INTRO OVERLAY ══ -->
+<div id="rg-intro-overlay">
+    <video
+        id="rg-intro-video"
+        src="rj logo animation.mp4"
+        autoplay
+        muted
+        playsinline
+        preload="auto"
+    ></video>
+</div>
 
 <!-- ══ NAV ══════════════════════════════════════ -->
 <nav class="rg-nav" id="rgNavbar">
@@ -134,7 +145,28 @@ body {
 }
 img { display: block; max-width: 100%; height: auto; }
 a { text-decoration: none; }
-
+/* ── Intro Overlay ─────────────────────────────── */
+#rg-intro-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    background: #fefefe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+#rg-intro-overlay.rg-intro-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+#rg-intro-video {
+    width: min(680px, 90vw);
+    aspect-ratio: 1280 / 504;
+    object-fit: contain;
+    display: block;
+}
 /* ── Navbar ──────────────────────────────────────────────── */
 .rg-nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
@@ -562,62 +594,89 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
 
 <!-- ========== HEADER JS ========== -->
 <script>
+/* ── Intro Overlay (once per session) ── */
 (function () {
-  /* ── Nav logo: hide text if image loads ── */
-  var navLogo = document.getElementById('rgNavLogo');
-  var navText = document.getElementById('rgNavText');
-  if (navLogo) {
-    navLogo.onload  = function () { navText.style.display = 'none'; };
-    navLogo.onerror = function () { navLogo.style.display = 'none'; navText.style.display = ''; };
-    if (navLogo.complete && navLogo.naturalWidth > 0) navText.style.display = 'none';
-  }
+    var overlay = document.getElementById('rg-intro-overlay');
+    var video   = document.getElementById('rg-intro-video');
+    if (!overlay || !video) return;
 
-  /* ── Hamburger ── */
-  var hamburger  = document.getElementById('rgHamburger');
-  var mobileMenu = document.getElementById('rgMobileMenu');
+    if (sessionStorage.getItem('rg_intro_shown')) {
+        overlay.style.transition = 'none';
+        overlay.classList.add('rg-intro-hidden');
+        return;
+    }
 
-  if (hamburger) {
-    hamburger.addEventListener('click', function () {
-      hamburger.classList.toggle('rg-open');
-      mobileMenu.classList.toggle('rg-open');
+    function hideOverlay() {
+        overlay.classList.add('rg-intro-hidden');
+        sessionStorage.setItem('rg_intro_shown', '1');
+    }
+
+    video.addEventListener('ended', hideOverlay);
+
+    var fallback = setTimeout(hideOverlay, 4500);
+    video.addEventListener('ended', function () { clearTimeout(fallback); });
+    video.addEventListener('error', function () {
+        clearTimeout(fallback);
+        setTimeout(hideOverlay, 400);
     });
-  }
+})();
 
-  /* ── Navbar scroll ── */
-  var navbar = document.getElementById('rgNavbar');
-  window.addEventListener('scroll', function () {
-    navbar.classList.toggle('rg-scrolled', window.scrollY > 60);
-  });
+/* ── Everything else ── */
+(function () {
+    /* ── Nav logo: hide text if image loads ── */
+    var navLogo = document.getElementById('rgNavLogo');
+    var navText = document.getElementById('rgNavText');
+    if (navLogo) {
+        navLogo.onload  = function () { navText.style.display = 'none'; };
+        navLogo.onerror = function () { navLogo.style.display = 'none'; navText.style.display = ''; };
+        if (navLogo.complete && navLogo.naturalWidth > 0) navText.style.display = 'none';
+    }
 
-  /* ── WhatsApp Popup ── */
-  var fab      = document.getElementById('rgWaFab');
-  var popup    = document.getElementById('rgWaPopup');
-  var closeBtn = document.getElementById('rgWaClose');
-  var shown    = false;
+    /* ── Hamburger ── */
+    var hamburger  = document.getElementById('rgHamburger');
+    var mobileMenu = document.getElementById('rgMobileMenu');
+    if (hamburger) {
+        hamburger.addEventListener('click', function () {
+            hamburger.classList.toggle('rg-open');
+            mobileMenu.classList.toggle('rg-open');
+        });
+    }
 
-  function openPopup()  { popup.classList.add('rg-wa-open');    fab.classList.add('rg-wa-active');    shown = true; }
-  function closePopup() { popup.classList.remove('rg-wa-open'); fab.classList.remove('rg-wa-active'); shown = false; }
+    /* ── Navbar scroll ── */
+    var navbar = document.getElementById('rgNavbar');
+    window.addEventListener('scroll', function () {
+        navbar.classList.toggle('rg-scrolled', window.scrollY > 60);
+    });
 
-  if (fab)      fab.addEventListener('click', function () { shown ? closePopup() : openPopup(); });
-  if (closeBtn) closeBtn.addEventListener('click', function (e) { e.stopPropagation(); closePopup(); });
+    /* ── WhatsApp Popup ── */
+    var fab      = document.getElementById('rgWaFab');
+    var popup    = document.getElementById('rgWaPopup');
+    var closeBtn = document.getElementById('rgWaClose');
+    var shown    = false;
 
-  /* Auto-open after 4 s on first visit */
-  if (!sessionStorage.getItem('rg_wa_shown')) {
-    setTimeout(function () { openPopup(); sessionStorage.setItem('rg_wa_shown', '1'); }, 4000);
-  }
+    function openPopup()  { popup.classList.add('rg-wa-open');    fab.classList.add('rg-wa-active');    shown = true; }
+    function closePopup() { popup.classList.remove('rg-wa-open'); fab.classList.remove('rg-wa-active'); shown = false; }
 
-  /* Close when clicking outside */
-  document.addEventListener('click', function (e) {
-    var wrap = document.getElementById('rgWaWrap');
-    if (shown && wrap && !wrap.contains(e.target)) closePopup();
-  });
+    if (fab)      fab.addEventListener('click', function () { shown ? closePopup() : openPopup(); });
+    if (closeBtn) closeBtn.addEventListener('click', function (e) { e.stopPropagation(); closePopup(); });
+
+    /* Auto-open after 4s on first visit */
+    if (!sessionStorage.getItem('rg_wa_shown')) {
+        setTimeout(function () { openPopup(); sessionStorage.setItem('rg_wa_shown', '1'); }, 4000);
+    }
+
+    /* Close when clicking outside */
+    document.addEventListener('click', function (e) {
+        var wrap = document.getElementById('rgWaWrap');
+        if (shown && wrap && !wrap.contains(e.target)) closePopup();
+    });
 })();
 
 /* exposed globally for onclick="rgCloseMenu()" in mobile links */
 function rgCloseMenu() {
-  var h = document.getElementById('rgHamburger');
-  var m = document.getElementById('rgMobileMenu');
-  if (h) h.classList.remove('rg-open');
-  if (m) m.classList.remove('rg-open');
+    var h = document.getElementById('rgHamburger');
+    var m = document.getElementById('rgMobileMenu');
+    if (h) h.classList.remove('rg-open');
+    if (m) m.classList.remove('rg-open');
 }
 </script>
