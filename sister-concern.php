@@ -37,14 +37,16 @@
 
   <!-- ── CARD 1: Raj Aiswari Machinery (image left) ── -->
   <div class="rg-sc-block rg-reveal">
-    <div class="rg-sc-images">
-      <div class="rg-sc-img-main-wrap">
-        <img src="lab-to-market.jpg" alt="Raj Aiswari Machinery" width="700" height="500">
+    <a href="sc-raj-aiswari.php" class="rg-sc-images-link" aria-label="View Raj Aiswari Machinery details">
+      <div class="rg-sc-images">
+        <div class="rg-sc-img-main-wrap">
+          <img src="lab-to-market.jpg" alt="Raj Aiswari Machinery" width="700" height="500">
+        </div>
+        <div class="rg-sc-img-sub-wrap">
+          <img src="interview.jpg" alt="Fischer XRF Machine" width="400" height="300">
+        </div>
       </div>
-      <div class="rg-sc-img-sub-wrap">
-        <img src="interview.jpg" alt="Fischer XRF Machine" width="400" height="300">
-      </div>
-    </div>
+    </a>
     <div class="rg-sc-content">
       <span class="rg-sc-tag">Gold Testing Equipment</span>
       <div class="rg-sc-meta-row">
@@ -52,7 +54,7 @@
         <span class="rg-sc-meta-sep">·</span>
         <span class="rg-sc-meta-item"><strong>Industry:</strong> Gold Testing Machines &amp; Equipment</span>
       </div>
-      <h2 class="rg-sc-heading">Raj <em>Aiswari</em></h2>
+      <h2 class="rg-sc-heading"><a href="sc-raj-aiswari.php">Raj <em>Aiswari</em></a></h2>
       <div class="rg-gold-rule"></div>
       <div class="rg-sc-text">
         <p>Raj Aiswari Machinery Division was set up in 2018 with one clear goal — to bring the best gold testing technology to Bangladesh. We are proud to be the authorized partner of Fischer Germany, the world leader in X-Ray Fluorescence (XRF) technology. This method gives the most accurate and non-destructive result when testing metal purity.</p>
@@ -64,7 +66,10 @@
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
         34 No. Bangshal Road, Patharghata, Chattrogram
       </div>
-      <a href="index.php#contact" class="rg-sc-btn">Get in Touch →</a>
+      <div class="rg-sc-btn-row">
+        <a href="sc-raj-aiswari.php" class="rg-sc-btn-outline">View Details →</a>
+        <a href="index.php#contact" class="rg-sc-btn">Get in Touch →</a>
+      </div>
     </div>
   </div>
 
@@ -72,14 +77,16 @@
 
   <!-- ── CARD 2: Gold Testing Center (text left, image right) ── -->
   <div class="rg-sc-block rg-sc-block-reverse rg-reveal">
-    <div class="rg-sc-images">
-      <div class="rg-sc-img-main-wrap">
-        <img src="lab-customer.jpg" alt="Raj Aiswari Gold Testing Center" width="700" height="500">
+    <a href="sc-gold-testing-center.php" class="rg-sc-images-link" aria-label="View Gold Testing Center details">
+      <div class="rg-sc-images">
+        <div class="rg-sc-img-main-wrap">
+          <img src="lab-customer.jpg" alt="Raj Aiswari Gold Testing Center" width="700" height="500">
+        </div>
+        <div class="rg-sc-img-sub-wrap">
+          <img src="jewlry-testing-machne.jpg" alt="Gold Testing Lab Interior" width="400" height="300">
+        </div>
       </div>
-      <div class="rg-sc-img-sub-wrap">
-        <img src="jewlry-testing-machne.jpg" alt="Gold Testing Lab Interior" width="400" height="300">
-      </div>
-    </div>
+    </a>
     <div class="rg-sc-content">
       <span class="rg-sc-tag">Gold Testing Laboratory</span>
       <div class="rg-sc-meta-row">
@@ -87,7 +94,7 @@
         <span class="rg-sc-meta-sep">·</span>
         <span class="rg-sc-meta-item"><strong>Industry:</strong> Gold &amp; Precious Metal Testing</span>
       </div>
-      <h2 class="rg-sc-heading">Raj Aiswari <em>Gold Testing Center</em></h2>
+      <h2 class="rg-sc-heading"><a href="sc-gold-testing-center.php">Raj Aiswari <em>Gold Testing Center</em></a></h2>
       <div class="rg-gold-rule"></div>
       <div class="rg-sc-text">
         <p>Raj Aiswari Gold Testing Center is one of the most reliable and advanced gold testing labs in Chattogram. Founded in 2015, it was built with a simple but powerful vision — to bring truth, transparency, and scientific accuracy to the gold and jewellery trade.</p>
@@ -99,7 +106,10 @@
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
         159/A, Hazari Market, Hazari Lane, Chattrogram
       </div>
-      <a href="index.php#contact" class="rg-sc-btn">Get in Touch →</a>
+      <div class="rg-sc-btn-row">
+        <a href="sc-gold-testing-center.php" class="rg-sc-btn-outline">View Details →</a>
+        <a href="index.php#contact" class="rg-sc-btn">Get in Touch →</a>
+      </div>
     </div>
   </div>
 
@@ -107,14 +117,16 @@
 
   <!-- ── CARD 3: M/S Raj Aiswari (image left) ── -->
   <div class="rg-sc-block rg-reveal">
-    <div class="rg-sc-images">
-      <div class="rg-sc-img-main-wrap">
-        <img src="melting.png" alt="M/S Raj Aiswari Gold Chain Factory" width="700" height="500">
+    <a href="sc-ms-raj-aiswari.php" class="rg-sc-images-link" aria-label="View M/S Raj Aiswari details">
+      <div class="rg-sc-images">
+        <div class="rg-sc-img-main-wrap">
+          <img src="melting.png" alt="M/S Raj Aiswari Gold Chain Factory" width="700" height="500">
+        </div>
+        <div class="rg-sc-img-sub-wrap">
+          <img src="laser.jpg" alt="Automated Italian Gold Chain Machines" width="400" height="300">
+        </div>
       </div>
-      <div class="rg-sc-img-sub-wrap">
-        <img src="laser.jpg" alt="Automated Italian Gold Chain Machines" width="400" height="300">
-      </div>
-    </div>
+    </a>
     <div class="rg-sc-content">
       <span class="rg-sc-tag">Gold Chain Manufacturing</span>
       <div class="rg-sc-meta-row">
@@ -122,7 +134,7 @@
         <span class="rg-sc-meta-sep">·</span>
         <span class="rg-sc-meta-item"><strong>Industry:</strong> Automated Italian Chain Manufacturing</span>
       </div>
-      <h2 class="rg-sc-heading">M/S Raj <em>Aiswari</em></h2>
+      <h2 class="rg-sc-heading"><a href="sc-ms-raj-aiswari.php">M/S Raj <em>Aiswari</em></a></h2>
       <div class="rg-gold-rule"></div>
       <div class="rg-sc-text">
         <p>M/s Raj Aiswari was established in 2023 with a big dream — to build a world-class gold chain factory right here in Bangladesh. We combined the skills of traditional craftsmanship with the power of fully automated Italian machines to produce gold chains with outstanding quality, finish, and strength.</p>
@@ -130,7 +142,10 @@
         <p>We make both ready-made and custom-made gold chains, serving wholesale and retail customers alike. Whether you need a large order or a small batch, each piece gets the same level of attention and care.</p>
         <p>Our long-term goal is to make Bangladesh a recognised name in gold chain exports. Through continuous improvement and a commitment to excellence, M/s Raj Aiswari is working every day to deliver better products, better service, and lasting trust to every customer we serve.</p>
       </div>
-      <a href="index.php#contact" class="rg-sc-btn">Get in Touch →</a>
+      <div class="rg-sc-btn-row">
+        <a href="sc-ms-raj-aiswari.php" class="rg-sc-btn-outline">View Details →</a>
+        <a href="index.php#contact" class="rg-sc-btn">Get in Touch →</a>
+      </div>
     </div>
   </div>
 
@@ -138,14 +153,16 @@
 
   <!-- ── CARD 4: Raj Aiswari Chain House (text left, image right) ── -->
   <div class="rg-sc-block rg-sc-block-reverse rg-reveal">
-    <div class="rg-sc-images">
-      <div class="rg-sc-img-main-wrap">
-        <img src="chain-house-1.jpg" alt="Raj Aiswari Chain House" width="700" height="500">
+    <a href="sc-chain-house.php" class="rg-sc-images-link" aria-label="View Chain House details">
+      <div class="rg-sc-images">
+        <div class="rg-sc-img-main-wrap">
+          <img src="chain-house-1.jpg" alt="Raj Aiswari Chain House" width="700" height="500">
+        </div>
+        <div class="rg-sc-img-sub-wrap">
+          <img src="chain-house-2.jpg" alt="Handcrafted Gold Chains" width="400" height="300">
+        </div>
       </div>
-      <div class="rg-sc-img-sub-wrap">
-        <img src="chain-house-2.jpg" alt="Handcrafted Gold Chains" width="400" height="300"->
-      </div>
-    </div>
+    </a>
     <div class="rg-sc-content">
       <span class="rg-sc-tag">Handcrafted Chain Making</span>
       <div class="rg-sc-meta-row">
@@ -153,7 +170,7 @@
         <span class="rg-sc-meta-sep">·</span>
         <span class="rg-sc-meta-item"><strong>Industry:</strong> Manual Gold Chain Manufacturing</span>
       </div>
-      <h2 class="rg-sc-heading">Raj Aiswari <em>Chain House</em></h2>
+      <h2 class="rg-sc-heading"><a href="sc-chain-house.php">Raj Aiswari <em>Chain House</em></a></h2>
       <div class="rg-gold-rule"></div>
       <div class="rg-sc-text">
         <p>Raj Aiswari Chain House is where our story began. Founded in 1998, this is the original concern that laid the foundation of the Raj Aiswari name. It was built on a love for traditional gold chain making — using manual machines and the skilled hands of experienced craftsmen.</p>
@@ -161,7 +178,10 @@
         <p>Thousands of satisfied customers have come to rely on us for our reliability, fair dealing, and quality workmanship. Every chain we make carries the care and consistency that has made Raj Aiswari Chain House a name people trust.</p>
         <p>We believe that tradition and quality go hand in hand. While the gold market around us has changed over the decades, our commitment to honest service and fine craftsmanship has remained exactly the same.</p>
       </div>
-      <a href="index.php#contact" class="rg-sc-btn">Get in Touch →</a>
+      <div class="rg-sc-btn-row">
+        <a href="sc-chain-house.php" class="rg-sc-btn-outline">View Details →</a>
+        <a href="index.php#contact" class="rg-sc-btn">Get in Touch →</a>
+      </div>
     </div>
   </div>
 
@@ -241,6 +261,21 @@
   direction: ltr;
 }
 
+/* ── Image link wrapper ──────────────────────── */
+.rg-sc-images-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.rg-sc-images-link:hover .rg-sc-img-main-wrap img {
+  transform: scale(1.04);
+  filter: saturate(1.02);
+}
+.rg-sc-images-link:hover .rg-sc-img-sub-wrap img {
+  transform: scale(1.06);
+  filter: saturate(1.02);
+}
+
 /* ── Images panel ────────────────────────────── */
 .rg-sc-images {
   position: relative;
@@ -257,10 +292,6 @@
   transition: transform 0.7s ease, filter 0.5s ease;
   filter: saturate(0.85);
 }
-.rg-sc-block:hover .rg-sc-img-main-wrap img {
-  transform: scale(1.04);
-  filter: saturate(1.02);
-}
 .rg-sc-img-sub-wrap {
   position: absolute; bottom: 0; right: 0;
   width: 52%; height: 46%;
@@ -272,10 +303,6 @@
   width: 100%; height: 100%; object-fit: cover;
   transition: transform 0.7s ease, filter 0.5s ease;
   filter: saturate(0.85);
-}
-.rg-sc-block:hover .rg-sc-img-sub-wrap img {
-  transform: scale(1.06);
-  filter: saturate(1.02);
 }
 
 /* ── Content panel ───────────────────────────── */
@@ -304,6 +331,25 @@
 }
 .rg-sc-heading em { font-style: italic; color: var(--rg-gold); }
 
+/* ── Heading as link ─────────────────────────── */
+.rg-sc-heading a {
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+.rg-sc-heading a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; left: 0;
+  width: 0; height: 2px;
+  background: var(--rg-gold);
+  transition: width 0.4s ease;
+}
+.rg-sc-heading a:hover::after {
+  width: 100%;
+}
+
 .rg-sc-text p {
   color: var(--rg-muted); font-size: 0.875rem;
   font-weight: 300; line-height: 1.95;
@@ -322,6 +368,14 @@
 }
 .rg-sc-address svg { color: var(--rg-gold); flex-shrink: 0; margin-top: 2px; }
 
+/* ── Button row ──────────────────────────────── */
+.rg-sc-btn-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
 .rg-sc-btn {
   display: inline-flex; align-items: center; gap: 6px;
   background: var(--rg-gold); color: #fff;
@@ -329,8 +383,29 @@
   letter-spacing: 0.1em; text-transform: uppercase;
   border-radius: 2px;
   transition: background 0.3s, gap 0.2s, transform 0.2s;
+  text-decoration: none;
 }
 .rg-sc-btn:hover { background: #9A7218; gap: 10px; transform: translateY(-2px); }
+
+/* ── Outline button (View Details) ───────────── */
+.rg-sc-btn-outline {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: transparent;
+  color: var(--rg-gold);
+  padding: 11px 24px;
+  font-size: 0.78rem; font-weight: 500;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  border-radius: 2px;
+  border: 1.5px solid var(--rg-gold);
+  transition: background 0.3s, color 0.3s, gap 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+.rg-sc-btn-outline:hover {
+  background: var(--rg-gold);
+  color: #fff;
+  gap: 10px;
+  transform: translateY(-2px);
+}
 
 /* ── Divider ─────────────────────────────────── */
 .rg-sc-divider {
@@ -405,6 +480,16 @@
   .rg-sc-stats { grid-template-columns: repeat(2, 1fr); }
   .rg-sc-stat { padding: 32px 16px; }
   .rg-sc-stat:nth-child(3) { border-right: none; }
+  .rg-sc-btn-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  .rg-sc-btn,
+  .rg-sc-btn-outline {
+    justify-content: center;
+    text-align: center;
+  }
 }
 </style>
 

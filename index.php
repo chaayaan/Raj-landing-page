@@ -4,6 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Raj Aiswari – Fischer Measurement Technologies Bangladesh</title>
+  
+  <!-- SEO Meta -->
+  <meta name="description" content="Raj Aiswari is Bangladesh's authorized partner for Fischer Germany — providing gold testing machines, coating thickness gauges, and material analysis equipment since 1998.">
+  <meta name="keywords" content="Fischer Germany Bangladesh, gold testing machine, XRF machine, coating thickness gauge, material analysis, Raj Aiswari, gold purity tester">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://rajaiswari.com">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Raj Aiswari – Fischer Measurement Technologies Bangladesh">
+  <meta property="og:description" content="Bangladesh's trusted partner for world-class gold testing, coating thickness, and material analysis technologies since 1998.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rajaiswari.com/">
+  <meta property="og:image" content="https://rajaiswari.com/f-m.jpg">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Raj Aiswari – Fischer Measurement Technologies Bangladesh">
+  <meta name="twitter:description" content="Bangladesh's trusted partner for gold testing and measurement technologies since 1998.">
+  <meta name="twitter:image" content="https://rajaiswari.com/f-m.jpg">
+  
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
@@ -93,8 +113,8 @@
     <span class="rg-stat-label">Satisfied Clients</span>
   </div>
   <div class="rg-stat-item rg-reveal rg-d3">
-    <span class="rg-stat-num">24/7</span>
-    <span class="rg-stat-label">Customer Support</span>
+    <span class="rg-stat-num">4</span>
+    <span class="rg-stat-label">Sister Concerns</span>
   </div>
 </div>
 
@@ -243,6 +263,7 @@
     <a href="products.php" class="rg-btn-gold" style="background:var(--rg-gold);color:#fff;padding:12px 32px;font-size:0.82rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;display:inline-block;transition:background 0.3s;">View All Products →</a>
   </div>
 </section>
+
 <section class="rg-section" id="why">
   <div class="rg-eyebrow rg-reveal">Why Raj Aiswari</div>
   <h2 class="rg-section-title rg-reveal">Built on Trust, <em>Driven</em> by Precision</h2>
@@ -298,6 +319,73 @@
   <div class="rg-testi-inner">
     <p class="rg-testi-text rg-reveal">Raj Aiswari has been instrumental in elevating the precision and quality of Bangladesh's gold sector. Their knowledge, technology, and service are unmatched in the region.</p>
     <div class="rg-testi-author rg-reveal rg-d1">— Fischer Germany, Technology Partner</div>
+  </div>
+</section>
+
+<!-- ══ SISTER CONCERNS (NEW SECTION) ═══════════ -->
+<section class="rg-section" id="sister-concerns" style="background:var(--rg-bg2,#F7F2E8);">
+  <div style="text-align:center;">
+    <div class="rg-eyebrow rg-reveal" style="justify-content:center;">Our Business Group</div>
+    <h2 class="rg-section-title rg-reveal">Sister <em>Concerns</em></h2>
+    <p style="color:var(--rg-muted);font-size:0.92rem;font-weight:300;max-width:560px;margin:8px auto 0;line-height:1.7;" class="rg-reveal">Four businesses, one shared vision — serving Bangladesh's gold industry with trust and quality since 1998.</p>
+  </div>
+  <div class="rg-sc-home-grid">
+
+    <a href="sc-raj-aiswari.php" class="rg-sc-home-card rg-reveal">
+      <div class="rg-sc-home-img">
+        <img src="lab-to-market.jpg" alt="Raj Aiswari Machinery" width="400" height="280">
+        <div class="rg-sc-home-badge">Est. 2018</div>
+      </div>
+      <div class="rg-sc-home-body">
+        <span class="rg-sc-home-tag">Equipment</span>
+        <h3>Raj Aiswari Machinery</h3>
+        <p>Authorized Fischer Germany partner — XRF gold testing machines across Bangladesh.</p>
+        <span class="rg-sc-home-link">Learn More →</span>
+      </div>
+    </a>
+
+    <a href="sc-gold-testing-center.php" class="rg-sc-home-card rg-reveal rg-d1">
+      <div class="rg-sc-home-img">
+        <img src="lab-customer.jpg" alt="Gold Testing Center" width="400" height="280">
+        <div class="rg-sc-home-badge">Est. 2015</div>
+      </div>
+      <div class="rg-sc-home-body">
+        <span class="rg-sc-home-tag">Laboratory</span>
+        <h3>Gold Testing Center</h3>
+        <p>Advanced XRF gold testing lab in Chattogram — instant, accurate, non-destructive.</p>
+        <span class="rg-sc-home-link">Learn More →</span>
+      </div>
+    </a>
+
+    <a href="sc-ms-raj-aiswari.php" class="rg-sc-home-card rg-reveal rg-d2">
+      <div class="rg-sc-home-img">
+        <img src="melting.png" alt="M/S Raj Aiswari Factory" width="400" height="280">
+        <div class="rg-sc-home-badge">Est. 2023</div>
+      </div>
+      <div class="rg-sc-home-body">
+        <span class="rg-sc-home-tag">Manufacturing</span>
+        <h3>M/S Raj Aiswari</h3>
+        <p>Automated Italian gold chain factory — Dubai-level finishing quality.</p>
+        <span class="rg-sc-home-link">Learn More →</span>
+      </div>
+    </a>
+
+    <a href="sc-chain-house.php" class="rg-sc-home-card rg-reveal rg-d3">
+      <div class="rg-sc-home-img">
+        <img src="chain-house-3.jpg" alt="Chain House" width="400" height="280">
+        <div class="rg-sc-home-badge">Est. 1998</div>
+      </div>
+      <div class="rg-sc-home-body">
+        <span class="rg-sc-home-tag">Handcrafted</span>
+        <h3>Chain House</h3>
+        <p>Traditional handcrafted gold chains — the foundation of our legacy since 1998.</p>
+        <span class="rg-sc-home-link">Learn More →</span>
+      </div>
+    </a>
+
+  </div>
+  <div style="text-align:center;margin-top:36px;" class="rg-reveal">
+    <a href="sister-concern.php" class="rg-btn-gold" style="background:var(--rg-gold);color:#fff;padding:12px 32px;font-size:0.82rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;display:inline-block;transition:background 0.3s;">View All Sister Concerns →</a>
   </div>
 </section>
 
@@ -629,13 +717,107 @@
 }
 .rg-ts-dot.rg-ts-dot-active { background: var(--rg-gold); border-color: var(--rg-gold); }
 
+/* ── Sister Concern Home Grid ─────────────── */
+.rg-sc-home-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 48px;
+}
+.rg-sc-home-card {
+  background: var(--rg-white, #FFFFFF);
+  border: 1px solid var(--rg-gold-border, rgba(184,136,30,0.22));
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.4s, transform 0.4s, border-color 0.4s;
+}
+.rg-sc-home-card:hover {
+  box-shadow: 0 12px 40px rgba(120,90,30,0.14);
+  transform: translateY(-6px);
+  border-color: var(--rg-gold, #B8881E);
+}
+.rg-sc-home-img {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+.rg-sc-home-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.8);
+  transition: transform 0.6s ease, filter 0.4s ease;
+}
+.rg-sc-home-card:hover .rg-sc-home-img img {
+  transform: scale(1.05);
+  filter: saturate(1);
+}
+.rg-sc-home-badge {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #FDFAF4;
+  background: rgba(28,26,22,0.7);
+  backdrop-filter: blur(8px);
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+.rg-sc-home-body {
+  padding: 20px;
+}
+.rg-sc-home-tag {
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--rg-gold, #B8881E);
+}
+.rg-sc-home-body h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--rg-dark, #1C1A16);
+  margin: 6px 0 8px;
+  line-height: 1.2;
+}
+.rg-sc-home-body p {
+  color: var(--rg-muted, #7A7060);
+  font-size: 0.82rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.rg-sc-home-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 14px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--rg-gold, #B8881E);
+  transition: gap 0.2s;
+}
+.rg-sc-home-card:hover .rg-sc-home-link {
+  gap: 8px;
+}
+
 /* ── Responsive ─────────────────────────── */
 @media (max-width: 900px) {
   .rg-ts-card { flex: 0 0 calc((100% - 20px) / 2); }  /* 2 cards */
+  .rg-sc-home-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 560px) {
   .rg-ts-card { flex: 0 0 100%; }                       /* 1 card */
   .rg-testi-section { padding: 60px 20px 52px; }
+  .rg-sc-home-grid { grid-template-columns: 1fr; }
+  .rg-sc-home-img { height: 180px; }
 }
 </style>
 
@@ -719,3 +901,6 @@
   goTo(0);
 })();
 </script>
+
+</body>
+</html>

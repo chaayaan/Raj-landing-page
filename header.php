@@ -22,9 +22,21 @@
     <li><a href="index.php">Home</a></li>
     <li><a href="index.php#about">About Us</a></li>
     <li><a href="products.php">Products</a></li>
-    <li><a href="gold_lab.php">Gold Lab</a></li>
     <li><a href="index.php#clients">Clients</a></li>
-    <li><a href="sister-concern.php">Sister Concern</a></li>
+    <li class="rg-nav-dropdown">
+      <a href="sister-concern.php" class="rg-nav-dropdown-trigger">
+        Sister Concern
+        <svg class="rg-nav-dropdown-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </a>
+      <ul class="rg-nav-dropdown-menu">
+        <li><a href="sc-raj-aiswari.php">Raj Aiswari <span class="rg-dd-sub">Machinery</span></a></li>
+        <li><a href="sc-gold-testing-center.php">Gold Testing Center</a></li>
+        <li><a href="sc-ms-raj-aiswari.php">M/S Raj Aiswari <span class="rg-dd-sub">Factory</span></a></li>
+        <li><a href="sc-chain-house.php">Chain House</a></li>
+        <li class="rg-nav-dropdown-divider"></li>
+        <li><a href="sister-concern.php" class="rg-dd-viewall">View All Sister Concerns →</a></li>
+      </ul>
+    </li>
     <li><a href="software.php">Softwares</a></li>
     <li><a href="contact.php">Contact</a></li>
   </ul>
@@ -52,11 +64,22 @@
   <a href="index.php"          onclick="rgCloseMenu()">Home</a>
   <a href="index.php#about"    onclick="rgCloseMenu()">About Us</a>
   <a href="products.php"       onclick="rgCloseMenu()">Products</a>
-  <a href="gold_lab.php"  onclick="rgCloseMenu()">Gold Lab</a>
   <a href="index.php#clients"  onclick="rgCloseMenu()">Clients</a>
-  <a href="sister-concern.php" onclick="rgCloseMenu()">Sister Concern</a>
+  <div class="rg-mob-dropdown">
+    <button class="rg-mob-dropdown-trigger" onclick="rgToggleMobDropdown(this)">
+      Sister Concern
+      <svg class="rg-mob-dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div class="rg-mob-dropdown-menu">
+      <a href="sc-raj-aiswari.php" onclick="rgCloseMenu()">Raj Aiswari <span class="rg-dd-sub">Machinery</span></a>
+      <a href="sc-gold-testing-center.php" onclick="rgCloseMenu()">Gold Testing Center</a>
+      <a href="sc-ms-raj-aiswari.php" onclick="rgCloseMenu()">M/S Raj Aiswari <span class="rg-dd-sub">Factory</span></a>
+      <a href="sc-chain-house.php" onclick="rgCloseMenu()">Chain House</a>
+      <a href="sister-concern.php" onclick="rgCloseMenu()" class="rg-dd-viewall">View All Sister Concerns →</a>
+    </div>
+  </div>
   <a href="software.php"       onclick="rgCloseMenu()">Softwares</a>
-  <a href="contact.php"  onclick="rgCloseMenu()">Contact</a>
+  <a href="contact.php"        onclick="rgCloseMenu()">Contact</a>
   <div class="rg-mob-social">
     <a href="https://www.facebook.com/rajasiwari" target="_blank" rel="noopener" class="rg-fb">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="white" style="pointer-events:none;"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.267h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
@@ -68,6 +91,7 @@
     </a>
   </div>
 </nav>
+
 <!-- ========== WHATSAPP FLOATING BUTTON ========== -->
 <div class="rg-wa-wrap" id="rgWaWrap">
 
@@ -116,7 +140,6 @@
 </div>
 
 <!-- ========== HEADER SCOPED CSS ========== -->
-<!-- All styles prefixed rg- to avoid bleeding into page CSS -->
 <style>
 /* ── Variables ───────────────────────────────────────────── */
 :root {
@@ -145,6 +168,7 @@ body {
 }
 img { display: block; max-width: 100%; height: auto; }
 a { text-decoration: none; }
+
 /* ── Intro Overlay ─────────────────────────────── */
 #rg-intro-overlay {
     position: fixed;
@@ -167,6 +191,7 @@ a { text-decoration: none; }
     object-fit: contain;
     display: block;
 }
+
 /* ── Navbar ──────────────────────────────────────────────── */
 .rg-nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
@@ -198,17 +223,144 @@ a { text-decoration: none; }
 
 /* Links */
 .rg-nav-links { display: flex; gap: 28px; list-style: none; }
-.rg-nav-links a {
+.rg-nav-links > li > a {
   color: var(--rg-muted); font-size: 0.8rem; font-weight: 500;
   letter-spacing: 0.1em; text-transform: uppercase;
   transition: color 0.3s; position: relative;
 }
-.rg-nav-links a::after {
+.rg-nav-links > li > a::after {
   content: ''; position: absolute; bottom: -4px; left: 0;
   width: 0; height: 1.5px; background: var(--rg-gold); transition: width 0.3s;
 }
-.rg-nav-links a:hover { color: var(--rg-gold); }
-.rg-nav-links a:hover::after { width: 100%; }
+.rg-nav-links > li > a:hover { color: var(--rg-gold); }
+.rg-nav-links > li > a:hover::after { width: 100%; }
+
+/* ── Desktop Dropdown ────────────────────────── */
+.rg-nav-dropdown {
+  position: relative;
+}
+.rg-nav-dropdown-trigger {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.rg-nav-dropdown-arrow {
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+.rg-nav-dropdown:hover .rg-nav-dropdown-arrow,
+.rg-nav-dropdown.rg-dd-open .rg-nav-dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.rg-nav-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  min-width: 260px;
+  background: var(--rg-white);
+  border: 1px solid var(--rg-gold-border);
+  border-radius: 6px;
+  padding: 8px 0;
+  list-style: none;
+  box-shadow: 0 16px 48px rgba(120,90,30,0.14), 0 2px 8px rgba(120,90,30,0.06);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+  z-index: 100;
+}
+.rg-nav-dropdown:hover .rg-nav-dropdown-menu,
+.rg-nav-dropdown.rg-dd-open .rg-nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Little triangle pointer */
+.rg-nav-dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 12px;
+  height: 12px;
+  background: var(--rg-white);
+  border-left: 1px solid var(--rg-gold-border);
+  border-top: 1px solid var(--rg-gold-border);
+  z-index: 1;
+}
+
+.rg-nav-dropdown-menu li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 20px;
+  color: var(--rg-text);
+  font-size: 0.82rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  transition: background 0.2s, color 0.2s, padding-left 0.2s;
+  position: relative;
+  z-index: 2;
+}
+.rg-nav-dropdown-menu li a::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: var(--rg-gold);
+  transform: scaleY(0);
+  transition: transform 0.2s ease;
+}
+.rg-nav-dropdown-menu li a:hover {
+  background: var(--rg-gold-pale);
+  color: var(--rg-gold);
+  padding-left: 26px;
+}
+.rg-nav-dropdown-menu li a:hover::before {
+  transform: scaleY(1);
+}
+
+.rg-dd-sub {
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--rg-muted);
+  transition: color 0.2s;
+}
+.rg-nav-dropdown-menu li a:hover .rg-dd-sub {
+  color: var(--rg-gold);
+  opacity: 0.7;
+}
+
+.rg-nav-dropdown-divider {
+  height: 1px;
+  background: var(--rg-gold-border);
+  margin: 6px 16px;
+}
+
+.rg-dd-viewall {
+  color: var(--rg-gold) !important;
+  font-weight: 600 !important;
+  font-size: 0.74rem !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase;
+  border-top: 1px solid var(--rg-gold-border);
+  margin-top: 4px;
+  padding-top: 12px !important;
+}
+.rg-dd-viewall:hover {
+  color: #9A7218 !important;
+  background: transparent !important;
+  padding-left: 20px !important;
+}
+.rg-dd-viewall::before { display: none !important; }
 
 /* Social icons */
 .rg-nav-social { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
@@ -245,14 +397,77 @@ a { text-decoration: none; }
   box-shadow: 0 8px 32px rgba(120,90,30,0.1);
 }
 .rg-mobile-menu.rg-open { display: flex; }
-.rg-mobile-menu a {
+.rg-mobile-menu > a {
   display: block; padding: 13px 0;
   border-bottom: 1px solid var(--rg-gold-border);
   color: var(--rg-text); font-size: 0.9rem;
   font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase;
   transition: color 0.3s;
 }
-.rg-mobile-menu a:hover { color: var(--rg-gold); }
+.rg-mobile-menu > a:hover { color: var(--rg-gold); }
+
+/* ── Mobile Dropdown ─────────────────────────── */
+.rg-mob-dropdown {
+  border-bottom: 1px solid var(--rg-gold-border);
+}
+.rg-mob-dropdown-trigger {
+  display: flex; align-items: center; justify-content: space-between;
+  width: 100%; padding: 13px 0;
+  color: var(--rg-text); font-size: 0.9rem;
+  font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase;
+  background: none; border: none; cursor: pointer;
+  font-family: 'Outfit', sans-serif;
+  transition: color 0.3s;
+}
+.rg-mob-dropdown-trigger:hover { color: var(--rg-gold); }
+.rg-mob-dropdown-arrow {
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+.rg-mob-dropdown.rg-mob-dd-open .rg-mob-dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.rg-mob-dropdown-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+.rg-mob-dropdown.rg-mob-dd-open .rg-mob-dropdown-menu {
+  max-height: 300px;
+}
+.rg-mob-dropdown-menu a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 0 11px 16px;
+  border-bottom: 1px solid rgba(184,136,30,0.1);
+  color: var(--rg-muted) !important;
+  font-size: 0.84rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: none !important;
+  transition: color 0.2s, padding-left 0.2s;
+  border-top: none !important;
+}
+.rg-mob-dropdown-menu a:hover {
+  color: var(--rg-gold) !important;
+  padding-left: 22px;
+}
+.rg-mob-dropdown-menu .rg-dd-viewall {
+  border-bottom: none !important;
+  border-top: 1px solid var(--rg-gold-border) !important;
+  margin-top: 4px;
+  padding-top: 13px !important;
+  color: var(--rg-gold) !important;
+  font-weight: 600 !important;
+  font-size: 0.74rem !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+}
+.rg-mob-dropdown-menu .rg-dd-viewall:hover {
+  padding-left: 16px !important;
+}
 
 .rg-mob-social {
   display: flex; gap: 12px; margin-top: 18px;
@@ -542,6 +757,7 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
   .rg-section { padding: 60px 20px; }
   .rg-section-sm { padding: 48px 20px; }
 }
+
 /* ══════════════════════════════════════════════════════════
    WHATSAPP FLOATING BUTTON
 ══════════════════════════════════════════════════════════ */
@@ -648,6 +864,31 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
         navbar.classList.toggle('rg-scrolled', window.scrollY > 60);
     });
 
+    /* ── Desktop Dropdown: click toggle for accessibility ── */
+    var dropdowns = document.querySelectorAll('.rg-nav-dropdown');
+    dropdowns.forEach(function (dd) {
+        var trigger = dd.querySelector('.rg-nav-dropdown-trigger');
+        if (!trigger) return;
+
+        trigger.addEventListener('click', function (e) {
+            e.preventDefault();
+            /* Close other dropdowns first */
+            dropdowns.forEach(function (other) {
+                if (other !== dd) other.classList.remove('rg-dd-open');
+            });
+            dd.classList.toggle('rg-dd-open');
+        });
+    });
+
+    /* Close desktop dropdown when clicking outside */
+    document.addEventListener('click', function (e) {
+        dropdowns.forEach(function (dd) {
+            if (!dd.contains(e.target)) {
+                dd.classList.remove('rg-dd-open');
+            }
+        });
+    });
+
     /* ── WhatsApp Popup ── */
     var fab      = document.getElementById('rgWaFab');
     var popup    = document.getElementById('rgWaPopup');
@@ -661,9 +902,9 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
     if (closeBtn) closeBtn.addEventListener('click', function (e) { e.stopPropagation(); closePopup(); });
 
     /* Auto-open after 4s on first visit */
-    if (!sessionStorage.getItem('rg_wa_shown')) {
-        setTimeout(function () { openPopup(); sessionStorage.setItem('rg_wa_shown', '1'); }, 4000);
-    }
+    // if (!sessionStorage.getItem('rg_wa_shown')) {
+    //     setTimeout(function () { openPopup(); sessionStorage.setItem('rg_wa_shown', '1'); }, 4000);
+    // }
 
     /* Close when clicking outside */
     document.addEventListener('click', function (e) {
@@ -672,11 +913,20 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
     });
 })();
 
+/* ── Mobile dropdown toggle ── */
+function rgToggleMobDropdown(btn) {
+    var wrapper = btn.closest('.rg-mob-dropdown');
+    if (wrapper) wrapper.classList.toggle('rg-mob-dd-open');
+}
+
 /* exposed globally for onclick="rgCloseMenu()" in mobile links */
 function rgCloseMenu() {
     var h = document.getElementById('rgHamburger');
     var m = document.getElementById('rgMobileMenu');
     if (h) h.classList.remove('rg-open');
     if (m) m.classList.remove('rg-open');
+    /* Also close any open mobile dropdowns */
+    var openDd = document.querySelector('.rg-mob-dropdown.rg-mob-dd-open');
+    if (openDd) openDd.classList.remove('rg-mob-dd-open');
 }
 </script>
