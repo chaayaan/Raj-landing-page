@@ -48,7 +48,7 @@
         <li><a href="index.php#about">About Us</a></li>
         <li><a href="products.php">Products</a></li>
         <li><a href="index.php#gallery">Gallery</a></li>
-        <li><a href="index.php#clients">Clients</a></li>
+        <li><a href="client.php">Clients</a></li>
         <li><a href="contact.php">Contact</a></li>
       </ul>
     </div>

@@ -22,7 +22,7 @@
     <li><a href="index.php">Home</a></li>
     <li><a href="index.php#about">About Us</a></li>
     <li><a href="products.php">Products</a></li>
-    <li><a href="index.php#clients">Clients</a></li>
+    <li><a href="client.php">Clients</a></li>
     <li class="rg-nav-dropdown">
       <a href="sister-concern.php" class="rg-nav-dropdown-trigger">
         Sister Concern
@@ -64,7 +64,7 @@
   <a href="index.php"          onclick="rgCloseMenu()">Home</a>
   <a href="index.php#about"    onclick="rgCloseMenu()">About Us</a>
   <a href="products.php"       onclick="rgCloseMenu()">Products</a>
-  <a href="index.php#clients"  onclick="rgCloseMenu()">Clients</a>
+  <a href="client.php"         onclick="rgCloseMenu()">Clients</a>
   <div class="rg-mob-dropdown">
     <button class="rg-mob-dropdown-trigger" onclick="rgToggleMobDropdown(this)">
       Sister Concern

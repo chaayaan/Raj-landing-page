@@ -35,24 +35,22 @@
 
 <?php include 'header.php'; ?>
 
-<!-- ══ HERO ══════════════════════════════════════ -->
-<section class="rg-hero" id="home">
-  <div class="rg-hero-bg">
-    <img src="f-m.jpg" alt="Gold jewelry background" width="1800" height="1200">
+<section class="rg-hero-slider" id="home">
+  <div class="rg-hs-track" id="rgHsTrack">
+    <div class="rg-hs-slide"><img src="rj banner 1.png" alt="Raj Aiswari Banner 1" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="rj banner 2.png" alt="Raj Aiswari Banner 2" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="rj banner 3.png" alt="Raj Aiswari Banner 3" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="rj banner 4.png" alt="Raj Aiswari Banner 4" width="1366" height="768"></div>
   </div>
-  <div class="rg-hero-overlay"></div>
-  <div class="rg-hero-content">
-    <div class="rg-hero-eyebrow">Fischer Measurement Technologies — Bangladesh</div>
-    <h1 class="rg-hero-title">Precision in <em>Gold</em><br>Mastery in Measurement</h1>
-    <p class="rg-hero-sub">Bangladesh's trusted partner for world-class gold testing, coating thickness, and material analysis technologies since 1998.</p>
-    <div class="rg-hero-btns">
-      <a href="#products" class="rg-btn-gold">Explore Products</a>
-      <a href="#about"    class="rg-btn-ghost">Our Story</a>
-    </div>
+  <div class="rg-hs-dots">
+    <button class="rg-hs-dot rg-hs-dot-active" data-i="0" aria-label="Slide 1"></button>
+    <button class="rg-hs-dot" data-i="1" aria-label="Slide 2"></button>
+    <button class="rg-hs-dot" data-i="2" aria-label="Slide 3"></button>
+    <button class="rg-hs-dot" data-i="3" aria-label="Slide 4"></button>
   </div>
 </section>
 
-<!-- ══ BANNER SLIDER ════════════════════════════ -->
+<!-- ══ BANNER SLIDER ════════════════════════════
 <div class="rg-slider" id="rgSlider">
 
   <div class="rg-slide rg-active">
@@ -96,7 +94,7 @@
     <div class="rg-sdot" data-i="3"></div>
   </div>
 
-</div>
+</div> -->
 
 <!-- ══ STATS ══════════════════════════════════════ -->
 <div class="rg-stats-bar">
@@ -615,6 +613,64 @@
 
 <!-- ══ TESTIMONIAL SECTION CSS & JS ══════════ -->
 <style>
+.rg-hero-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  margin-top: 72px;
+}
+
+@media (max-width: 768px) {
+  .rg-hero-slider {
+    margin-top: 60px;
+  }
+}
+
+.rg-hs-track {
+  display: flex;
+  width: 100%;
+  transition: transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.rg-hs-slide {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.rg-hs-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ── Dots ───────────────────────────────────────── */
+.rg-hs-dots {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+.rg-hs-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(184, 136, 30, 0.55);
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.3s, border-color 0.3s, transform 0.3s;
+}
+.rg-hs-dot.rg-hs-dot-active {
+  background: var(--rg-gold, #B8881E);
+  border-color: var(--rg-gold, #B8881E);
+  transform: scale(1.25);
+}
 /* ── Section ─────────────────────────────── */
 .rg-testi-section {
   background: var(--rg-dark);
@@ -899,6 +955,73 @@
   /* Init */
   buildDots();
   goTo(0);
+})();
+</script>
+<script>
+(function () {
+  var track   = document.getElementById('rgHsTrack');
+  var dots    = document.querySelectorAll('.rg-hs-dot');
+  var total   = 4;
+  var current = 0;
+  var timer;
+
+  function goTo(idx) {
+    current = (idx + total) % total;
+    track.style.transition = 'transform 0.65s cubic-bezier(0.4, 0, 0.2, 1)';
+    track.style.transform  = 'translateX(-' + (current * 100) + '%)';
+    dots.forEach(function (d, i) {
+      d.classList.toggle('rg-hs-dot-active', i === current);
+    });
+  }
+
+  function resetTimer() {
+    clearInterval(timer);
+    timer = setInterval(function () { goTo(current + 1); }, 5000);
+  }
+
+  dots.forEach(function (d) {
+    d.addEventListener('click', function () {
+      goTo(parseInt(d.getAttribute('data-i')));
+      resetTimer();
+    });
+  });
+
+  /* ── Smooth touch swipe ── */
+  var touchStartX = 0;
+  var touchStartY = 0;
+  var isDragging  = false;
+
+  track.addEventListener('touchstart', function (e) {
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+    isDragging  = true;
+    track.style.transition = 'none'; /* disable transition while dragging */
+  }, { passive: true });
+
+  track.addEventListener('touchmove', function (e) {
+    if (!isDragging) return;
+    var diffX = e.touches[0].clientX - touchStartX;
+    var diffY = e.touches[0].clientY - touchStartY;
+    /* ignore vertical scrolls */
+    if (Math.abs(diffY) > Math.abs(diffX)) return;
+    var offset = -(current * 100) + (diffX / track.offsetWidth * 100);
+    track.style.transform = 'translateX(' + offset + '%)';
+  }, { passive: true });
+
+  track.addEventListener('touchend', function (e) {
+    if (!isDragging) return;
+    isDragging = false;
+    var diff = touchStartX - e.changedTouches[0].clientX;
+    track.style.transition = 'transform 0.65s cubic-bezier(0.4, 0, 0.2, 1)';
+    if (Math.abs(diff) > 50) {
+      diff > 0 ? goTo(current + 1) : goTo(current - 1);
+    } else {
+      goTo(current); /* snap back if swipe too short */
+    }
+    resetTimer();
+  }, { passive: true });
+
+  resetTimer();
 })();
 </script>
 
