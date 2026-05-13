@@ -35,66 +35,21 @@
 
 <?php include 'header.php'; ?>
 
+<!-- ══ HERO SLIDER ══════════════════════════════ -->
 <section class="rg-hero-slider" id="home">
   <div class="rg-hs-track" id="rgHsTrack">
-    <div class="rg-hs-slide"><img src="rj banner 1.png" alt="Raj Aiswari Banner 1" width="1366" height="768"></div>
-    <div class="rg-hs-slide"><img src="rj banner 2.png" alt="Raj Aiswari Banner 2" width="1366" height="768"></div>
-    <div class="rg-hs-slide"><img src="rj banner 3.png" alt="Raj Aiswari Banner 3" width="1366" height="768"></div>
-    <div class="rg-hs-slide"><img src="rj banner 4.png" alt="Raj Aiswari Banner 4" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="hero banner 1.png" alt="Raj Aiswari Banner 1" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="hero banner 2.png" alt="Raj Aiswari Banner 2" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="hero banner 3.png" alt="Raj Aiswari Banner 3" width="1366" height="768"></div>
+    <!-- <div class="rg-hs-slide"><img src="hero banner 4.png" alt="Raj Aiswari Banner 4" width="1366" height="768"></div> -->
   </div>
   <div class="rg-hs-dots">
     <button class="rg-hs-dot rg-hs-dot-active" data-i="0" aria-label="Slide 1"></button>
     <button class="rg-hs-dot" data-i="1" aria-label="Slide 2"></button>
     <button class="rg-hs-dot" data-i="2" aria-label="Slide 3"></button>
-    <button class="rg-hs-dot" data-i="3" aria-label="Slide 4"></button>
+    <!-- <button class="rg-hs-dot" data-i="3" aria-label="Slide 4"></button> -->
   </div>
 </section>
-
-<!-- ══ BANNER SLIDER ════════════════════════════
-<div class="rg-slider" id="rgSlider">
-
-  <div class="rg-slide rg-active">
-    <div class="rg-slide-body">
-      <span class="rg-slide-tag">Gold Testing Technology</span>
-      <h2 class="rg-slide-title">World-Class <em>Gold</em> Purity Testing</h2>
-      <p class="rg-slide-desc">Certified EDXRF and X-ray fluorescence analyzers from Fischer Germany — trusted by jewellers across Bangladesh.</p>
-    </div>
-  </div>
-
-  <div class="rg-slide">
-    <div class="rg-slide-body">
-      <span class="rg-slide-tag">Coating Measurement</span>
-      <h2 class="rg-slide-title">Precision <em>Coating</em> Thickness Gauges</h2>
-      <p class="rg-slide-desc">DFT, EDXRF, Beta Backscattering and Coulometric methods — complete coverage for every coating application.</p>
-    </div>
-  </div>
-
-  <div class="rg-slide">
-    <div class="rg-slide-body">
-      <span class="rg-slide-tag">Material Analysis</span>
-      <h2 class="rg-slide-title">Advanced <em>Material</em> Testing &amp; Analysis</h2>
-      <p class="rg-slide-desc">Comprehensive material characterization for quality control in manufacturing and research laboratories.</p>
-    </div>
-  </div>
-
-  <div class="rg-slide">
-    <div class="rg-slide-body">
-      <span class="rg-slide-tag">Since 1998</span>
-      <h2 class="rg-slide-title">Serving Bangladesh's <em>Gold</em> Sector</h2>
-      <p class="rg-slide-desc">Over 25 years of experience bringing the finest European and Asian precision technology to the Bangladeshi market.</p>
-    </div>
-  </div>
-
-  <button class="rg-slider-prev" id="rgSliderPrev">&#8592;</button>
-  <button class="rg-slider-next" id="rgSliderNext">&#8594;</button>
-  <div class="rg-slider-dots">
-    <div class="rg-sdot rg-active" data-i="0"></div>
-    <div class="rg-sdot" data-i="1"></div>
-    <div class="rg-sdot" data-i="2"></div>
-    <div class="rg-sdot" data-i="3"></div>
-  </div>
-
-</div> -->
 
 <!-- ══ STATS ══════════════════════════════════════ -->
 <div class="rg-stats-bar">
@@ -107,12 +62,16 @@
     <span class="rg-stat-label">Global Technology Partners</span>
   </div>
   <div class="rg-stat-item rg-reveal rg-d2">
-    <span class="rg-stat-num">500+</span>
-    <span class="rg-stat-label">Satisfied Clients</span>
+    <span class="rg-stat-num">45+</span>
+    <span class="rg-stat-label">Lab Setups Completed</span>
   </div>
   <div class="rg-stat-item rg-reveal rg-d3">
     <span class="rg-stat-num">4</span>
     <span class="rg-stat-label">Sister Concerns</span>
+  </div>
+  <div class="rg-stat-item rg-reveal rg-d4">
+    <span class="rg-stat-num">2000+</span>
+    <span class="rg-stat-label">of Satisfied Clients</span>
   </div>
 </div>
 
@@ -136,36 +95,6 @@
     <span class="rg-marquee-item"><a href="https://www.allprase.com" target="_blank" rel="noopener">All Prase Turkey</a><span class="rg-marquee-dot"></span></span>
   </div>
 </div>
-
-<!-- ══ ABOUT ══════════════════════════════════════ -->
-<section class="rg-section" id="about">
-  <div class="rg-about-grid">
-    <div class="rg-about-images rg-reveal">
-      <img class="rg-about-img-main"   src="lab-customer.jpg" alt="Gold testing laboratory" width="800" height="600">
-      <img class="rg-about-img-accent" src="jewlry-testing-machne.jpg" alt="Precision measurement" width="600" height="450">
-      <div class="rg-about-badge">
-        <b>25</b>
-        <small>Years</small>
-      </div>
-    </div>
-    <div class="rg-about-text">
-      <div class="rg-eyebrow rg-reveal">Our Story</div>
-      <h2 class="rg-section-title rg-reveal">Pioneering Gold <em>Technology</em> in Bangladesh</h2>
-      <div class="rg-gold-rule rg-reveal"></div>
-      <p class="rg-reveal">Raj Aiswari is a name synonymous with focused technology in Bangladesh's gold sector. Since 1998, we have been at the forefront of transforming how the nation approaches gold testing, measurement, and quality assurance.</p>
-      <p class="rg-reveal rg-d1">We are the authorized representative for Fischer Measurement Technologies in Bangladesh, bringing German precision engineering alongside world-class partners from Italy, Switzerland, Hong Kong, and Turkey.</p>
-      <p class="rg-reveal rg-d2">With more than 50 years of combined competency in our field, we deliver not just machines — but confidence, accuracy, and trust to every workshop and lab we serve.</p>
-      <div class="rg-partner-chips rg-reveal rg-d3">
-        <span class="rg-chip">Fischer Germany</span>
-        <span class="rg-chip">Sisma Italy</span>
-        <span class="rg-chip">Omper Italy</span>
-        <span class="rg-chip">Mettler Swiss</span>
-        <span class="rg-chip">Dougo Lager HK</span>
-        <span class="rg-chip">All Prase Turkey</span>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- ══ PRODUCTS ═════════════════════════════════ -->
 <section class="rg-section rg-products-bg" id="products">
@@ -262,135 +191,41 @@
   </div>
 </section>
 
-<section class="rg-section" id="why">
-  <div class="rg-eyebrow rg-reveal">Why Raj Aiswari</div>
-  <h2 class="rg-section-title rg-reveal">Built on Trust, <em>Driven</em> by Precision</h2>
-  <div class="rg-why-grid">
-    <div class="rg-why-card rg-reveal">
-      <div class="rg-why-icon">⚙️</div>
-      <h3>Best Quality Machines</h3>
-      <p>World-class certified instruments from Germany, Italy, and Switzerland — your lab will operate at the highest standard of accuracy.</p>
+<!-- ══ ABOUT ══════════════════════════════════════ -->
+<section class="rg-section" id="about">
+  <div class="rg-about-grid">
+    <div class="rg-about-images rg-reveal">
+      <img class="rg-about-img-main"   src="lab-customer.jpg" alt="Gold testing laboratory" width="800" height="600">
+      <img class="rg-about-img-accent" src="jewlry-testing-machne.jpg" alt="Precision measurement" width="600" height="450">
+      <div class="rg-about-badge">
+        <b>25</b>
+        <small>Years</small>
+      </div>
     </div>
-    <div class="rg-why-card rg-reveal rg-d1">
-      <div class="rg-why-icon">🛠️</div>
-      <h3>Fast Maintenance</h3>
-      <p>Rapid on-site technical support with a 30-minute response guarantee — minimizing downtime and maximizing productivity.</p>
-    </div>
-    <div class="rg-why-card rg-reveal rg-d2">
-      <div class="rg-why-icon">🌍</div>
-      <h3>Global Partnerships</h3>
-      <p>8+ international technology leaders — we bring the world's most advanced precision tools directly to Bangladesh's gold market.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ══ GALLERY ════════════════════════════════ -->
-<section class="rg-section rg-gallery-bg" id="gallery" style="padding-bottom:0;">
-  <div class="rg-eyebrow rg-reveal">Visual Showcase</div>
-  <h2 class="rg-section-title rg-reveal" style="margin-bottom:32px;">From the <em>Lab</em> to the Market</h2>
-  <div class="rg-gallery-grid">
-    <div class="rg-gal-item">
-      <img src="lab-to-market.jpg" alt="Lab to market" width="800" height="560">
-      <div class="rg-gal-overlay"></div>
-    </div>
-    <div class="rg-gal-item">
-      <img src="interview.jpg" alt="Interview" width="600" height="400">
-      <div class="rg-gal-overlay"></div>
-    </div>
-    <div class="rg-gal-item">
-      <img src="machines.jpg" alt="Machines" width="600" height="400">
-      <div class="rg-gal-overlay"></div>
-    </div>
-    <div class="rg-gal-item">
-      <img src="lab-customer.jpg" alt="Lab customer" width="600" height="400">
-      <div class="rg-gal-overlay"></div>
-    </div>
-    <div class="rg-gal-item">
-      <img src="laser.jpg" alt="Laser" width="600" height="400">
-      <div class="rg-gal-overlay"></div>
+    <div class="rg-about-text">
+      <div class="rg-eyebrow rg-reveal">Our Story</div>
+      <h2 class="rg-section-title rg-reveal">Pioneering Gold <em>Technology</em> in Bangladesh</h2>
+      <div class="rg-gold-rule rg-reveal"></div>
+      <p class="rg-reveal">Raj Aiswari is a name synonymous with focused technology in Bangladesh's gold sector. Since 1998, we have been at the forefront of transforming how the nation approaches gold testing, measurement, and quality assurance.</p>
+      <p class="rg-reveal rg-d1">We are the authorized representative for Fischer Measurement Technologies in Bangladesh, bringing German precision engineering alongside world-class partners from Italy, Switzerland, Hong Kong, and Turkey.</p>
+      <p class="rg-reveal rg-d2">With more than 50 years of combined competency in our field, we deliver not just machines — but confidence, accuracy, and trust to every workshop and lab we serve.</p>
+      <div class="rg-partner-chips rg-reveal rg-d3">
+        <span class="rg-chip">Fischer Germany</span>
+        <span class="rg-chip">Sisma Italy</span>
+        <span class="rg-chip">Omper Italy</span>
+        <span class="rg-chip">Mettler Swiss</span>
+        <span class="rg-chip">Dougo Lager HK</span>
+        <span class="rg-chip">All Prase Turkey</span>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ══ TESTIMONIAL ═══════════════════════════ -->
-<section class="rg-section-sm rg-testi-bg">
-  <div class="rg-testi-inner">
-    <p class="rg-testi-text rg-reveal">Raj Aiswari has been instrumental in elevating the precision and quality of Bangladesh's gold sector. Their knowledge, technology, and service are unmatched in the region.</p>
-    <div class="rg-testi-author rg-reveal rg-d1">— Fischer Germany, Technology Partner</div>
-  </div>
-</section>
-
-<!-- ══ SISTER CONCERNS (NEW SECTION) ═══════════ -->
-<section class="rg-section" id="sister-concerns" style="background:var(--rg-bg2,#F7F2E8);">
-  <div style="text-align:center;">
-    <div class="rg-eyebrow rg-reveal" style="justify-content:center;">Our Business Group</div>
-    <h2 class="rg-section-title rg-reveal">Sister <em>Concerns</em></h2>
-    <p style="color:var(--rg-muted);font-size:0.92rem;font-weight:300;max-width:560px;margin:8px auto 0;line-height:1.7;" class="rg-reveal">Four businesses, one shared vision — serving Bangladesh's gold industry with trust and quality since 1998.</p>
-  </div>
-  <div class="rg-sc-home-grid">
-
-    <a href="sc-raj-aiswari.php" class="rg-sc-home-card rg-reveal">
-      <div class="rg-sc-home-img">
-        <img src="lab-to-market.jpg" alt="Raj Aiswari Machinery" width="400" height="280">
-        <div class="rg-sc-home-badge">Est. 2018</div>
-      </div>
-      <div class="rg-sc-home-body">
-        <span class="rg-sc-home-tag">Equipment</span>
-        <h3>Raj Aiswari Machinery</h3>
-        <p>Authorized Fischer Germany partner — XRF gold testing machines across Bangladesh.</p>
-        <span class="rg-sc-home-link">Learn More →</span>
-      </div>
-    </a>
-
-    <a href="sc-gold-testing-center.php" class="rg-sc-home-card rg-reveal rg-d1">
-      <div class="rg-sc-home-img">
-        <img src="lab-customer.jpg" alt="Gold Testing Center" width="400" height="280">
-        <div class="rg-sc-home-badge">Est. 2015</div>
-      </div>
-      <div class="rg-sc-home-body">
-        <span class="rg-sc-home-tag">Laboratory</span>
-        <h3>Gold Testing Center</h3>
-        <p>Advanced XRF gold testing lab in Chattogram — instant, accurate, non-destructive.</p>
-        <span class="rg-sc-home-link">Learn More →</span>
-      </div>
-    </a>
-
-    <a href="sc-ms-raj-aiswari.php" class="rg-sc-home-card rg-reveal rg-d2">
-      <div class="rg-sc-home-img">
-        <img src="melting.png" alt="M/S Raj Aiswari Factory" width="400" height="280">
-        <div class="rg-sc-home-badge">Est. 2023</div>
-      </div>
-      <div class="rg-sc-home-body">
-        <span class="rg-sc-home-tag">Manufacturing</span>
-        <h3>M/S Raj Aiswari</h3>
-        <p>Automated Italian gold chain factory — Dubai-level finishing quality.</p>
-        <span class="rg-sc-home-link">Learn More →</span>
-      </div>
-    </a>
-
-    <a href="sc-chain-house.php" class="rg-sc-home-card rg-reveal rg-d3">
-      <div class="rg-sc-home-img">
-        <img src="chain-house-3.jpg" alt="Chain House" width="400" height="280">
-        <div class="rg-sc-home-badge">Est. 1998</div>
-      </div>
-      <div class="rg-sc-home-body">
-        <span class="rg-sc-home-tag">Handcrafted</span>
-        <h3>Chain House</h3>
-        <p>Traditional handcrafted gold chains — the foundation of our legacy since 1998.</p>
-        <span class="rg-sc-home-link">Learn More →</span>
-      </div>
-    </a>
-
-  </div>
-  <div style="text-align:center;margin-top:36px;" class="rg-reveal">
-    <a href="sister-concern.php" class="rg-btn-gold" style="background:var(--rg-gold);color:#fff;padding:12px 32px;font-size:0.82rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;display:inline-block;transition:background 0.3s;">View All Sister Concerns →</a>
-  </div>
-</section>
-
-<!-- ══ CLIENTS ════════════════════════════════ -->
-<section class="rg-section rg-clients-bg" id="clients">
-  <div class="rg-eyebrow rg-reveal" style="justify-content:center;">Our Partners &amp; Network</div>
-  <h2 class="rg-section-title rg-reveal" style="text-align:center;">Trusted by <em>Industry</em> Leaders</h2>
+<!-- ══ GLOBAL TECHNOLOGY PARTNERS ════════════════ -->
+<section class="rg-section rg-clients-bg" id="partners">
+  <div class="rg-eyebrow rg-reveal" style="justify-content:center;">Sourced from the World's Best</div>
+  <h2 class="rg-section-title rg-reveal" style="text-align:center;">Our Global <em>Technology Partners</em></h2>
+  <p style="color:var(--rg-muted);font-size:0.92rem;font-weight:300;max-width:560px;margin:8px auto 36px;line-height:1.75;text-align:center;" class="rg-reveal">We source our machines directly from these world-renowned manufacturers — bringing their precision technology to Bangladesh's gold sector.</p>
   <div class="rg-clients-grid">
 
     <a href="https://www.helmut-fischer.com/" target="_blank" rel="noopener" class="rg-client-card rg-reveal">
@@ -450,7 +285,134 @@
   </div>
 </section>
 
-<!-- ══ TESTIMONIALS ══════════════════════════ -->
+
+<!-- ══ WHY US ══════════════════════════════════════ -->
+<section class="rg-section" id="why">
+  <div class="rg-eyebrow rg-reveal">Why Raj Aiswari</div>
+  <h2 class="rg-section-title rg-reveal">Built on Trust, <em>Driven</em> by Precision</h2>
+  <div class="rg-why-grid">
+    <div class="rg-why-card rg-reveal">
+      <div class="rg-why-icon">⚙️</div>
+      <h3>Best Quality Machines</h3>
+      <p>World-class certified instruments from Germany, Italy, and Switzerland — your lab will operate at the highest standard of accuracy.</p>
+    </div>
+    <div class="rg-why-card rg-reveal rg-d1">
+      <div class="rg-why-icon">🛠️</div>
+      <h3>Fast Maintenance</h3>
+      <p>Rapid on-site technical support with a 30-minute response guarantee — minimizing downtime and maximizing productivity.</p>
+    </div>
+    <div class="rg-why-card rg-reveal rg-d2">
+      <div class="rg-why-icon">🌍</div>
+      <h3>Global Partnerships</h3>
+      <p>8+ international technology leaders — we bring the world's most advanced precision tools directly to Bangladesh's gold market.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SISTER CONCERNS ═══════════════════════════ -->
+<section class="rg-section" id="sister-concerns" style="background:var(--rg-bg2,#F7F2E8);">
+  <div style="text-align:center;">
+    <div class="rg-eyebrow rg-reveal" style="justify-content:center;">Our Business Group</div>
+    <h2 class="rg-section-title rg-reveal">Sister <em>Concerns</em></h2>
+    <p style="color:var(--rg-muted);font-size:0.92rem;font-weight:300;max-width:560px;margin:8px auto 0;line-height:1.7;" class="rg-reveal">Four businesses, one shared vision — serving Bangladesh's gold industry with trust and quality since 1998.</p>
+  </div>
+  <div class="rg-sc-home-grid">
+
+    <a href="sc-raj-aiswari.php" class="rg-sc-home-card rg-reveal">
+      <div class="rg-sc-home-img">
+        <img src="lab-to-market.jpg" alt="Raj Aiswari Machinery" width="400" height="280">
+        <div class="rg-sc-home-badge">Est. 2018</div>
+      </div>
+      <div class="rg-sc-home-body">
+        <span class="rg-sc-home-tag">Equipment</span>
+        <h3>Raj Aiswari Machinery</h3>
+        <!-- <p>Authorized Fischer Germany partner — XRF gold testing machines across Bangladesh.</p> -->
+        <span class="rg-sc-home-link">Learn More →</span>
+      </div>
+    </a>
+
+    <a href="sc-gold-testing-center.php" class="rg-sc-home-card rg-reveal rg-d1">
+      <div class="rg-sc-home-img">
+        <img src="lab-customer.jpg" alt="Gold Testing Center" width="400" height="280">
+        <div class="rg-sc-home-badge">Est. 2015</div>
+      </div>
+      <div class="rg-sc-home-body">
+        <span class="rg-sc-home-tag">Laboratory</span>
+        <h3>Rajaiswari Gold Testing Center</h3>
+        <!-- <p>Advanced XRF gold testing lab in Chattogram — instant, accurate, non-destructive.</p> -->
+        <span class="rg-sc-home-link">Learn More →</span>
+      </div>
+    </a>
+
+    <a href="sc-ms-raj-aiswari.php" class="rg-sc-home-card rg-reveal rg-d2">
+      <div class="rg-sc-home-img">
+        <img src="melting.png" alt="M/S Raj Aiswari Factory" width="400" height="280">
+        <div class="rg-sc-home-badge">Est. 2023</div>
+      </div>
+      <div class="rg-sc-home-body">
+        <span class="rg-sc-home-tag">Manufacturing</span>
+        <h3>M/S Raj Aiswari</h3>
+        <!-- <p>Automated Italian gold chain factory — Dubai-level finishing quality.</p> -->
+        <span class="rg-sc-home-link">Learn More →</span>
+      </div>
+    </a>
+
+    <a href="sc-chain-house.php" class="rg-sc-home-card rg-reveal rg-d3">
+      <div class="rg-sc-home-img">
+        <img src="chain-house-3.jpg" alt="Chain House" width="400" height="280">
+        <div class="rg-sc-home-badge">Est. 1998</div>
+      </div>
+      <div class="rg-sc-home-body">
+        <span class="rg-sc-home-tag">Handcrafted</span>
+        <h3>Rajaiswari Chain House</h3>
+        <!-- <p>Traditional handcrafted gold chains — the foundation of our legacy since 1998.</p> -->
+        <span class="rg-sc-home-link">Learn More →</span>
+      </div>
+    </a>
+
+  </div>
+  <div style="text-align:center;margin-top:36px;" class="rg-reveal">
+    <a href="sister-concern.php" class="rg-btn-gold" style="background:var(--rg-gold);color:#fff;padding:12px 32px;font-size:0.82rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;display:inline-block;transition:background 0.3s;">View All Sister Concerns →</a>
+  </div>
+</section>
+
+<!-- ══ GALLERY ════════════════════════════════ -->
+<section class="rg-section rg-gallery-bg" id="gallery" style="padding-bottom:0;">
+  <div class="rg-eyebrow rg-reveal">Visual Showcase</div>
+  <h2 class="rg-section-title rg-reveal" style="margin-bottom:32px;">From the <em>Lab</em> to the Market</h2>
+  <div class="rg-gallery-grid">
+    <div class="rg-gal-item">
+      <img src="lab-to-market.jpg" alt="Lab to market" width="800" height="560">
+      <div class="rg-gal-overlay"></div>
+    </div>
+    <div class="rg-gal-item">
+      <img src="interview.jpg" alt="Interview" width="600" height="400">
+      <div class="rg-gal-overlay"></div>
+    </div>
+    <div class="rg-gal-item">
+      <img src="machines.jpg" alt="Machines" width="600" height="400">
+      <div class="rg-gal-overlay"></div>
+    </div>
+    <div class="rg-gal-item">
+      <img src="lab-customer.jpg" alt="Lab customer" width="600" height="400">
+      <div class="rg-gal-overlay"></div>
+    </div>
+    <div class="rg-gal-item">
+      <img src="laser.jpg" alt="Laser" width="600" height="400">
+      <div class="rg-gal-overlay"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TESTIMONIAL PULLQUOTE ═══════════════════ -->
+<section class="rg-section-sm rg-testi-bg">
+  <div class="rg-testi-inner">
+    <p class="rg-testi-text rg-reveal">Raj Aiswari has been instrumental in elevating the precision and quality of Bangladesh's gold sector. Their knowledge, technology, and service are unmatched in the region.</p>
+    <div class="rg-testi-author rg-reveal rg-d1">— Fischer Germany, Technology Partner</div>
+  </div>
+</section>
+
+<!-- ══ TESTIMONIALS CAROUSEL ══════════════════ -->
 <section class="rg-testi-section">
   <div class="rg-testi-wrap">
 
@@ -461,17 +423,14 @@
     <!-- Carousel -->
     <div class="rg-ts-carousel">
 
-      <!-- Prev -->
       <button class="rg-ts-arrow rg-ts-prev" id="rgTsPrev" aria-label="Previous">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
       </button>
 
-      <!-- Viewport — only shows 3 cards wide -->
       <div class="rg-ts-viewport" id="rgTsViewport">
         <div class="rg-ts-track" id="rgTsTrack">
 
           <div class="rg-ts-card">
-            <div class="rg-ts-quote">&#8220;</div>
             <div class="rg-ts-logo-wrap">
               <img src="https://ui-avatars.com/api/?name=QG&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Qlik Gold" width="56" height="56" class="rg-ts-logo">
             </div>
@@ -480,7 +439,6 @@
           </div>
 
           <div class="rg-ts-card">
-            <div class="rg-ts-quote">&#8220;</div>
             <div class="rg-ts-logo-wrap">
               <img src="https://ui-avatars.com/api/?name=RA&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Raj Aiswari" width="56" height="56" class="rg-ts-logo">
             </div>
@@ -489,7 +447,6 @@
           </div>
 
           <div class="rg-ts-card">
-            <div class="rg-ts-quote">&#8220;</div>
             <div class="rg-ts-logo-wrap">
               <img src="https://ui-avatars.com/api/?name=FC&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Fischer" width="56" height="56" class="rg-ts-logo">
             </div>
@@ -498,7 +455,6 @@
           </div>
 
           <div class="rg-ts-card">
-            <div class="rg-ts-quote">&#8220;</div>
             <div class="rg-ts-logo-wrap">
               <img src="https://ui-avatars.com/api/?name=RK&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Ranka Jewellers" width="56" height="56" class="rg-ts-logo">
             </div>
@@ -507,7 +463,6 @@
           </div>
 
           <div class="rg-ts-card">
-            <div class="rg-ts-quote">&#8220;</div>
             <div class="rg-ts-logo-wrap">
               <img src="https://ui-avatars.com/api/?name=MT&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Mettler" width="56" height="56" class="rg-ts-logo">
             </div>
@@ -518,14 +473,12 @@
         </div>
       </div>
 
-      <!-- Next -->
       <button class="rg-ts-arrow rg-ts-next" id="rgTsNext" aria-label="Next">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
       </button>
 
     </div><!-- end carousel -->
 
-    <!-- Dots -->
     <div class="rg-ts-dots" id="rgTsDots"></div>
 
   </div>
@@ -611,42 +564,29 @@
 
 <?php include 'footer.php'; ?>
 
-<!-- ══ TESTIMONIAL SECTION CSS & JS ══════════ -->
+<!-- ══ STYLES ════════════════════════════════════ -->
 <style>
+/* ── Hero Slider ─────────────────────────────── */
 .rg-hero-slider {
   position: relative;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  margin-top: 72px;
+  margin-top: 0;
 }
-
 @media (max-width: 768px) {
-  .rg-hero-slider {
-    margin-top: 60px;
-  }
+  .rg-hero-slider { margin-top: 60px; }
 }
-
 .rg-hs-track {
   display: flex;
   width: 100%;
   transition: transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: transform;
 }
+.rg-hs-slide { flex: 0 0 100%; width: 100%; }
+.rg-hs-slide img { display: block; width: 100%; height: auto; object-fit: cover; }
 
-.rg-hs-slide {
-  flex: 0 0 100%;
-  width: 100%;
-}
-
-.rg-hs-slide img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-/* ── Dots ───────────────────────────────────────── */
+/* ── Slider Dots ─────────────────────────────── */
 .rg-hs-dots {
   position: absolute;
   bottom: 16px;
@@ -657,13 +597,11 @@
   z-index: 10;
 }
 .rg-hs-dot {
-  width: 9px;
-  height: 9px;
+  width: 9px; height: 9px;
   border-radius: 50%;
-  border: 1.5px solid rgba(184, 136, 30, 0.55);
+  border: 1.5px solid rgba(184,136,30,0.55);
   background: transparent;
-  cursor: pointer;
-  padding: 0;
+  cursor: pointer; padding: 0;
   transition: background 0.3s, border-color 0.3s, transform 0.3s;
 }
 .rg-hs-dot.rg-hs-dot-active {
@@ -671,7 +609,35 @@
   border-color: var(--rg-gold, #B8881E);
   transform: scale(1.25);
 }
-/* ── Section ─────────────────────────────── */
+
+/* ── Stats Bar — now 5 items ─────────────────── */
+.rg-stats-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Override any fixed grid that assumed 4 columns */
+.rg-stat-item {
+  flex: 1 1 0;
+  min-width: 120px;
+}
+@media (max-width: 700px) {
+  .rg-stats-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .rg-stat-item:last-child:nth-child(odd) {
+    grid-column: 1 / -1; /* spans full width if it's alone on a row */
+  }
+}
+@media (max-width: 400px) {
+  .rg-stat-item { flex: 0 0 100%; }
+}
+
+/* ── Partners section description ────────────── */
+#partners .rg-section-title { margin-bottom: 4px; }
+
+/* ── Testimonial Section ─────────────────────── */
 .rg-testi-section {
   background: var(--rg-dark);
   padding: 80px clamp(20px, 6vw, 80px) 72px;
@@ -691,15 +657,10 @@
   line-height: 1.75; max-width: 540px; margin: 0 auto 44px;
 }
 
-/* ── Carousel shell ──────────────────────── */
-.rg-ts-carousel {
-  display: flex; align-items: center; gap: 12px;
-}
-
-/* ── Arrows ──────────────────────────────── */
+/* ── Carousel ────────────────────────────────── */
+.rg-ts-carousel { display: flex; align-items: center; gap: 12px; }
 .rg-ts-arrow {
-  flex-shrink: 0;
-  width: 40px; height: 40px;
+  flex-shrink: 0; width: 40px; height: 40px;
   background: rgba(253,250,244,0.06);
   border: 1px solid var(--rg-gold-border);
   color: rgba(253,250,244,0.6);
@@ -709,61 +670,41 @@
 }
 .rg-ts-arrow:hover { background: var(--rg-gold); border-color: var(--rg-gold); color: #fff; }
 .rg-ts-arrow:disabled { opacity: 0.25; cursor: default; pointer-events: none; }
-
-/* ── Viewport (clips overflow) ───────────── */
-.rg-ts-viewport {
-  flex: 1; overflow: hidden;
-}
-
-/* ── Track (slides horizontally) ─────────── */
+.rg-ts-viewport { flex: 1; overflow: hidden; }
 .rg-ts-track {
-  display: flex;
-  gap: 20px;
+  display: flex; gap: 20px;
   transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: transform;
 }
-
-/* ── Each card — fixed width = 1/3 viewport ─ */
 .rg-ts-card {
-  flex: 0 0 calc((100% - 40px) / 3);   /* 3 cards + 2 gaps */
+  flex: 0 0 calc((100% - 40px) / 3);
   background: rgba(253,250,244,0.04);
   border: 1px solid var(--rg-gold-border);
-  border-radius: 4px;
-  padding: 32px 24px 24px;
-  text-align: left;
-  position: relative;
+  border-radius: 4px; padding: 32px 24px 24px;
+  text-align: left; position: relative;
   transition: border-color 0.3s, background 0.3s, transform 0.3s;
   box-sizing: border-box;
 }
 .rg-ts-card:hover { border-color: var(--rg-gold); background: rgba(184,136,30,0.06); transform: translateY(-4px); }
 .rg-ts-card::before { content: ''; position: absolute; top: 0; left: 0; width: 0; height: 2px; background: var(--rg-gold); transition: width 0.4s; }
 .rg-ts-card:hover::before { width: 100%; }
-
-/* Quote mark */
 .rg-ts-quote {
   font-family: 'Cormorant Garamond', serif;
   font-size: 3.6rem; line-height: 0.85;
   color: var(--rg-gold); opacity: 0.55;
-  display: block; margin-bottom: 10px;
-  user-select: none;
+  display: block; margin-bottom: 10px; user-select: none;
 }
-
-/* Logo */
 .rg-ts-logo-wrap { margin-bottom: 14px; }
 .rg-ts-logo { width: 52px; height: 52px; border-radius: 50%; border: 1.5px solid var(--rg-gold-border); object-fit: cover; background: var(--rg-bg2); }
-
-/* Text */
 .rg-ts-text {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1rem; font-style: italic; font-weight: 300;
   color: rgba(253,250,244,0.75); line-height: 1.75; margin-bottom: 18px;
 }
-
-/* Author */
 .rg-ts-author { font-size: 0.63rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--rg-gold); font-weight: 600; }
 .rg-ts-author::before { content: '— '; }
 
-/* ── Dots ─────────────────────────────────── */
+/* ── Carousel Dots ───────────────────────────── */
 .rg-ts-dots { display: flex; justify-content: center; gap: 8px; margin-top: 32px; }
 .rg-ts-dot {
   width: 8px; height: 8px; border-radius: 50%;
@@ -773,7 +714,7 @@
 }
 .rg-ts-dot.rg-ts-dot-active { background: var(--rg-gold); border-color: var(--rg-gold); }
 
-/* ── Sister Concern Home Grid ─────────────── */
+/* ── Sister Concerns Grid ────────────────────── */
 .rg-sc-home-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -783,132 +724,77 @@
 .rg-sc-home-card {
   background: var(--rg-white, #FFFFFF);
   border: 1px solid var(--rg-gold-border, rgba(184,136,30,0.22));
-  border-radius: 4px;
-  overflow: hidden;
-  text-decoration: none;
-  color: inherit;
+  border-radius: 4px; overflow: hidden;
+  text-decoration: none; color: inherit;
   transition: box-shadow 0.4s, transform 0.4s, border-color 0.4s;
 }
-.rg-sc-home-card:hover {
-  box-shadow: 0 12px 40px rgba(120,90,30,0.14);
-  transform: translateY(-6px);
-  border-color: var(--rg-gold, #B8881E);
-}
-.rg-sc-home-img {
-  position: relative;
-  height: 200px;
-  overflow: hidden;
-}
-.rg-sc-home-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: saturate(0.8);
-  transition: transform 0.6s ease, filter 0.4s ease;
-}
-.rg-sc-home-card:hover .rg-sc-home-img img {
-  transform: scale(1.05);
-  filter: saturate(1);
-}
+.rg-sc-home-card:hover { box-shadow: 0 12px 40px rgba(120,90,30,0.14); transform: translateY(-6px); border-color: var(--rg-gold, #B8881E); }
+.rg-sc-home-img { position: relative; height: 200px; overflow: hidden; }
+.rg-sc-home-img img { width: 100%; height: 100%; object-fit: cover; filter: saturate(0.8); transition: transform 0.6s ease, filter 0.4s ease; }
+.rg-sc-home-card:hover .rg-sc-home-img img { transform: scale(1.05); filter: saturate(1); }
 .rg-sc-home-badge {
-  position: absolute;
-  bottom: 12px;
-  left: 12px;
-  font-size: 0.58rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #FDFAF4;
-  background: rgba(28,26,22,0.7);
-  backdrop-filter: blur(8px);
-  padding: 4px 10px;
-  border-radius: 2px;
+  position: absolute; bottom: 12px; left: 12px;
+  font-size: 0.58rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+  color: #FDFAF4; background: rgba(28,26,22,0.7); backdrop-filter: blur(8px);
+  padding: 4px 10px; border-radius: 2px;
 }
-.rg-sc-home-body {
-  padding: 20px;
-}
-.rg-sc-home-tag {
-  font-size: 0.58rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--rg-gold, #B8881E);
-}
+.rg-sc-home-body { padding: 20px; }
+.rg-sc-home-tag { font-size: 0.58rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--rg-gold, #B8881E); }
 .rg-sc-home-body h3 {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--rg-dark, #1C1A16);
-  margin: 6px 0 8px;
-  line-height: 1.2;
+  font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-weight: 600;
+  color: var(--rg-dark, #1C1A16); margin: 6px 0 8px; line-height: 1.2;
 }
-.rg-sc-home-body p {
-  color: var(--rg-muted, #7A7060);
-  font-size: 0.82rem;
-  font-weight: 300;
-  line-height: 1.6;
-}
+.rg-sc-home-body p { color: var(--rg-muted, #7A7060); font-size: 0.82rem; font-weight: 300; line-height: 1.6; }
 .rg-sc-home-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  margin-top: 14px;
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--rg-gold, #B8881E);
-  transition: gap 0.2s;
+  display: inline-flex; align-items: center; gap: 4px; margin-top: 14px;
+  font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--rg-gold, #B8881E); transition: gap 0.2s;
 }
-.rg-sc-home-card:hover .rg-sc-home-link {
-  gap: 8px;
-}
+.rg-sc-home-card:hover .rg-sc-home-link { gap: 8px; }
 
-/* ── Responsive ─────────────────────────── */
+/* ── Responsive ──────────────────────────────── */
 @media (max-width: 900px) {
-  .rg-ts-card { flex: 0 0 calc((100% - 20px) / 2); }  /* 2 cards */
+  .rg-ts-card { flex: 0 0 calc((100% - 20px) / 2); }
   .rg-sc-home-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 560px) {
-  .rg-ts-card { flex: 0 0 100%; }                       /* 1 card */
+  .rg-ts-card { flex: 0 0 100%; }
   .rg-testi-section { padding: 60px 20px 52px; }
-  .rg-sc-home-grid { grid-template-columns: 1fr; }
-  .rg-sc-home-img { height: 180px; }
+  .rg-sc-home-grid { 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 12px;
+  }
+  .rg-sc-home-img { height: 140px; } 
+  .rg-sc-home-body { padding: 12px; } 
+  .rg-sc-home-body h3 { font-size: 1rem; }
 }
 </style>
 
+<!-- ══ SCRIPTS ════════════════════════════════════ -->
 <script>
+/* ── Testimonials Carousel ── */
 (function () {
   var track    = document.getElementById('rgTsTrack');
   var viewport = document.getElementById('rgTsViewport');
   var dotsWrap = document.getElementById('rgTsDots');
   var prevBtn  = document.getElementById('rgTsPrev');
   var nextBtn  = document.getElementById('rgTsNext');
-
   if (!track) return;
+  var cards   = track.querySelectorAll('.rg-ts-card');
+  var total   = cards.length;
+  var current = 0;
 
-  var cards      = track.querySelectorAll('.rg-ts-card');
-  var total      = cards.length;
-  var current    = 0;
-
-  /* How many cards visible depends on breakpoint */
   function visibleCount() {
     var w = window.innerWidth;
     if (w <= 560) return 1;
     if (w <= 900) return 2;
     return 3;
   }
-
-  /* Max offset index */
   function maxIdx() { return Math.max(0, total - visibleCount()); }
-
-  /* Calculate px offset for one card + gap */
   function cardWidth() {
     if (!cards[0]) return 0;
-    var gap = 20;
-    return cards[0].getBoundingClientRect().width + gap;
+    return cards[0].getBoundingClientRect().width + 20;
   }
-
   function goTo(idx) {
     current = Math.max(0, Math.min(idx, maxIdx()));
     track.style.transform = 'translateX(-' + (current * cardWidth()) + 'px)';
@@ -916,8 +802,6 @@
     prevBtn.disabled = current === 0;
     nextBtn.disabled = current >= maxIdx();
   }
-
-  /* Build dots — one per possible offset position */
   function buildDots() {
     dotsWrap.innerHTML = '';
     var count = maxIdx() + 1;
@@ -929,39 +813,29 @@
       dotsWrap.appendChild(btn);
     }
   }
-
   function updateDots() {
     var dots = dotsWrap.querySelectorAll('.rg-ts-dot');
-    dots.forEach(function(d, i) {
-      d.classList.toggle('rg-ts-dot-active', i === current);
-    });
+    dots.forEach(function(d, i) { d.classList.toggle('rg-ts-dot-active', i === current); });
   }
-
   prevBtn.addEventListener('click', function () { goTo(current - 1); });
   nextBtn.addEventListener('click', function () { goTo(current + 1); });
-
-  /* Rebuild on resize */
   var resizeTimer;
   window.addEventListener('resize', function () {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(function () { buildDots(); goTo(Math.min(current, maxIdx())); }, 120);
   });
-
-  /* Auto-advance every 5s */
-  setInterval(function () {
-    goTo(current >= maxIdx() ? 0 : current + 1);
-  }, 5000);
-
-  /* Init */
+  setInterval(function () { goTo(current >= maxIdx() ? 0 : current + 1); }, 5000);
   buildDots();
   goTo(0);
 })();
 </script>
+
 <script>
+/* ── Hero Slider ── */
 (function () {
   var track   = document.getElementById('rgHsTrack');
   var dots    = document.querySelectorAll('.rg-hs-dot');
-  var total   = 4;
+  var total   = 3;
   var current = 0;
   var timer;
 
@@ -969,55 +843,37 @@
     current = (idx + total) % total;
     track.style.transition = 'transform 0.65s cubic-bezier(0.4, 0, 0.2, 1)';
     track.style.transform  = 'translateX(-' + (current * 100) + '%)';
-    dots.forEach(function (d, i) {
-      d.classList.toggle('rg-hs-dot-active', i === current);
-    });
+    dots.forEach(function (d, i) { d.classList.toggle('rg-hs-dot-active', i === current); });
   }
-
   function resetTimer() {
     clearInterval(timer);
     timer = setInterval(function () { goTo(current + 1); }, 5000);
   }
-
   dots.forEach(function (d) {
-    d.addEventListener('click', function () {
-      goTo(parseInt(d.getAttribute('data-i')));
-      resetTimer();
-    });
+    d.addEventListener('click', function () { goTo(parseInt(d.getAttribute('data-i'))); resetTimer(); });
   });
 
-  /* ── Smooth touch swipe ── */
-  var touchStartX = 0;
-  var touchStartY = 0;
-  var isDragging  = false;
-
+  /* Touch swipe */
+  var touchStartX = 0, touchStartY = 0, isDragging = false;
   track.addEventListener('touchstart', function (e) {
-    touchStartX = e.touches[0].clientX;
-    touchStartY = e.touches[0].clientY;
-    isDragging  = true;
-    track.style.transition = 'none'; /* disable transition while dragging */
+    touchStartX = e.touches[0].clientX; touchStartY = e.touches[0].clientY;
+    isDragging = true; track.style.transition = 'none';
   }, { passive: true });
-
   track.addEventListener('touchmove', function (e) {
     if (!isDragging) return;
     var diffX = e.touches[0].clientX - touchStartX;
     var diffY = e.touches[0].clientY - touchStartY;
-    /* ignore vertical scrolls */
     if (Math.abs(diffY) > Math.abs(diffX)) return;
     var offset = -(current * 100) + (diffX / track.offsetWidth * 100);
     track.style.transform = 'translateX(' + offset + '%)';
   }, { passive: true });
-
   track.addEventListener('touchend', function (e) {
     if (!isDragging) return;
     isDragging = false;
     var diff = touchStartX - e.changedTouches[0].clientX;
     track.style.transition = 'transform 0.65s cubic-bezier(0.4, 0, 0.2, 1)';
-    if (Math.abs(diff) > 50) {
-      diff > 0 ? goTo(current + 1) : goTo(current - 1);
-    } else {
-      goTo(current); /* snap back if swipe too short */
-    }
+    if (Math.abs(diff) > 50) { diff > 0 ? goTo(current + 1) : goTo(current - 1); }
+    else { goTo(current); }
     resetTimer();
   }, { passive: true });
 
