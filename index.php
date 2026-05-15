@@ -413,74 +413,85 @@
 </section>
 
 <!-- ══ TESTIMONIALS CAROUSEL ══════════════════ -->
-<section class="rg-testi-section">
+<section class="rg-testi-section" id="testimonials">
   <div class="rg-testi-wrap">
 
     <div class="rg-eyebrow rg-reveal" style="justify-content:center;">Our Clients</div>
     <h2 class="rg-section-title rg-reveal" style="text-align:center;">Testimonials</h2>
-    <p class="rg-testi-sub rg-reveal">See what our customers have to say about our products, people and services. We are very proud of you all!</p>
+    <p class="rg-testi-sub rg-reveal">See what our customers have to say about our products, people and services.</p>
 
-    <!-- Carousel -->
     <div class="rg-ts-carousel">
-
       <button class="rg-ts-arrow rg-ts-prev" id="rgTsPrev" aria-label="Previous">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
       </button>
 
       <div class="rg-ts-viewport" id="rgTsViewport">
         <div class="rg-ts-track" id="rgTsTrack">
 
           <div class="rg-ts-card">
-            <div class="rg-ts-logo-wrap">
-              <img src="https://ui-avatars.com/api/?name=QG&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Qlik Gold" width="56" height="56" class="rg-ts-logo">
+            <div class="rg-ts-top">
+              <img src="https://ui-avatars.com/api/?name=QG&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Qlik Gold" width="44" height="44" class="rg-ts-logo">
+              <div>
+                <div class="rg-ts-author">Qlik Gold</div>
+                <div class="rg-ts-stars">★★★★★</div>
+              </div>
             </div>
             <p class="rg-ts-text">Raj Aiswari has experience in Gold Sector since 1998 and the technology sector since 2015. In this region they are the best representative of Fischer Germany. Their service and support are unmatched.</p>
-            <div class="rg-ts-author">Qlik Gold</div>
           </div>
 
           <div class="rg-ts-card">
-            <div class="rg-ts-logo-wrap">
-              <img src="https://ui-avatars.com/api/?name=RA&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Raj Aiswari" width="56" height="56" class="rg-ts-logo">
+            <div class="rg-ts-top">
+              <img src="https://ui-avatars.com/api/?name=RA&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Raj Aiswari" width="44" height="44" class="rg-ts-logo">
+              <div>
+                <div class="rg-ts-author">Raj Aiswari</div>
+                <div class="rg-ts-stars">★★★★★</div>
+              </div>
             </div>
             <p class="rg-ts-text">Raj Aiswari is dedicated to continuing customer lab support in every way. They have arranged all necessary things for our lab setup and ongoing calibration needs with great professionalism.</p>
-            <div class="rg-ts-author">Raj Aiswari</div>
           </div>
 
           <div class="rg-ts-card">
-            <div class="rg-ts-logo-wrap">
-              <img src="https://ui-avatars.com/api/?name=FC&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Fischer" width="56" height="56" class="rg-ts-logo">
+            <div class="rg-ts-top">
+              <img src="https://ui-avatars.com/api/?name=FC&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Fischer" width="44" height="44" class="rg-ts-logo">
+              <div>
+                <div class="rg-ts-author">Fischer Germany</div>
+                <div class="rg-ts-stars">★★★★★</div>
+              </div>
             </div>
-            <p class="rg-ts-text">We work with FISCHER Germany, Dougo Lager Hong Kong, OMPER Itali, SISMA Itali, ITALIMPIANTI Itali, All Prase Turkey, Metler Switzerland — and Raj Aiswari is our most trusted partner in Bangladesh.</p>
-            <div class="rg-ts-author">Fischer</div>
+            <p class="rg-ts-text">We work with FISCHER Germany, Dougo Lager Hong Kong, OMPER Italy, SISMA Italy, ITALIMPIANTI Italy, All Prase Turkey, Mettler Switzerland — and Raj Aiswari is our most trusted partner in Bangladesh.</p>
           </div>
 
           <div class="rg-ts-card">
-            <div class="rg-ts-logo-wrap">
-              <img src="https://ui-avatars.com/api/?name=RK&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Ranka Jewellers" width="56" height="56" class="rg-ts-logo">
+            <div class="rg-ts-top">
+              <img src="https://ui-avatars.com/api/?name=RK&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Ranka Jewellers" width="44" height="44" class="rg-ts-logo">
+              <div>
+                <div class="rg-ts-author">Ranka Jewellers</div>
+                <div class="rg-ts-stars">★★★★★</div>
+              </div>
             </div>
             <p class="rg-ts-text">Outstanding precision instruments and excellent after-sales service. Raj Aiswari's team has deep expertise in measurement technology and always ensures our lab remains fully operational.</p>
-            <div class="rg-ts-author">Ranka Jewellers</div>
           </div>
 
           <div class="rg-ts-card">
-            <div class="rg-ts-logo-wrap">
-              <img src="https://ui-avatars.com/api/?name=MT&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Mettler" width="56" height="56" class="rg-ts-logo">
+            <div class="rg-ts-top">
+              <img src="https://ui-avatars.com/api/?name=MT&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.45&rounded=true" alt="Mettler" width="44" height="44" class="rg-ts-logo">
+              <div>
+                <div class="rg-ts-author">Mettler Toledo</div>
+                <div class="rg-ts-stars">★★★★★</div>
+              </div>
             </div>
             <p class="rg-ts-text">Precision and reliability define every interaction with Raj Aiswari. Their deep knowledge of Fischer instruments and fast calibration service keeps our gold testing lab running without interruption.</p>
-            <div class="rg-ts-author">Mettler Toledo</div>
           </div>
 
         </div>
       </div>
 
       <button class="rg-ts-arrow rg-ts-next" id="rgTsNext" aria-label="Next">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
       </button>
-
-    </div><!-- end carousel -->
+    </div>
 
     <div class="rg-ts-dots" id="rgTsDots"></div>
-
   </div>
 </section>
 
@@ -637,82 +648,129 @@
 /* ── Partners section description ────────────── */
 #partners .rg-section-title { margin-bottom: 4px; }
 
-/* ── Testimonial Section ─────────────────────── */
+/* ══ TESTIMONIALS — light theme ══════════════ */
 .rg-testi-section {
-  background: var(--rg-dark);
-  padding: 80px clamp(20px, 6vw, 80px) 72px;
-  position: relative; overflow: hidden;
+  background: #F7F2E8;
+  padding: 72px clamp(16px, 5vw, 80px) 64px;
 }
-.rg-testi-section::before {
-  content: ''; position: absolute; inset: 0;
-  background: radial-gradient(ellipse at 50% 0%, rgba(184,136,30,0.12) 0%, transparent 65%);
-  pointer-events: none;
-}
-.rg-testi-wrap { max-width: 1160px; margin: 0 auto; text-align: center; position: relative; z-index: 1; }
 .rg-testi-section .rg-eyebrow { color: var(--rg-gold); }
 .rg-testi-section .rg-eyebrow::before { background: var(--rg-gold); }
-.rg-testi-section .rg-section-title { color: #FDFAF4; font-weight: 300; margin-bottom: 12px; }
+.rg-testi-section .rg-section-title { color: var(--rg-dark); font-weight: 300; margin-bottom: 8px; }
+.rg-testi-wrap { max-width: 1160px; margin: 0 auto; text-align: center; }
 .rg-testi-sub {
-  color: rgba(253,250,244,0.45); font-size: 0.92rem; font-weight: 300;
-  line-height: 1.75; max-width: 540px; margin: 0 auto 44px;
+  color: var(--rg-muted);
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.75;
+  max-width: 480px;
+  margin: 0 auto 40px;
 }
 
-/* ── Carousel ────────────────────────────────── */
-.rg-ts-carousel { display: flex; align-items: center; gap: 12px; }
+/* ── Carousel ── */
+.rg-ts-carousel { display: flex; align-items: center; gap: 10px; }
 .rg-ts-arrow {
-  flex-shrink: 0; width: 40px; height: 40px;
-  background: rgba(253,250,244,0.06);
-  border: 1px solid var(--rg-gold-border);
-  color: rgba(253,250,244,0.6);
-  border-radius: 2px; cursor: pointer;
+  flex-shrink: 0;
+  width: 36px; height: 36px;
+  background: #fff;
+  border: 1px solid rgba(184,136,30,0.3);
+  color: var(--rg-gold);
+  border-radius: 2px;
+  cursor: pointer;
   display: flex; align-items: center; justify-content: center;
-  transition: background 0.25s, border-color 0.25s, color 0.25s;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
 }
 .rg-ts-arrow:hover { background: var(--rg-gold); border-color: var(--rg-gold); color: #fff; }
 .rg-ts-arrow:disabled { opacity: 0.25; cursor: default; pointer-events: none; }
 .rg-ts-viewport { flex: 1; overflow: hidden; }
 .rg-ts-track {
-  display: flex; gap: 20px;
+  display: flex;
+  gap: 16px;
   transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: transform;
 }
+
+/* ── Cards ── */
 .rg-ts-card {
-  flex: 0 0 calc((100% - 40px) / 3);
-  background: rgba(253,250,244,0.04);
-  border: 1px solid var(--rg-gold-border);
-  border-radius: 4px; padding: 32px 24px 24px;
-  text-align: left; position: relative;
-  transition: border-color 0.3s, background 0.3s, transform 0.3s;
+  flex: 0 0 calc((100% - 32px) / 3);
+  background: #fff;
+  border: 1px solid rgba(184,136,30,0.18);
+  border-radius: 4px;
+  padding: 24px 20px 20px;
+  text-align: left;
   box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
-.rg-ts-card:hover { border-color: var(--rg-gold); background: rgba(184,136,30,0.06); transform: translateY(-4px); }
-.rg-ts-card::before { content: ''; position: absolute; top: 0; left: 0; width: 0; height: 2px; background: var(--rg-gold); transition: width 0.4s; }
-.rg-ts-card:hover::before { width: 100%; }
-.rg-ts-quote {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 3.6rem; line-height: 0.85;
-  color: var(--rg-gold); opacity: 0.55;
-  display: block; margin-bottom: 10px; user-select: none;
+.rg-ts-card:hover {
+  border-color: rgba(184,136,30,0.5);
+  box-shadow: 0 4px 20px rgba(184,136,30,0.1);
 }
-.rg-ts-logo-wrap { margin-bottom: 14px; }
-.rg-ts-logo { width: 52px; height: 52px; border-radius: 50%; border: 1.5px solid var(--rg-gold-border); object-fit: cover; background: var(--rg-bg2); }
+
+/* ── Card top row ── */
+.rg-ts-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(184,136,30,0.12);
+}
+.rg-ts-logo {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(184,136,30,0.25);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.rg-ts-author {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--rg-dark);
+  text-transform: uppercase;
+}
+.rg-ts-stars {
+  font-size: 0.72rem;
+  color: var(--rg-gold);
+  letter-spacing: 1px;
+  margin-top: 3px;
+}
 .rg-ts-text {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1rem; font-style: italic; font-weight: 300;
-  color: rgba(253,250,244,0.75); line-height: 1.75; margin-bottom: 18px;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--rg-muted);
+  line-height: 1.75;
+  margin: 0;
 }
-.rg-ts-author { font-size: 0.63rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--rg-gold); font-weight: 600; }
-.rg-ts-author::before { content: '— '; }
 
-/* ── Carousel Dots ───────────────────────────── */
-.rg-ts-dots { display: flex; justify-content: center; gap: 8px; margin-top: 32px; }
+/* ── Dots ── */
+.rg-ts-dots { display: flex; justify-content: center; gap: 7px; margin-top: 28px; }
 .rg-ts-dot {
-  width: 8px; height: 8px; border-radius: 50%;
-  border: 1.5px solid rgba(184,136,30,0.35);
-  background: transparent; cursor: pointer;
-  transition: background 0.3s, border-color 0.3s; padding: 0;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(184,136,30,0.3);
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.3s, border-color 0.3s;
 }
 .rg-ts-dot.rg-ts-dot-active { background: var(--rg-gold); border-color: var(--rg-gold); }
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .rg-ts-card { flex: 0 0 calc((100% - 16px) / 2); }
+}
+@media (max-width: 560px) {
+  .rg-testi-section { padding: 48px 16px 40px; }
+  .rg-ts-card {
+    flex: 0 0 100%;
+    padding: 16px 14px;
+  }
+  .rg-ts-arrow { width: 30px; height: 30px; }
+  .rg-ts-text { font-size: 0.92rem; }
+  .rg-ts-logo { width: 38px; height: 38px; }
+}
 
 /* ── Sister Concerns Grid ────────────────────── */
 .rg-sc-home-grid {
