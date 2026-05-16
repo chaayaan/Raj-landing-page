@@ -20,6 +20,46 @@
  $clients = [
   [
     'logo'    => 'client-habiganj.png',
+    'name'    => 'BSTI Dhaka',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => 'client-habiganj.png',
+    'name'    => 'Hazrat Shahjalal International Airport',
+    'address' => 'Hazrat Shahjalal International Airport, Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => 'client-habiganj.png',
+    'name'    => 'Dhaka Gold Pvt. Ltd.',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => 'client-habiganj.png',
+    'name'    => 'Ruposhi Gold Pvt. Ltd.',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => 'client-habiganj.png',
+    'name'    => 'Bangla Gold Pvt. Ltd.',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => 'client-habiganj.png',
     'name'    => 'Habiganj Gold',
     'address' => 'Safiya Mansion(1st floor) Bogla Bazar',
     'phone'   => '01779053607, 01854142915',
@@ -222,36 +262,86 @@
   </div>
 </section>
 
-<!-- ══ INTRO STRIP ════════════════════════════ -->
+<!-- ══ INTRO + STATS + PROVIDE ════════════════════════════ -->
 <section class="rg-section" style="padding-bottom:0;">
-  <div class="rg-cl-intro rg-reveal">
-    <p>Each of these respected laboratories operates independently in their own community — and they have chosen Raj Aiswari to equip them with world-class gold testing solutions. We supply the technology, they deliver the trust. It is a relationship we value deeply.</p>
-    <div class="rg-cl-count-badge">
-      <span class="rg-cl-count-num"><?php echo count($clients); ?>+</span>
-      <span class="rg-cl-count-label">Labs Served Nationwide</span>
-    </div>
-  </div>
-</section>
 
-<!-- ══ WHAT WE PROVIDE STRIP ════════════════════════════ -->
-<section class="rg-section" style="padding-top:48px;padding-bottom:0;">
-  <div class="rg-cl-provide-strip rg-reveal">
-    <div class="rg-cl-provide-item">
-      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-      <h4>Precision Equipment</h4>
-      <p>Fischer XRF gold testing machines — the most trusted name in non-destructive precious metal analysis.</p>
+  <!-- Stats Row -->
+  <div class="rg-cl-stats-row rg-reveal">
+    <div class="rg-cl-stat">
+      <span class="rg-cl-stat-num"><?php echo count($clients); ?>+</span>
+      <span class="rg-cl-stat-lbl">Labs Served Nationwide</span>
     </div>
-    <div class="rg-cl-provide-item">
-      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
-      <h4>Lab Setup & Calibration</h4>
-      <p>Complete installation, calibration, and workflow configuration tailored to each lab's environment.</p>
+    <div class="rg-cl-stat">
+      <span class="rg-cl-stat-num">30+</span>
+      <span class="rg-cl-stat-lbl">Districts Covered</span>
     </div>
-    <div class="rg-cl-provide-item">
-      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-      <h4>Ongoing Support</h4>
-      <p>Continued maintenance, software updates, and technical guidance — because our relationship doesn't end at delivery.</p>
+    <div class="rg-cl-stat">
+      <span class="rg-cl-stat-num">2018</span>
+      <span class="rg-cl-stat-lbl">Serving Since</span>
     </div>
   </div>
+
+  <!-- Intro Text -->
+  <p class="rg-cl-intro-text rg-reveal">
+    Each of these respected laboratories operates independently in their community — and they chose Raj Aiswari to equip them with world-class gold testing solutions. We supply the technology, they deliver the trust.
+  </p>
+
+  <!-- Region Pills -->
+  <div class="rg-cl-pills rg-reveal">
+    <span class="rg-cl-pill">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Dhaka
+    </span>
+    <span class="rg-cl-pill">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Chattogram
+    </span>
+    <span class="rg-cl-pill">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Sylhet
+    </span>
+    <span class="rg-cl-pill">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Mymensingh
+    </span>
+    <span class="rg-cl-pill">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Tangail
+    </span>
+    <span class="rg-cl-pill">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Khulna
+    </span>
+    <span class="rg-cl-pill">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Cox's Bazar
+    </span>
+    <span class="rg-cl-pill">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      Jhenaidah
+    </span>
+    <span class="rg-cl-pill rg-cl-pill--more">+ More Regions</span>
+  </div>
+
+  <!-- Provide Cards -->
+  <!-- <div class="rg-cl-provide-strip rg-reveal">
+    <div class="rg-cl-provide-item">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+      <h4>Precision Equipment</h4>
+      <p>Fischer XRF machines — the global standard in non-destructive precious metal analysis.</p>
+    </div>
+    <div class="rg-cl-provide-item">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+      <h4>Lab Setup & Calibration</h4>
+      <p>Complete installation and calibration tailored to each lab's workflow and environment.</p>
+    </div>
+    <div class="rg-cl-provide-item">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      <h4>Ongoing Support</h4>
+      <p>Maintenance, updates, and guidance — our relationship doesn't end at delivery.</p>
+    </div>
+  </div> -->
+
 </section>
 
 <!-- ══ CLIENT GRID ════════════════════════════ -->
@@ -401,58 +491,119 @@ body {
 }
 .rg-section-title em { font-style: italic; color: var(--rg-gold); }
 
-/* ── Intro Block ─────────────────────────────────────────────────── */
-.rg-cl-intro {
-  max-width: 780px; margin: 0 auto;
+/* ── Stats Row ───────────────────────────────────────────────────── */
+.rg-cl-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-bottom: 40px;
+}
+.rg-cl-stat {
+  background: var(--rg-gold-pale, #F5EDD6);
+  border: 1px solid rgba(184,136,30,0.22);
+  border-radius: 4px;
+  padding: 24px 20px;
   text-align: center;
-  display: flex; flex-direction: column; align-items: center; gap: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
-.rg-cl-intro p {
-  color: var(--rg-muted); font-size: 0.95rem;
-  font-weight: 300; line-height: 1.95;
-}
-.rg-cl-count-badge {
-  display: inline-flex; align-items: center; gap: 12px;
-  border: 1px solid var(--rg-gold-border);
-  background: var(--rg-gold-pale);
-  padding: 14px 28px; border-radius: 2px;
-}
-.rg-cl-count-num {
+.rg-cl-stat-num {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 2rem; font-weight: 600; color: var(--rg-gold); line-height: 1;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--rg-gold, #B8881E);
+  line-height: 1;
 }
-.rg-cl-count-label {
-  font-size: 0.72rem; letter-spacing: 0.14em;
-  text-transform: uppercase; color: var(--rg-muted); font-weight: 500;
+.rg-cl-stat-lbl {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--rg-muted, #7A7060);
+  font-weight: 500;
 }
 
-/* ── What We Provide Strip ───────────────────────────────────────── */
+/* ── Intro Text ──────────────────────────────────────────────────── */
+.rg-cl-intro-text {
+  max-width: 620px;
+  margin: 0 auto 32px;
+  text-align: center;
+  color: var(--rg-muted, #7A7060);
+  font-size: 0.92rem;
+  font-weight: 300;
+  line-height: 1.9;
+}
+
+/* ── Region Pills ────────────────────────────────────────────────── */
+.rg-cl-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.rg-cl-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 99px;
+  border: 1px solid rgba(184,136,30,0.3);
+  color: var(--rg-muted, #7A7060);
+  background: var(--rg-bg, #FDFAF4);
+}
+.rg-cl-pill svg { color: var(--rg-gold, #B8881E); flex-shrink: 0; }
+.rg-cl-pill--more {
+  background: var(--rg-gold, #B8881E);
+  border-color: var(--rg-gold, #B8881E);
+  color: #fff;
+}
+
+/* ── Provide Strip ───────────────────────────────────────────────── */
 .rg-cl-provide-strip {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+  gap: 16px;
 }
 .rg-cl-provide-item {
   text-align: center;
-  padding: 32px 24px 28px;
-  border: 1px solid var(--rg-gold-border);
+  padding: 28px 20px 24px;
+  border: 1px solid rgba(184,136,30,0.22);
   border-radius: 4px;
-  background: var(--rg-surface);
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background: var(--rg-bg, #FDFAF4);
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 .rg-cl-provide-item:hover {
-  border-color: rgba(184,136,30,0.4);
-  box-shadow: 0 8px 32px rgba(184,136,30,0.08);
+  border-color: var(--rg-gold, #B8881E);
+  box-shadow: 0 4px 16px rgba(184,136,30,0.08);
 }
-.rg-cl-provide-item svg { color: var(--rg-gold); margin-bottom: 16px; }
+.rg-cl-provide-item svg {
+  color: var(--rg-gold, #B8881E);
+  margin-bottom: 14px;
+}
 .rg-cl-provide-item h4 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.15rem; font-weight: 600;
-  color: var(--rg-text); margin-bottom: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--rg-dark, #1C1A16);
+  margin-bottom: 8px;
 }
 .rg-cl-provide-item p {
-  font-size: 0.82rem; color: var(--rg-muted);
-  font-weight: 300; line-height: 1.7;
+  font-size: 0.82rem;
+  color: var(--rg-muted, #7A7060);
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .rg-cl-stats-row { grid-template-columns: repeat(3, 1fr); }
+  .rg-cl-provide-strip { grid-template-columns: 1fr; gap: 12px; }
+}
+@media (max-width: 480px) {
+  .rg-cl-stats-row { grid-template-columns: 1fr; }
 }
 
 /* ── Client Grid ─────────────────────────────────────────────────── */
@@ -466,44 +617,34 @@ body {
 .rg-cl-card {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  gap: 18px;
+  align-items: flex-start;
+  gap: 16px;
 
-  background: linear-gradient(135deg, #FDF6E3 0%, #F9EDD0 100%);
-  border: 1px solid rgba(184,136,30,0.2);
-  border-radius: 10px;
-  padding: 20px 22px;
+  background: var(--rg-bg, #FDFAF4);
+  border: 1px solid rgba(184,136,30,0.22);
+  border-radius: 4px;
+  padding: 22px 20px;
 
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
   position: relative;
   overflow: hidden;
 }
-.rg-cl-card::after {
-  content: '';
-  position: absolute;
-  top: -30px; right: -30px;
-  width: 90px; height: 90px;
-  background: radial-gradient(circle, rgba(184,136,30,0.08) 0%, transparent 70%);
-  border-radius: 50%;
-  pointer-events: none;
-}
 .rg-cl-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 36px rgba(184,136,30,0.15), 0 4px 10px rgba(0,0,0,0.05);
-  border-color: rgba(184,136,30,0.4);
+  border-color: var(--rg-gold, #B8881E);
+  box-shadow: 0 4px 16px rgba(184,136,30,0.08);
+  transform: translateY(-2px);
 }
 
 /* ── Logo circle — left side ─────────────────────────────────────── */
 .rg-cl-logo-wrap {
-  width: 64px; height: 64px;
-  min-width: 64px;
+  width: 44px; height: 44px;
+  min-width: 44px;
   border-radius: 50%;
-  background: linear-gradient(145deg, #D6EAF8 0%, #AED6F1 100%);
-  border: 2px solid rgba(93,173,226,0.35);
+  background: var(--rg-gold-pale, #F5EDD6);
+  border: 1px solid rgba(184,136,30,0.22);
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
   flex-shrink: 0;
-  box-shadow: 0 2px 8px rgba(93,173,226,0.2);
 }
 .rg-cl-logo-img {
   width: 100%; height: 100%;
@@ -512,8 +653,8 @@ body {
 }
 .rg-cl-logo-fallback {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.3rem; font-weight: 600;
-  color: #2C6EA0;
+  font-size: 1rem; font-weight: 600;
+  color: var(--rg-gold, #B8881E);
   letter-spacing: 0.02em;
   user-select: none;
 }
@@ -524,16 +665,13 @@ body {
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
 }
 .rg-cl-name {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.12rem; font-weight: 600;
-  color: var(--rg-text); line-height: 1.25;
-  margin-bottom: 4px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-size: 1.08rem; font-weight: 600;
+  color: var(--rg-text, #2E2A22); line-height: 1.25;
+  margin-bottom: 6px;
 }
 
 /* ── Meta rows ───────────────────────────────────────────────────── */
@@ -546,10 +684,14 @@ body {
   font-weight: 400;
   line-height: 1.55;
 }
-.rg-cl-meta-row svg {
-  color: var(--rg-gold);
-  flex-shrink: 0;
-  opacity: 0.75;
+.rg-cl-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.78rem;
+  color: var(--rg-muted, #7A7060);
+  font-weight: 400;
+  line-height: 1.5;
 }
 .rg-cl-meta-row span {
   white-space: nowrap;

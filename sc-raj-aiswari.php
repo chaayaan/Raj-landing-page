@@ -152,10 +152,10 @@
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
         <span>Ruposhi Gold Pvt. Ltd.</span>
       </div>
-      <div class="rg-trust-item">
+      <a href="client.php" class="rg-trust-item rg-trust-item--link">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-        <span>And Many More Across Bangladesh</span>
-      </div>
+        <span>View All Our Clients →</span>
+      </a>
     </div>
   </div>
 </section>
@@ -430,7 +430,21 @@
 }
 .rg-trust-item svg { color: var(--rg-gold, #B8881E); flex-shrink: 0; }
 .rg-trust-item:hover { border-color: var(--rg-gold, #B8881E); box-shadow: 0 4px 16px rgba(184,136,30,0.08); }
-
+.rg-trust-item--link {
+  text-decoration: none;
+  background: var(--rg-gold-pale, #F5EDD6);
+  border-color: var(--rg-gold, #B8881E);
+  color: var(--rg-gold, #B8881E);
+  font-weight: 600;
+  cursor: pointer;
+}
+.rg-trust-item--link:hover {
+  background: var(--rg-gold, #B8881E);
+  color: #fff;
+}
+.rg-trust-item--link:hover svg {
+  stroke: #fff;
+}
 /* ── Service Grid ────────────────────────────── */
 .rg-service-grid {
   display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;

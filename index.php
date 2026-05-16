@@ -208,7 +208,7 @@
       <div class="rg-gold-rule rg-reveal"></div>
       <p class="rg-reveal">Raj Aiswari is a name synonymous with focused technology in Bangladesh's gold sector. Since 1998, we have been at the forefront of transforming how the nation approaches gold testing, measurement, and quality assurance.</p>
       <p class="rg-reveal rg-d1">We are the authorized representative for Fischer Measurement Technologies in Bangladesh, bringing German precision engineering alongside world-class partners from Italy, Switzerland, Hong Kong, and Turkey.</p>
-      <p class="rg-reveal rg-d2">With more than 50 years of combined competency in our field, we deliver not just machines — but confidence, accuracy, and trust to every workshop and lab we serve.</p>
+      <p class="rg-reveal rg-d2">With more than 25 years of combined competency in our field, we deliver not just machines — but confidence, accuracy, and trust to every workshop and lab we serve.</p>
       <div class="rg-partner-chips rg-reveal rg-d3">
         <span class="rg-chip">Fischer Germany</span>
         <span class="rg-chip">Sisma Italy</span>
