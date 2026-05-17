@@ -38,16 +38,16 @@
 <!-- ══ HERO SLIDER ══════════════════════════════ -->
 <section class="rg-hero-slider" id="home">
   <div class="rg-hs-track" id="rgHsTrack">
+    <div class="rg-hs-slide"><img src="hero banner 0.png" alt="Raj Aiswari Banner 4" width="1366" height="768"></div>
     <div class="rg-hs-slide"><img src="hero banner 1.png" alt="Raj Aiswari Banner 1" width="1366" height="768"></div>
     <div class="rg-hs-slide"><img src="hero banner 2.png" alt="Raj Aiswari Banner 2" width="1366" height="768"></div>
     <div class="rg-hs-slide"><img src="hero banner 3.png" alt="Raj Aiswari Banner 3" width="1366" height="768"></div>
-    <!-- <div class="rg-hs-slide"><img src="hero banner 4.png" alt="Raj Aiswari Banner 4" width="1366" height="768"></div> -->
   </div>
   <div class="rg-hs-dots">
     <button class="rg-hs-dot rg-hs-dot-active" data-i="0" aria-label="Slide 1"></button>
     <button class="rg-hs-dot" data-i="1" aria-label="Slide 2"></button>
     <button class="rg-hs-dot" data-i="2" aria-label="Slide 3"></button>
-    <!-- <button class="rg-hs-dot" data-i="3" aria-label="Slide 4"></button> -->
+    <button class="rg-hs-dot" data-i="3" aria-label="Slide 4"></button>
   </div>
 </section>
 
@@ -893,7 +893,7 @@
 (function () {
   var track   = document.getElementById('rgHsTrack');
   var dots    = document.querySelectorAll('.rg-hs-dot');
-  var total   = 3;
+  var total   = 4;
   var current = 0;
   var timer;
 
