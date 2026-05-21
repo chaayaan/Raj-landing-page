@@ -88,8 +88,14 @@
 
   <!-- Bottom bar -->
   <div class="rg-footer-bottom">
-    <span class="rg-footer-copy">&copy; <?php echo date('Y'); ?> Raj Aiswari Gold. All rights reserved.</span>
-    <span class="rg-footer-credit">Fischer Measurement Technologies — Bangladesh</span>
+    <span class="rg-footer-copy">
+      &copy; 2025&ndash;<?php echo date('Y'); ?> All rights reserved by Raj Aiswari Gold. &nbsp;·&nbsp; Fischer Measurement Technologies — Bangladesh
+    </span>
+    <span class="rg-footer-copy">
+      Developed by <em class="rg-footer-dev-name">
+        <a href="https://www.linkedin.com/in/chayandev/" target="_blank" rel="noopener" class="rg-footer-dev-link">Chayan Dev</a>
+      </em>
+    </span>
   </div>
 
 </footer>
@@ -204,16 +210,32 @@
 
 /* ── Bottom bar ───────────────────────────── */
 .rg-footer-bottom {
-  display: flex; justify-content: space-between;
-  flex-wrap: wrap; gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
   padding: 20px 0;
-  margin-top: 0;
 }
-.rg-footer-copy,
-.rg-footer-credit {
+.rg-footer-copy {
   font-size: 0.65rem;
   color: rgba(253,250,244,0.18);
   letter-spacing: 0.04em;
+  line-height: 1.7;
+}
+.rg-footer-dev-name {
+  font-style: normal;
+  color: rgba(253,250,244,0.52);
+}
+.rg-footer-dev-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(253,250,244,0.25);
+  transition: color 0.25s, border-color 0.25s;
+}
+.rg-footer-dev-link:hover {
+  color: rgba(253,250,244,0.75);
+  border-bottom-color: rgba(253,250,244,0.5);
 }
 
 /* ── Responsive ───────────────────────────── */
