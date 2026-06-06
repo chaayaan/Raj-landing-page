@@ -229,14 +229,14 @@
   <div class="rg-clients-grid">
 
     <a href="https://www.helmut-fischer.com/" target="_blank" rel="noopener" class="rg-client-card rg-reveal">
-      <img src="https://logo.clearbit.com/fischerinstruments.com" alt="Fischer Germany" width="80" height="80"
+      <img src="logo fischer.png" alt="Fischer Germany" width="80" height="80"
         onerror="this.src='https://ui-avatars.com/api/?name=Fischer&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.4'">
       <span class="rg-client-name">Fischer</span>
       <span class="rg-client-country">Germany</span>
     </a>
 
     <a href="https://www.sisma.com" target="_blank" rel="noopener" class="rg-client-card rg-reveal rg-d1">
-      <img src="https://logo.clearbit.com/sisma.com" alt="Sisma Italy" width="80" height="80"
+      <img src="logo sisma.png" alt="Sisma Italy" width="80" height="80"
         onerror="this.src='https://ui-avatars.com/api/?name=Sisma&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.4'">
       <span class="rg-client-name">Sisma</span>
       <span class="rg-client-country">Italy</span>
@@ -250,14 +250,14 @@
     </a>
 
     <a href="https://www.mt.com" target="_blank" rel="noopener" class="rg-client-card rg-reveal">
-      <img src="https://logo.clearbit.com/mt.com" alt="Mettler Toledo" width="80" height="80"
+      <img src="logo mettler toledo.png" alt="Mettler Toledo" width="80" height="80"
         onerror="this.src='https://ui-avatars.com/api/?name=Mettler&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.4'">
       <span class="rg-client-name">Mettler Toledo</span>
       <span class="rg-client-country">Switzerland</span>
     </a>
 
     <a href="https://www.italimpianti.it" target="_blank" rel="noopener" class="rg-client-card rg-reveal rg-d1">
-      <img src="https://logo.clearbit.com/italimpianti.it" alt="Italimpianti" width="80" height="80"
+      <img src="logo ialimplianti.png" alt="Italimpianti" width="80" height="80"
         onerror="this.src='https://ui-avatars.com/api/?name=Italimpianti&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.4'">
       <span class="rg-client-name">Italimpianti</span>
       <span class="rg-client-country">Italy</span>
@@ -269,8 +269,8 @@
       <span class="rg-client-country">Turkey</span>
     </a>
 
-    <a href="https://www.dougolagerhk.com" target="_blank" rel="noopener" class="rg-client-card rg-reveal rg-d3">
-      <img src="https://ui-avatars.com/api/?name=Dougo+Lager&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.35" alt="Dougo Lager HK" width="80" height="80">
+    <a href="https://dglaser.en.made-in-china.com/" target="_blank" rel="noopener" class="rg-client-card rg-reveal rg-d3">
+      <img src="logo dougo lager hk.png" alt="Dougo Lager HK" width="80" height="80">
       <span class="rg-client-name">Dougo Lager</span>
       <span class="rg-client-country">Hong Kong</span>
     </a>
