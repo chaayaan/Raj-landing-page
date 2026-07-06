@@ -18,6 +18,15 @@
     <span class="rg-nav-brand-text" id="rgNavText">Raj Aiswari</span>
   </a>
 
+  <div class="rg-nav-huid-search" id="rgNavHuidSearch">
+    <input type="text" id="rgNavHuidInput" class="rg-nav-huid-input" placeholder="HUID" maxlength="6" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Enter HUID to verify report">
+    <button type="button" id="rgNavHuidBtn" class="rg-nav-huid-btn" aria-label="Verify report" tabindex="-1">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+      </svg>
+    </button>
+  </div>
+
   <ul class="rg-nav-links">
     <li><a href="index.php">Home</a></li>
     <li><a href="index.php#about">About Us</a></li>
@@ -38,6 +47,7 @@
       </ul>
     </li>
     <li><a href="software.php">Softwares</a></li>
+    <li><a href="search_report.php">Verify Report</a></li>
     <li><a href="contact.php">Contact</a></li>
   </ul>
 
@@ -79,6 +89,7 @@
     </div>
   </div>
   <a href="software.php"       onclick="rgCloseMenu()">Softwares</a>
+  <a href="search_report.php"  onclick="rgCloseMenu()">Verify Report</a>
   <a href="contact.php"        onclick="rgCloseMenu()">Contact</a>
   <div class="rg-mob-social">
     <a href="https://www.facebook.com/rajasiwari" target="_blank" rel="noopener" class="rg-fb">
@@ -133,7 +144,7 @@
     <span class="rg-wa-fab-icon rg-wa-fab-icon--close">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
     </span>
-    <span class="rg-wa-label">Chat with us</span>
+    <span class="rg-wa-label">Ask</span>
     <span class="rg-wa-fab-ping"></span>
   </button>
 
@@ -213,13 +224,38 @@ a { text-decoration: none; }
   display: flex; align-items: center; gap: 10px;
   flex-shrink: 0; text-decoration: none;
 }
-.rg-nav-brand img { width: 100px; height: 50px; object-fit: contain; display: block; }
+.rg-nav-brand img { width: auto; height: 50px; object-fit: contain; display: block; }
 .rg-nav-brand-text {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.4rem; font-weight: 600;
   color: var(--rg-gold); letter-spacing: 0.04em; line-height: 1.1; white-space: nowrap;
 }
 .rg-nav-brand-text span { color: var(--rg-dark); font-weight: 300; }
+
+/* ── Nav HUID quick-search (mobile only) ─────────────────
+   Single pill: input fills the whole width, the search icon lives
+   INSIDE it (absolutely positioned) and only becomes visible/clickable
+   once exactly 6 valid HUID characters are present. ── */
+.rg-nav-huid-search { display: none; position: relative; align-items: center; }
+.rg-nav-huid-input {
+  width: 100%; height: 30px; padding: 0 32px 0 10px;
+  border: 1.5px solid var(--rg-gold-border); border-radius: 6px;
+  font-family: 'Outfit', sans-serif; font-size: 0.8rem; letter-spacing: 0.04em;
+  outline: none; background: #fff; color: var(--rg-text);
+  transition: border-color 0.15s;
+}
+.rg-nav-huid-input:focus { border-color: var(--rg-gold); }
+.rg-nav-huid-btn {
+  position: absolute; right: 4px; top: 50%; transform: translateY(-50%);
+  width: 24px; height: 24px; border: none; border-radius: 0;
+  background: transparent; color: var(--rg-muted);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; padding: 0;
+  transition: color 0.15s;
+}
+.rg-nav-huid-btn:hover { color: var(--rg-gold); }
+.rg-nav-huid-btn.rg-huid-ready { color: var(--rg-gold); }
+.rg-nav-huid-btn svg { flex-shrink: 0; }
 
 /* Links */
 .rg-nav-links { display: flex; gap: 28px; list-style: none; }
@@ -717,9 +753,13 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
 
 /* ── Responsive — Tablet (≤900px) ───────────────────────── */
 @media (max-width: 900px) {
-  .rg-nav { padding: 0 20px; }
+  .rg-nav { padding: 0 20px; gap: 10px; }
   .rg-nav-links, .rg-nav-social { display: none; }
   .rg-hamburger { display: flex; }
+  .rg-nav-huid-search {
+    display: flex; align-items: center; gap: 6px;
+    flex: 1; max-width: 220px; margin: 0 12px;
+  }
   .rg-stats-bar { grid-template-columns: repeat(2, 1fr); }
   .rg-about-grid { grid-template-columns: 1fr; gap: 40px; }
   .rg-about-images { height: 340px; }
@@ -737,6 +777,9 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
 /* ── Responsive — Mobile (≤600px) ───────────────────────── */
 @media (max-width: 600px) {
   :root { --rg-nav-h: 64px; }
+  .rg-nav { padding: 0 14px; }
+  .rg-nav-brand img { width: auto; height: 35px; }
+  .rg-nav-huid-search { max-width: 150px; margin: 0 8px; }
   .rg-hero { min-height: 100svh; }
   .rg-hero-eyebrow::before, .rg-hero-eyebrow::after { display: none; }
   .rg-slider { height: 300px; }
@@ -756,6 +799,10 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
   .rg-client-name { font-size: 0.88rem; }
   .rg-section { padding: 60px 20px; }
   .rg-section-sm { padding: 48px 20px; }
+}
+
+@media (max-width: 380px) {
+  .rg-nav-huid-search { max-width: 118px; }
 }
 
 /* ══════════════════════════════════════════════════════════
@@ -887,6 +934,85 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
                 dd.classList.remove('rg-dd-open');
             }
         });
+    });
+
+    /* ── Nav HUID quick-search: strict charset validation + jump to search_report.php ──
+       Mirrors the exact charset used on search_report.php's QR/HUID validation:
+       23456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz
+       (excludes 0, 1, I, O, l to avoid visually ambiguous characters).
+       Any character typed/pasted outside this set is silently rejected —
+       it never even reaches the input's value. */
+    var navHuidInput = document.getElementById('rgNavHuidInput');
+    var navHuidBtn   = document.getElementById('rgNavHuidBtn');
+    var HUID_CHARSET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
+    var HUID_CHARSET_REGEX = new RegExp('[^' + HUID_CHARSET + ']', 'g');
+
+    function rgSanitizeHuid(raw) {
+        return (raw || '').replace(HUID_CHARSET_REGEX, '').slice(0, 6);
+    }
+
+    function rgFlashInvalid(el) {
+        el.style.borderColor = '#dc2626';
+        clearTimeout(el._rgFlashTimer);
+        el._rgFlashTimer = setTimeout(function () { el.style.borderColor = ''; }, 900);
+    }
+
+    // Shows the in-field search icon only when the input holds exactly
+    // 6 valid HUID characters; hides it otherwise.
+    function rgUpdateHuidBtnVisibility() {
+        if (!navHuidInput || !navHuidBtn) return;
+        var isReady = navHuidInput.value.length === 6;
+        navHuidBtn.classList.toggle('rg-huid-ready', isReady);
+    }
+
+    if (navHuidInput) {
+        // Live-filter every keystroke/paste/autofill: only allowed chars survive.
+        navHuidInput.addEventListener('input', function () {
+            var before = navHuidInput.value;
+            var after  = rgSanitizeHuid(before);
+            if (after !== before) {
+                navHuidInput.value = after;
+                rgFlashInvalid(navHuidInput); // brief red flash = "that char is rejected"
+            }
+            rgUpdateHuidBtnVisibility();
+        });
+
+        // Belt-and-suspenders: block disallowed characters at keypress time too
+        // (covers some IME/edge cases input-event alone can miss).
+        navHuidInput.addEventListener('keypress', function (e) {
+            if (e.key && e.key.length === 1 && HUID_CHARSET.indexOf(e.key) === -1) {
+                e.preventDefault();
+            }
+        });
+
+        // Sanitize pasted text before it lands in the field.
+        navHuidInput.addEventListener('paste', function (e) {
+            e.preventDefault();
+            var text = (e.clipboardData || window.clipboardData).getData('text');
+            var clean = rgSanitizeHuid(navHuidInput.value + text);
+            navHuidInput.value = clean;
+            rgUpdateHuidBtnVisibility();
+        });
+
+        rgUpdateHuidBtnVisibility(); // in case of pre-filled/autocompleted value
+    }
+
+    function rgNavGoToHuid() {
+        if (!navHuidInput) return;
+        var val = rgSanitizeHuid(navHuidInput.value.trim());
+        navHuidInput.value = val;
+        rgUpdateHuidBtnVisibility();
+        if (val.length !== 6) {
+            rgFlashInvalid(navHuidInput);
+            navHuidInput.focus();
+            return;
+        }
+        window.location.href = 'search_report.php?huid=' + encodeURIComponent(val);
+    }
+
+    if (navHuidBtn)   navHuidBtn.addEventListener('click', rgNavGoToHuid);
+    if (navHuidInput) navHuidInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') rgNavGoToHuid();
     });
 
     /* ── WhatsApp Popup ── */
