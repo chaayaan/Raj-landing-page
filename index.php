@@ -96,6 +96,12 @@
   </div>
 </div>
 
+<?php
+// ── Load products from shared JSON ──────────────────────────────────────────
+$_home_products = json_decode(file_get_contents(__DIR__ . '/products.json'), true);
+$_home_preview  = array_slice($_home_products, 0, 6); // show first 6 on homepage
+$_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
+?>
 <!-- ══ PRODUCTS ═════════════════════════════════ -->
 <section class="rg-section rg-products-bg" id="products">
   <div style="text-align:center;">
@@ -105,85 +111,19 @@
   </div>
   <div class="rg-products-grid">
 
-    <div class="rg-prod-card rg-reveal">
+    <?php foreach ($_home_preview as $i => $_p): ?>
+    <div class="rg-prod-card rg-reveal <?= $_delay_classes[$i % count($_delay_classes)] ?>">
       <div class="rg-prod-img-wrap">
-        <img src="coating-thickness-dft.jpg" alt="Coating Thickness DFT" width="222" height="222">
+        <img src="<?= htmlspecialchars($_p['image']) ?>"
+             alt="<?= htmlspecialchars($_p['name']) ?>"
+             width="222" height="222">
       </div>
       <div class="rg-prod-body">
-        <div class="rg-prod-name">Coating Thickness – DFT (Dry Film Thickness)</div>
+        <div class="rg-prod-name"><?= htmlspecialchars($_p['name']) ?></div>
         <a href="#contact" class="rg-prod-link">Inquire Now →</a>
       </div>
     </div>
-
-    <div class="rg-prod-card rg-reveal rg-d1">
-      <div class="rg-prod-img-wrap">
-        <img src="coating-thickness-edxrf.jpg" alt="Coating Thickness EDXRF" width="222" height="222">
-      </div>
-      <div class="rg-prod-body">
-        <div class="rg-prod-name">Coating Thickness – EDXRF (Energy Dispersive X-Ray Fluorescence)</div>
-        <a href="#contact" class="rg-prod-link">Inquire Now →</a>
-      </div>
-    </div>
-
-    <div class="rg-prod-card rg-reveal rg-d2">
-      <div class="rg-prod-img-wrap">
-        <img src="coating-thickness-coulometric-method.jpg" alt="Coating Thickness Coulometric" width="222" height="222">
-      </div>
-      <div class="rg-prod-body">
-        <div class="rg-prod-name">Coating Thickness – Coulometric Method</div>
-        <a href="#contact" class="rg-prod-link">Inquire Now →</a>
-      </div>
-    </div>
-
-    <div class="rg-prod-card rg-reveal">
-      <div class="rg-prod-img-wrap">
-        <img src="material-analysis.jpg" alt="Material Analysis" width="222" height="222">
-      </div>
-      <div class="rg-prod-body">
-        <div class="rg-prod-name">Material Analysis</div>
-        <a href="#contact" class="rg-prod-link">Inquire Now →</a>
-      </div>
-    </div>
-
-    <div class="rg-prod-card rg-reveal rg-d1">
-      <div class="rg-prod-img-wrap">
-        <img src="micro-hardness.jpg" alt="Micro Hardness" width="222" height="222">
-      </div>
-      <div class="rg-prod-body">
-        <div class="rg-prod-name">Micro Hardness</div>
-        <a href="#contact" class="rg-prod-link">Inquire Now →</a>
-      </div>
-    </div>
-
-    <div class="rg-prod-card rg-reveal rg-d2">
-      <div class="rg-prod-img-wrap">
-        <img src="material-testing.jpg" alt="Material Testing" width="222" height="222">
-      </div>
-      <div class="rg-prod-body">
-        <div class="rg-prod-name">Material Testing</div>
-        <a href="#contact" class="rg-prod-link">Inquire Now →</a>
-      </div>
-    </div>
-
-    <div class="rg-prod-card rg-reveal rg-d3">
-      <div class="rg-prod-img-wrap">
-        <img src="porosity-testing.jpg" alt="Porosity Testing" width="222" height="222">
-      </div>
-      <div class="rg-prod-body">
-        <div class="rg-prod-name">Porosity Testing</div>
-        <a href="#contact" class="rg-prod-link">Inquire Now →</a>
-      </div>
-    </div>
-
-    <div class="rg-prod-card rg-reveal">
-      <div class="rg-prod-img-wrap">
-        <img src="jewlry-testing-machne.jpg" alt="Gold Jewellery Testing Machine" width="222" height="222">
-      </div>
-      <div class="rg-prod-body">
-        <div class="rg-prod-name">Gold &amp; Jewellery Testing Machine</div>
-        <a href="#contact" class="rg-prod-link">Inquire Now →</a>
-      </div>
-    </div>
+    <?php endforeach; ?>
 
   </div>
   <div style="text-align:center;margin-top:32px;" class="rg-reveal">

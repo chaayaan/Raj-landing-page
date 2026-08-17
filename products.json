@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "category": "coating",
+    "category_label": "Coating Thickness",
+    "name": "DFT – Dry Film Thickness",
+    "description": "Magnetic induction and eddy current methods for fast, non-destructive coating thickness measurement on all substrate types.",
+    "short_desc": "Magnetic induction & eddy current for non-destructive measurement.",
+    "image": "coating-thickness-dft.jpg"
+  },
+  {
+    "id": 2,
+    "category": "coating",
+    "category_label": "Coating Thickness",
+    "name": "EDXRF – Energy Dispersive X-Ray Fluorescence",
+    "description": "Non-destructive X-ray fluorescence measurement for multi-layer coatings, precious metals, and complex substrate systems.",
+    "short_desc": "Non-destructive XRF for multi-layer coatings & precious metals.",
+    "image": "coating-thickness-edxrf.jpg"
+  },
+  {
+    "id": 3,
+    "category": "coating",
+    "category_label": "Coating Thickness",
+    "name": "Coulometric Method",
+    "description": "Electrochemical dissolution method for accurate measurement of single-layer coatings — ideal for plating quality control.",
+    "short_desc": "Electrochemical method for single-layer plating quality control.",
+    "image": "coating-thickness-coulometric-method.jpg"
+  },
+  {
+    "id": 4,
+    "category": "coating",
+    "category_label": "Coating Thickness",
+    "name": "Beta Backscattering",
+    "description": "High-precision beta backscattering gauges for thin film measurement in electronics, PCB, and precision engineering.",
+    "short_desc": "High-precision thin film gauges for electronics & PCB applications.",
+    "image": "coating-beta-backscattering.jpg"
+  },
+  {
+    "id": 5,
+    "category": "gold",
+    "category_label": "Gold & Jewellery",
+    "name": "Gold & Jewellery Testing Machine",
+    "description": "EDXRF-based gold testing machines for fast, non-destructive karat verification — trusted by jewellers across Bangladesh.",
+    "short_desc": "EDXRF-based fast, non-destructive karat verification.",
+    "image": "jewlry-testing-machne.jpg"
+  },
+  {
+    "id": 6,
+    "category": "gold",
+    "category_label": "Gold & Jewellery",
+    "name": "Porosity Testing",
+    "description": "Detect voids and pores in gold coatings and jewellery — ensuring consistent plating quality and long-term durability.",
+    "short_desc": "Detect voids & pores to ensure consistent plating quality.",
+    "image": "porosity-testing.jpg"
+  },
+  {
+    "id": 7,
+    "category": "material",
+    "category_label": "Material Analysis",
+    "name": "Material Analysis (XRF)",
+    "description": "Elemental analysis for alloy identification, RoHS compliance, and material verification across metals, polymers, and ceramics.",
+    "short_desc": "Elemental analysis for alloys, RoHS & material verification.",
+    "image": "material-analysis.jpg"
+  },
+  {
+    "id": 8,
+    "category": "material",
+    "category_label": "Material Analysis",
+    "name": "Micro Hardness Testing",
+    "description": "Vickers and Knoop micro-hardness measurement with automatic turret and optical evaluation for precise material characterization.",
+    "short_desc": "Vickers & Knoop hardness with optical evaluation.",
+    "image": "micro-hardness.jpg"
+  },
+  {
+    "id": 9,
+    "category": "material",
+    "category_label": "Material Analysis",
+    "name": "Material Testing Systems",
+    "description": "Complete testing systems combining multiple measurement methods for comprehensive material qualification in industrial labs.",
+    "short_desc": "Multi-method systems for full material qualification in labs.",
+    "image": "material-testing.jpg"
+  }
+]
