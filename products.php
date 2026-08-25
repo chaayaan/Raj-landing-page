@@ -14,26 +14,43 @@ foreach ($products as $product) {
 }
 
 // ── Category display meta (label, heading, subheading, description) ──────────
+// NOTE: keys must exactly match the "category" field used in products.json.
+// Order of this array controls display order on the page.
 $category_meta = [
-    'coating' => [
-        'label'   => 'Coating Thickness',
-        'heading' => 'Measure Every <em>Layer</em> with Precision',
-        'desc'    => "From dry film to X-ray fluorescence — Fischer's coating thickness instruments cover every method, every substrate, every application.",
-    ],
-    'gold' => [
+    'Gold testing machine' => [
         'label'   => 'Gold &amp; Jewellery Testing',
         'heading' => 'Certified <em>Gold</em> Purity Testing',
-        'desc'    => "Trusted by Bangladesh's leading jewellers and gold testing centres — Fischer's gold testing solutions deliver unmatched accuracy and speed.",
+        'desc'    => "Trusted by Bangladesh's leading jewellers and gold testing centres — our XRF gold testing solutions deliver unmatched accuracy and speed.",
     ],
-    'material' => [
-        'label'   => 'Material Analysis',
-        'heading' => 'Advanced <em>Material</em> Testing',
-        'desc'    => 'Comprehensive material characterization for R&amp;D, quality control, and manufacturing — from hardness to elemental composition.',
+    'Fiber Laser Marking Machine' => [
+        'label'   => 'Laser Marking',
+        'heading' => 'Precision <em>Laser</em> Marking &amp; Engraving',
+        'desc'    => 'High-contrast, permanent marking for metals and hard plastics — serial numbers, barcodes, logos, and QR codes with lasting clarity.',
     ],
-    'other' => [
-        'label'   => 'Other Products',
-        'heading' => 'More <em>Precision</em> Instruments',
-        'desc'    => 'Additional high-quality measurement instruments for specialised applications.',
+    'Fiber Laser Marking and Engraving Machine' => [
+        'label'   => 'Laser Marking &amp; Engraving',
+        'heading' => 'Precision <em>Laser</em> Marking &amp; Engraving',
+        'desc'    => 'High-contrast, permanent marking and fine relief engraving for gold, silver, aluminum, and stainless steel — including curved surfaces.',
+    ],
+    'laser spot welding machine' => [
+        'label'   => 'Laser Welding',
+        'heading' => 'Precision <em>Jewelry</em> Welding &amp; Repair',
+        'desc'    => 'Micro-precision laser welding and soldering for gold, silver, platinum, and titanium — ideal for chain repair, resizing, and prong resetting.',
+    ],
+    'Melting Machine' => [
+        'label'   => 'Melting &amp; Casting',
+        'heading' => 'Clean, Efficient <em>Melting</em> &amp; Casting',
+        'desc'    => 'Flameless induction melting and vacuum pressure casting systems for gold, silver, and precious metal alloys — from jewellers to refineries.',
+    ],
+    'electronic precision balance scale' => [
+        'label'   => 'Precision Weighing',
+        'heading' => 'Accurate <em>Weighing</em> Solutions',
+        'desc'    => 'High-accuracy electronic balance scales for gold, jewelry, and fabric sample (GSM) measurement in labs and workshops.',
+    ],
+    'graphite crucible' => [
+        'label'   => 'Crucibles &amp; Accessories',
+        'heading' => 'Durable <em>Graphite</em> Crucibles',
+        'desc'    => 'High-quality graphite crucibles built for reliable, high-temperature melting and casting of precious metals.',
     ],
 ];
 
@@ -97,12 +114,17 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
       <?php foreach ($categories[$cat_key] as $i => $p): ?>
         <?php $delay = $delay_classes[min($i, count($delay_classes) - 1)]; ?>
 
+        <?php
+          $wa_message     = "Hi, I'm interested to know about *{$p['name']}*.\n(via Website)";
+          $wa_inquire_url = 'https://wa.me/8801716469866?text=' . rawurlencode($wa_message);
+        ?>
         <div class="rg-pg-card rg-reveal <?= $delay ?>"
              data-id="<?= (int)$p['id'] ?>"
              data-name="<?= htmlspecialchars($p['name']) ?>"
              data-cat-label="<?= htmlspecialchars($p['category_label']) ?>"
              data-desc="<?= htmlspecialchars($p['description']) ?>"
-             data-img="<?= htmlspecialchars($p['image']) ?>">
+             data-img="<?= htmlspecialchars($p['image']) ?>"
+             data-wa="<?= htmlspecialchars($wa_inquire_url) ?>">
 
           <div class="rg-pg-img-wrap">
             <img src="<?= htmlspecialchars($p['image']) ?>"
@@ -116,7 +138,7 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
                 </svg>
                 Quick View
               </button>
-              <a href="index.php#contact" class="rg-pg-inquire">Inquire</a>
+              <a href="<?= htmlspecialchars($wa_inquire_url) ?>" target="_blank" rel="noopener" class="rg-pg-inquire">Inquire</a>
             </div>
           </div>
 
@@ -163,7 +185,7 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
         <div class="rg-gold-rule"></div>
         <p class="rg-modal-desc" id="rgModalDesc"></p>
         <div class="rg-modal-actions">
-          <a href="https://wa.me/8801716469866" target="_blank" rel="noopener" class="rg-modal-btn-wa">
+          <a href="https://wa.me/8801716469866" target="_blank" rel="noopener" class="rg-modal-btn-wa" id="rgModalWaBtn">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="white">
               <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
             </svg>
@@ -381,20 +403,45 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
   var btns   = document.querySelectorAll('.rg-filter-btn');
   var blocks = document.querySelectorAll('.rg-cat-block');
 
+  function applyFilter(filter, btn) {
+    btns.forEach(function (b) { b.classList.remove('rg-filter-active'); });
+    if (btn) btn.classList.add('rg-filter-active');
+    blocks.forEach(function (block) {
+      if (filter === 'all' || block.getAttribute('data-cat') === filter) {
+        block.classList.remove('rg-hidden');
+      } else {
+        block.classList.add('rg-hidden');
+      }
+    });
+  }
+
   btns.forEach(function (btn) {
     btn.addEventListener('click', function () {
-      btns.forEach(function (b) { b.classList.remove('rg-filter-active'); });
-      btn.classList.add('rg-filter-active');
-      var filter = btn.getAttribute('data-filter');
-      blocks.forEach(function (block) {
-        if (filter === 'all' || block.getAttribute('data-cat') === filter) {
-          block.classList.remove('rg-hidden');
-        } else {
-          block.classList.add('rg-hidden');
-        }
-      });
+      applyFilter(btn.getAttribute('data-filter'), btn);
     });
   });
+
+  /* ── Auto-apply filter from ?category= in URL (linked from homepage) ── */
+  (function () {
+    var params      = new URLSearchParams(window.location.search);
+    var wantedCat   = params.get('category');
+    if (!wantedCat) return;
+
+    var matchingBtn = null;
+    btns.forEach(function (b) {
+      if (b.getAttribute('data-filter') === wantedCat) matchingBtn = b;
+    });
+
+    if (matchingBtn) {
+      applyFilter(wantedCat, matchingBtn);
+      var targetBlock = document.querySelector('.rg-cat-block[data-cat="' + CSS.escape(wantedCat) + '"]');
+      if (targetBlock) {
+        setTimeout(function () {
+          targetBlock.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 150);
+      }
+    }
+  })();
 
   /* ── Quick View Modal ── */
   var backdrop   = document.getElementById('rgModalBackdrop');
@@ -402,6 +449,7 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
   var modalTag   = document.getElementById('rgModalTag');
   var modalTitle = document.getElementById('rgModalTitle');
   var modalDesc  = document.getElementById('rgModalDesc');
+  var modalWaBtn = document.getElementById('rgModalWaBtn');
   var closeBtn   = document.getElementById('rgModalClose');
 
   function openModal(card) {
@@ -410,6 +458,9 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
     modalTag.textContent    = card.getAttribute('data-cat-label') || '';
     modalTitle.textContent  = card.getAttribute('data-name') || '';
     modalDesc.textContent   = card.getAttribute('data-desc') || '';
+    if (modalWaBtn) {
+      modalWaBtn.href = card.getAttribute('data-wa') || modalWaBtn.href;
+    }
     backdrop.classList.add('rg-modal-open');
     document.body.style.overflow = 'hidden';
   }

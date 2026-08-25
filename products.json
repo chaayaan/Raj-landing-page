@@ -1,83 +1,173 @@
 [
   {
     "id": 1,
-    "category": "coating",
-    "category_label": "Coating Thickness",
-    "name": "DFT – Dry Film Thickness",
-    "description": "Magnetic induction and eddy current methods for fast, non-destructive coating thickness measurement on all substrate types.",
-    "short_desc": "Magnetic induction & eddy current for non-destructive measurement.",
-    "image": "coating-thickness-dft.jpg"
+    "category": "Gold testing machine",
+    "category_label": "Gold testing machine",
+    "name": "GOLDSCOPE SD\u00ae 510",
+    "description": "The GOLDSCOPE SD\u00ae 510 is a high-precision XRF gold testing machine that delivers fast, accurate, and non-destructive precious metal analysis. Built for reliability, it provides consistent results for professional gold testing and quality verification.",
+    "short_desc": "High-precision XRF gold testing machine for fast, accurate, and non-destructive precious metal analysis.",
+    "image": "machines/goldscope_sd_510.png"
   },
   {
     "id": 2,
-    "category": "coating",
-    "category_label": "Coating Thickness",
-    "name": "EDXRF – Energy Dispersive X-Ray Fluorescence",
-    "description": "Non-destructive X-ray fluorescence measurement for multi-layer coatings, precious metals, and complex substrate systems.",
-    "short_desc": "Non-destructive XRF for multi-layer coatings & precious metals.",
-    "image": "coating-thickness-edxrf.jpg"
+    "category": "Gold testing machine",
+    "category_label": "Gold testing machine",
+    "name": "GOLDSCOPE SD\u00ae 515",
+    "description": "The GOLDSCOPE SD\u00ae 515 is a high-precision XRF gold testing machine that delivers fast, accurate, and non-destructive precious metal analysis. Engineered for dependable performance, it provides consistent and precise results for professional gold testing and quality verification.",
+    "short_desc": "High-precision XRF gold testing machine for fast, accurate, and non-destructive precious metal analysis.",
+    "image": "machines/goldscope_sd_515.png"
   },
   {
     "id": 3,
-    "category": "coating",
-    "category_label": "Coating Thickness",
-    "name": "Coulometric Method",
-    "description": "Electrochemical dissolution method for accurate measurement of single-layer coatings — ideal for plating quality control.",
-    "short_desc": "Electrochemical method for single-layer plating quality control.",
-    "image": "coating-thickness-coulometric-method.jpg"
+    "category": "Gold testing machine",
+    "category_label": "Gold testing machine",
+    "name": "GOLDSCOPE SD\u00ae 520",
+    "description": "The GOLDSCOPE SD\u00ae 520 is an advanced XRF gold testing machine that accurately detects precious metals and elements such as Iridium and Ruthenium through non-destructive analysis. Designed for professional use, it delivers fast, precise, and reliable results for quality verification.",
+    "short_desc": "Advanced XRF gold testing machine with fast, precise, and non-destructive elemental analysis.",
+    "image": "machines/goldscope_sd_520.png"
   },
   {
     "id": 4,
-    "category": "coating",
-    "category_label": "Coating Thickness",
-    "name": "Beta Backscattering",
-    "description": "High-precision beta backscattering gauges for thin film measurement in electronics, PCB, and precision engineering.",
-    "short_desc": "High-precision thin film gauges for electronics & PCB applications.",
-    "image": "coating-beta-backscattering.jpg"
+    "category": "Gold testing machine",
+    "category_label": "Gold testing machine",
+    "name": "GOLDSCOPE SD\u00ae 550",
+    "description": "The GOLDSCOPE SD\u00ae 550 is a premium XRF gold testing machine with a user-friendly interface for fast, accurate, and non-destructive precious metal analysis. Designed for professional gold purity testing, it delivers reliable results with effortless operation.",
+    "short_desc": "Premium XRF gold testing machine with fast, accurate, and non-destructive purity analysis.",
+    "image": "machines/goldscope_sd_550.png"
   },
   {
     "id": 5,
-    "category": "gold",
-    "category_label": "Gold & Jewellery",
-    "name": "Gold & Jewellery Testing Machine",
-    "description": "EDXRF-based gold testing machines for fast, non-destructive karat verification — trusted by jewellers across Bangladesh.",
-    "short_desc": "EDXRF-based fast, non-destructive karat verification.",
-    "image": "jewlry-testing-machne.jpg"
+    "category": "Gold testing machine",
+    "category_label": "Gold testing machine",
+    "name": "GOLDSCOPE SD\u00ae 600",
+    "description": "The GOLDSCOPE SD\u00ae 600 is a high-performance XRF gold testing machine built for fast, accurate, and non-destructive precious metal analysis. Engineered for consistent quality and dependable performance, it delivers professional-grade results for gold purity testing.",
+    "short_desc": "High-performance XRF gold testing machine for fast, accurate, and non-destructive analysis.",
+    "image": "machines/goldscope_sd_600.png"
   },
   {
     "id": 6,
-    "category": "gold",
-    "category_label": "Gold & Jewellery",
-    "name": "Porosity Testing",
-    "description": "Detect voids and pores in gold coatings and jewellery — ensuring consistent plating quality and long-term durability.",
-    "short_desc": "Detect voids & pores to ensure consistent plating quality.",
-    "image": "porosity-testing.jpg"
+    "category": "Gold testing machine",
+    "category_label": "Gold testing machine",
+    "name": "FISCHERSCOPE X-Ray XAN 120",
+    "description": "The FISCHERSCOPE X-Ray XAN 120 is a tabletop EDXRF spectrometer designed for fast, accurate, and non-destructive analysis of precious metals and alloys. It is ideal for testing gold, silver, platinum, and rhodium, with Fischer WinFT software for reliable material analysis and measurement evaluation.",
+    "short_desc": "Tabletop EDXRF spectrometer for fast, accurate, and non-destructive precious metal analysis.",
+    "image": "machines/fischerscope_xray_xan_120.jpg"
   },
   {
     "id": 7,
-    "category": "material",
-    "category_label": "Material Analysis",
-    "name": "Material Analysis (XRF)",
-    "description": "Elemental analysis for alloy identification, RoHS compliance, and material verification across metals, polymers, and ceramics.",
-    "short_desc": "Elemental analysis for alloys, RoHS & material verification.",
-    "image": "material-analysis.jpg"
+    "category": "Fiber Laser Marking Machine",
+    "category_label": "Fiber Laser Marking Machine",
+    "name": "Fiber Laser Marking Machine",
+    "description": "Used for metal and hard plastic engraving, serial numbering, barcodes, and logo etching. Suitable for multi-method systems requiring full material qualification in labs.",
+    "short_desc": "Metal and hard plastic engraving, serial numbering, barcodes, and logo etching.",
+    "image": "machines/Fiber Laser Marking Machine.png"
   },
   {
     "id": 8,
-    "category": "material",
-    "category_label": "Material Analysis",
-    "name": "Micro Hardness Testing",
-    "description": "Vickers and Knoop micro-hardness measurement with automatic turret and optical evaluation for precise material characterization.",
-    "short_desc": "Vickers & Knoop hardness with optical evaluation.",
-    "image": "micro-hardness.jpg"
+    "category": "Fiber Laser Marking and Engraving Machine",
+    "category_label": "Fiber Laser Marking and Engraving Machine",
+    "name": "Fiber Laser Marking and Engraving Machine",
+    "description": "Widely used for permanent, high-contrast marking, serial numbering, QR coding, and fine relief engraving on metals like gold, silver, aluminum, and stainless steel. Designed for high-precision industrial surface marking and curved-relief processing.",
+    "short_desc": "High-precision industrial surface marking and curved-relief processing.",
+    "image": "machines/3D Fiber Laser Marking and Engraving Machine.png"
   },
   {
     "id": 9,
-    "category": "material",
-    "category_label": "Material Analysis",
-    "name": "Material Testing Systems",
-    "description": "Complete testing systems combining multiple measurement methods for comprehensive material qualification in industrial labs.",
-    "short_desc": "Multi-method systems for full material qualification in labs.",
-    "image": "material-testing.jpg"
+    "category": "laser spot welding machine",
+    "category_label": "laser spot welding machine",
+    "name": "laser spot welding machine",
+    "description": "Main uses: welds precious metals including gold, silver, platinum, and titanium; repairs broken chains, resets prongs, and resizes rings in jewelry work; and handles detailed micro-welding tasks that require high accuracy. Model RL-Y100 is a 100W desktop YAG laser spot welding machine.",
+    "short_desc": "RL-Y100, a 100W desktop YAG laser spot welding machine designed for precision jewelry repair and metal soldering.",
+    "image": "machines/laser-spot-welding-machine.png"
+  },
+  {
+    "id": 10,
+    "category": "laser spot welding machine",
+    "category_label": "laser spot welding machine",
+    "name": "Jewelry Laser Welding and Soldering Machine",
+    "description": "Applications include welding, resizing, and repairing gold, silver, platinum, titanium, and other precious metals without damaging nearby stones.",
+    "short_desc": "Used for precise jewelry repair and manufacturing.",
+    "image": "machines/Jewelry Laser Welding and Soldering Machine.png"
+  },
+  {
+    "id": 11,
+    "category": "Melting Machine",
+    "category_label": "Melting Machine",
+    "name": "Gold Induction Melting Machine (500-gram capacity)",
+    "description": "Offers flameless and clean melting with no pollutant emissions. Features a digital display showing precise temperature readings. Designed for jewelry makers to melt and alloy gold and silver efficiently.",
+    "short_desc": "Designed for jewelry makers to melt and alloy gold and silver efficiently.",
+    "image": "machines/Melting Machine  500-gram.png"
+  },
+  {
+    "id": 12,
+    "category": "Melting Machine",
+    "category_label": "Melting Machine",
+    "name": "Gold Induction Melting Machine (500 grams to 2 kg capacity)",
+    "description": "Ideal for jewelry stores, small workshops, and bullion manufacturers. Uses an advanced IGBT-based induction heating system with an integrated water chiller, providing fast, clean, smokeless, and uniform heating with precise temperature control.",
+    "short_desc": "Ideal for jewelry stores, small workshops, and bullion manufacturers.",
+    "image": "machines/Melting Machine 500grams to 2kg.png"
+  },
+  {
+    "id": 13,
+    "category": "Melting Machine",
+    "category_label": "Melting Machine",
+    "name": "Gold Induction Melting Machine (1 kg to 5 kg capacity)",
+    "description": "Shapet Induction Gold/Silver Melting Machine, designed for jewelry manufacturing, gold refineries, and casting units.",
+    "short_desc": "For jewelry manufacturing, gold refineries, and casting units.",
+    "image": "machines/Melting Machine 1kg to 5kg.png"
+  },
+  {
+    "id": 14,
+    "category": "Melting Machine",
+    "category_label": "Melting Machine",
+    "name": "Shapet Vacuum Pressure Casting Machine",
+    "description": "An automatic induction system designed for precise, bubble-free jewelry casting. Ideal for gold, silver, and lightweight precious jewelry casting with fine details.",
+    "short_desc": "Ideal for gold, silver, and lightweight precious jewelry casting with fine details.",
+    "image": "machines/Shapet Vacuum Pressure Casting Machine.png"
+  },
+  {
+    "id": 15,
+    "category": "Melting Machine",
+    "category_label": "Melting Machine",
+    "name": "Shapet Induction Melting Mini+",
+    "description": "A compact induction furnace designed to melt 250 grams to 1 kilogram of precious metals like gold, silver, and copper.",
+    "short_desc": "Melts 250 grams to 1 kilogram of precious metals like gold, silver, and copper.",
+    "image": "machines/Shapet Induction Melting Mini+.png"
+  },
+  {
+    "id": 16,
+    "category": "electronic precision balance scale",
+    "category_label": "electronic precision balance scale",
+    "name": "electronic precision balance scale",
+    "description": "Used for high-accuracy measurements in laboratories, kitchens, or for weighing gold, jewelry, and fabric samples (GSM).",
+    "short_desc": "High-accuracy measurements for laboratories, kitchens, gold, jewelry, and fabric samples (GSM).",
+    "image": "machines/electronic precision balance scale.png"
+  },
+  {
+    "id": 17,
+    "category": "electronic precision balance scale",
+    "category_label": "electronic precision balance scale",
+    "name": "electronic precision balance scale",
+    "description": "Used for high-accuracy measurements in laboratories, kitchens, or for weighing gold, jewelry, and fabric samples (GSM).",
+    "short_desc": "High-accuracy measurements for laboratories, kitchens, gold, jewelry, and fabric samples (GSM).",
+    "image": "machines/electronic precision balance scale 2.png"
+  },
+  {
+    "id": 18,
+    "category": "graphite crucible",
+    "category_label": "graphite crucible",
+    "name": "graphite crucible",
+    "description": "High-quality graphite crucibles for melting and casting precious metals.",
+    "short_desc": "High-quality graphite crucibles for melting and casting precious metals.",
+    "image": "machines/graphite crucible.png"
+  },
+  {
+    "id": 19,
+    "category": "graphite crucible",
+    "category_label": "graphite crucible",
+    "name": "graphite crucible",
+    "description": "High-quality graphite crucibles for melting and casting precious metals.",
+    "short_desc": "High-quality graphite crucibles for melting and casting precious metals.",
+    "image": "machines/graphite crucible 2.png"
   }
 ]

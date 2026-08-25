@@ -99,7 +99,17 @@
 <?php
 // ── Load products from shared JSON ──────────────────────────────────────────
 $_home_products = json_decode(file_get_contents(__DIR__ . '/products.json'), true);
-$_home_preview  = array_slice($_home_products, 0, 6); // show first 6 on homepage
+
+// ── One representative product per category (first product found in each) ──
+// This gives visitors a quick look at every category we offer, not just 6 random items.
+$_home_preview = [];
+foreach ($_home_products as $_p) {
+    $cat = $_p['category'];
+    if (!isset($_home_preview[$cat])) {
+        $_home_preview[$cat] = $_p; // first product seen for this category wins
+    }
+}
+$_home_preview  = array_values($_home_preview);
 $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
 ?>
 <!-- ══ PRODUCTS ═════════════════════════════════ -->
@@ -112,17 +122,20 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
   <div class="rg-products-grid">
 
     <?php foreach ($_home_preview as $i => $_p): ?>
-    <div class="rg-prod-card rg-reveal <?= $_delay_classes[$i % count($_delay_classes)] ?>">
+    <?php
+      $_cat_url = 'products.php?category=' . rawurlencode($_p['category']);
+    ?>
+    <a href="<?= htmlspecialchars($_cat_url) ?>" class="rg-prod-card rg-reveal <?= $_delay_classes[$i % count($_delay_classes)] ?>">
       <div class="rg-prod-img-wrap">
         <img src="<?= htmlspecialchars($_p['image']) ?>"
-             alt="<?= htmlspecialchars($_p['name']) ?>"
+             alt="<?= htmlspecialchars($_p['category_label']) ?>"
              width="222" height="222">
       </div>
       <div class="rg-prod-body">
-        <div class="rg-prod-name"><?= htmlspecialchars($_p['name']) ?></div>
-        <a href="#contact" class="rg-prod-link">Inquire Now →</a>
+        <span class="rg-prod-cat-tag"><?= htmlspecialchars($_p['category_label']) ?></span>
+        <span class="rg-prod-link">View Products →</span>
       </div>
-    </div>
+    </a>
     <?php endforeach; ?>
 
   </div>
@@ -517,6 +530,21 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
 
 <!-- ══ STYLES ════════════════════════════════════ -->
 <style>
+/* ── Homepage product card category tag ──────── */
+.rg-prod-cat-tag {
+  display: inline-block; font-size: 0.58rem; font-weight: 700;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--rg-gold, #B8881E); padding: 2px 8px;
+  background: var(--rg-gold-pale, rgba(184,136,30,0.08));
+  border: 1px solid var(--rg-gold-border, rgba(184,136,30,0.25));
+  border-radius: 2px; margin-bottom: 6px;
+}
+
+/* ── Homepage product card is now a full-card link to its category ── */
+.rg-prod-card { text-decoration: none; color: inherit; }
+.rg-prod-body { display: flex; flex-direction: column; align-items: flex-start; }
+.rg-prod-link { text-decoration: none; }
+
 /* ── Hero Slider ─────────────────────────────── */
 .rg-hero-slider {
   position: relative;
