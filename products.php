@@ -130,16 +130,6 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
             <img src="<?= htmlspecialchars($p['image']) ?>"
                  alt="<?= htmlspecialchars($p['name']) ?>"
                  width="300" height="300">
-            <div class="rg-pg-hover-actions">
-              <button class="rg-pg-quick-view" aria-label="Quick view">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-                  <circle cx="12" cy="12" r="3"/>
-                </svg>
-                Quick View
-              </button>
-              <a href="<?= htmlspecialchars($wa_inquire_url) ?>" target="_blank" rel="noopener" class="rg-pg-inquire">Inquire</a>
-            </div>
           </div>
 
           <div class="rg-pg-body">
@@ -254,35 +244,9 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
 }
 .rg-pg-card:hover { box-shadow: 0 8px 32px rgba(184,136,30,0.13); transform: translateY(-3px); }
 
-.rg-pg-img-wrap { position: relative; aspect-ratio: 1/1; overflow: hidden; background: var(--rg-bg2); }
-.rg-pg-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s; }
+.rg-pg-img-wrap { position: relative; overflow: hidden; background: var(--rg-bg2); display: flex; align-items: center; justify-content: center; }
+.rg-pg-img-wrap img { width: 100%; height: auto; object-fit: contain; transition: transform 0.4s; }
 .rg-pg-card:hover .rg-pg-img-wrap img { transform: scale(1.05); }
-
-.rg-pg-hover-actions {
-  position: absolute; inset: 0;
-  background: rgba(26,22,15,0.55);
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  gap: 8px; opacity: 0; transition: opacity 0.25s;
-}
-.rg-pg-card:hover .rg-pg-hover-actions { opacity: 1; }
-
-.rg-pg-quick-view {
-  display: inline-flex; align-items: center; gap: 5px;
-  background: rgba(255,255,255,0.95); color: var(--rg-dark);
-  padding: 7px 14px; font-size: 0.68rem; font-weight: 600;
-  letter-spacing: 0.07em; text-transform: uppercase;
-  border: none; border-radius: 2px; cursor: pointer;
-  transition: background 0.2s;
-}
-.rg-pg-quick-view:hover { background: var(--rg-gold); color: #fff; }
-
-.rg-pg-inquire {
-  display: inline-block; background: var(--rg-gold); color: #fff;
-  padding: 7px 14px; font-size: 0.68rem; font-weight: 600;
-  letter-spacing: 0.07em; text-transform: uppercase;
-  border-radius: 2px; transition: background 0.2s;
-}
-.rg-pg-inquire:hover { background: #9A7218; }
 
 .rg-pg-body { padding: 12px 13px 14px; }
 .rg-pg-cat-tag {
@@ -334,10 +298,10 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
 
 .rg-modal-inner { display: grid; grid-template-columns: 240px 1fr; gap: 0; }
 .rg-modal-img-wrap {
-  width: 100%; aspect-ratio: 1/1; overflow: hidden;
+  width: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center;
   border-radius: 12px 0 0 12px; background: var(--rg-bg2); flex-shrink: 0;
 }
-.rg-modal-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+.rg-modal-img-wrap img { width: 100%; height: auto; max-height: 100%; object-fit: contain; }
 .rg-modal-content { padding: 32px 28px; display: flex; flex-direction: column; justify-content: center; }
 
 .rg-modal-tag {
@@ -382,7 +346,7 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
 @media (max-width: 900px) {
   .rg-pg-grid { grid-template-columns: repeat(3, 1fr); gap: 12px; }
   .rg-modal-inner { grid-template-columns: 1fr; }
-  .rg-modal-img-wrap { border-radius: 12px 12px 0 0; aspect-ratio: 16/9; }
+  .rg-modal-img-wrap { border-radius: 12px 12px 0 0; }
   .rg-modal-content { padding: 20px; }
 }
 @media (max-width: 600px) {
@@ -469,16 +433,8 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
     document.body.style.overflow = '';
   }
 
-  document.querySelectorAll('.rg-pg-quick-view').forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
-      e.stopPropagation();
-      openModal(btn.closest('.rg-pg-card'));
-    });
-  });
-
   document.querySelectorAll('.rg-pg-card').forEach(function (card) {
-    card.addEventListener('click', function (e) {
-      if (e.target.closest('.rg-pg-inquire')) return;
+    card.addEventListener('click', function () {
       openModal(card);
     });
   });
