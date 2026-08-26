@@ -38,10 +38,10 @@
 <!-- ══ HERO SLIDER ══════════════════════════════ -->
 <section class="rg-hero-slider" id="home">
   <div class="rg-hs-track" id="rgHsTrack">
-    <div class="rg-hs-slide"><img src="hero banner 0.png" alt="Raj Aiswari Banner 4" width="1366" height="768"></div>
-    <div class="rg-hs-slide"><img src="hero banner 1.png" alt="Raj Aiswari Banner 1" width="1366" height="768"></div>
-    <div class="rg-hs-slide"><img src="hero banner 2.png" alt="Raj Aiswari Banner 2" width="1366" height="768"></div>
-    <div class="rg-hs-slide"><img src="hero banner 3.png" alt="Raj Aiswari Banner 3" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="banner/hero banner 0.png" alt="Raj Aiswari Banner 4" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="banner/hero banner 1.png" alt="Raj Aiswari Banner 1" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="banner/hero banner 2.png" alt="Raj Aiswari Banner 2" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="banner/hero banner 3.png" alt="Raj Aiswari Banner 3" width="1366" height="768"></div>
   </div>
   <div class="rg-hs-dots">
     <button class="rg-hs-dot rg-hs-dot-active" data-i="0" aria-label="Slide 1"></button>
@@ -273,7 +273,7 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
 
     <a href="sc-raj-aiswari.php" class="rg-sc-home-card rg-reveal">
       <div class="rg-sc-home-img">
-        <img src="lab-to-market.jpg" alt="Raj Aiswari Machinery" width="400" height="280">
+        <img src="sister concern/lab-to-market.jpg" alt="Raj Aiswari Machinery" width="400" height="280">
         <div class="rg-sc-home-badge">Est. 2018</div>
       </div>
       <div class="rg-sc-home-body">
@@ -286,7 +286,7 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
 
     <a href="sc-gold-testing-center.php" class="rg-sc-home-card rg-reveal rg-d1">
       <div class="rg-sc-home-img">
-        <img src="lab-customer.jpg" alt="Gold Testing Center" width="400" height="280">
+        <img src="sister concern/lab-customer.jpg" alt="Gold Testing Center" width="400" height="280">
         <div class="rg-sc-home-badge">Est. 2015</div>
       </div>
       <div class="rg-sc-home-body">
@@ -299,7 +299,7 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
 
     <a href="sc-ms-raj-aiswari.php" class="rg-sc-home-card rg-reveal rg-d2">
       <div class="rg-sc-home-img">
-        <img src="melting.png" alt="M/S Raj Aiswari Factory" width="400" height="280">
+        <img src="sister concern/melting.png" alt="M/S Raj Aiswari Factory" width="400" height="280">
         <div class="rg-sc-home-badge">Est. 2023</div>
       </div>
       <div class="rg-sc-home-body">
@@ -312,7 +312,7 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
 
     <a href="sc-chain-house.php" class="rg-sc-home-card rg-reveal rg-d3">
       <div class="rg-sc-home-img">
-        <img src="chain-house-3.jpg" alt="Chain House" width="400" height="280">
+        <img src="sister concern/chain-house-3.jpg" alt="Chain House" width="400" height="280">
         <div class="rg-sc-home-badge">Est. 1998</div>
       </div>
       <div class="rg-sc-home-body">
@@ -335,23 +335,23 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
   <h2 class="rg-section-title rg-reveal" style="margin-bottom:32px;">From the <em>Lab</em> to the Market</h2>
   <div class="rg-gallery-grid">
     <div class="rg-gal-item">
-      <img src="lab-to-market.jpg" alt="Lab to market" width="800" height="560">
+      <img src="gallary/lab-to-market.jpg" alt="Lab to market" width="800" height="560">
       <div class="rg-gal-overlay"></div>
     </div>
     <div class="rg-gal-item">
-      <img src="interview.jpg" alt="Interview" width="600" height="400">
+      <img src="gallary/interview.jpg" alt="Interview" width="600" height="400">
       <div class="rg-gal-overlay"></div>
     </div>
     <div class="rg-gal-item">
-      <img src="machines.jpg" alt="Machines" width="600" height="400">
+      <img src="gallary/machines.jpg" alt="Machines" width="600" height="400">
       <div class="rg-gal-overlay"></div>
     </div>
     <div class="rg-gal-item">
-      <img src="lab-customer.jpg" alt="Lab customer" width="600" height="400">
+      <img src="gallary/lab-customer.jpg" alt="Lab customer" width="600" height="400">
       <div class="rg-gal-overlay"></div>
     </div>
     <div class="rg-gal-item">
-      <img src="laser.jpg" alt="Laser" width="600" height="400">
+      <img src="gallary/laser.jpg" alt="Laser" width="600" height="400">
       <div class="rg-gal-overlay"></div>
     </div>
   </div>

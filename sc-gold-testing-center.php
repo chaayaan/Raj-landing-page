@@ -43,7 +43,7 @@
 <!-- ══ PAGE HERO ══════════════════════════════ -->
 <section class="rg-detail-hero">
   <div class="rg-detail-hero-bg">
-    <img src="lab-customer.jpg" alt="Raj Aiswari Gold Testing Center" width="1400" height="600">
+    <img src="sister concern/lab-customer.jpg" alt="Raj Aiswari Gold Testing Center" width="1400" height="600">
   </div>
   <div class="rg-detail-hero-overlay"></div>
   <div class="rg-detail-hero-content">
@@ -110,7 +110,7 @@
   <!-- 1. Gold Testing -->
   <div class="gl-service-card rg-reveal">
     <div class="gl-service-img">
-      <img src="gold machine.png" alt="Gold Testing Machine" loading="lazy">
+      <img src="sister concern/gold machine.png" alt="Gold Testing Machine" loading="lazy">
       <div class="gl-service-img-overlay"></div>
       <div class="gl-service-num">01</div>
     </div>
@@ -129,7 +129,7 @@
   <!-- 2. Hallmarking -->
   <div class="gl-service-card reverse rg-reveal rg-d1">
     <div class="gl-service-img">
-      <img src="hallmark.jpg" alt="Gold Hallmarking" loading="lazy">
+      <img src="sister concern/hallmark.jpg" alt="Gold Hallmarking" loading="lazy">
       <div class="gl-service-img-overlay"></div>
       <div class="gl-service-num">02</div>
     </div>
@@ -148,7 +148,7 @@
   <!-- 3. Welding & Repairs -->
   <div class="gl-service-card rg-reveal">
     <div class="gl-service-img">
-      <img src="lesar welding.jpg" alt="Gold Welding and Repair" loading="lazy">
+      <img src="sister concern/lesar welding.jpg" alt="Gold Welding and Repair" loading="lazy">
       <div class="gl-service-img-overlay"></div>
       <div class="gl-service-num">03</div>
     </div>
@@ -167,7 +167,7 @@
   <!-- 4. Gold Purchase & Exchange -->
   <div class="gl-service-card reverse rg-reveal rg-d1">
     <div class="gl-service-img">
-      <img src="gold exchanges.jpg" alt="Gold Exchange and Purchase" loading="lazy">
+      <img src="sister concern/gold exchanges.jpg" alt="Gold Exchange and Purchase" loading="lazy">
       <div class="gl-service-img-overlay"></div>
       <div class="gl-service-num">04</div>
     </div>
@@ -186,7 +186,7 @@
   <!-- 5. Machinery & Workshop -->
   <div class="gl-service-card rg-reveal">
     <div class="gl-service-img">
-      <img src="jewlry-testing-machne.jpg" alt="Gold Workshop Machinery" loading="lazy">
+      <img src="sister concern/jewlry-testing-machne.jpg" alt="Gold Workshop Machinery" loading="lazy">
       <div class="gl-service-img-overlay"></div>
       <div class="gl-service-num">05</div>
     </div>
@@ -218,7 +218,7 @@
       </div>
     </div>
     <div class="rg-detail-grid-img">
-      <img src="jewlry-testing-machne.jpg" alt="Gold Testing Lab Interior" width="600" height="450">
+      <img src="sister concern/jewlry-testing-machne.jpg" alt="Gold Testing Lab Interior" width="600" height="450">
     </div>
   </div>
 </section>
@@ -355,7 +355,7 @@
     <div class="rg-gold-rule" style="margin:12px auto 40px;"></div>
     <div class="rg-other-grid">
       <a href="sc-raj-aiswari.php" class="rg-other-card">
-        <img src="lab-to-market.jpg" alt="Raj Aiswari Machinery" width="400" height="260">
+        <img src="sister concern/lab-to-market.jpg" alt="Raj Aiswari Machinery" width="400" height="260">
         <div class="rg-other-card-body">
           <span class="rg-other-card-tag">Equipment</span>
           <h3>Raj Aiswari Machinery</h3>
@@ -364,7 +364,7 @@
         </div>
       </a>
       <a href="sc-ms-raj-aiswari.php" class="rg-other-card">
-        <img src="melting.png" alt="M/S Raj Aiswari" width="400" height="260">
+        <img src="sister concern/melting.png" alt="M/S Raj Aiswari" width="400" height="260">
         <div class="rg-other-card-body">
           <span class="rg-other-card-tag">Manufacturing</span>
           <h3>M/S Raj Aiswari</h3>
@@ -373,7 +373,7 @@
         </div>
       </a>
       <a href="sc-chain-house.php" class="rg-other-card">
-        <img src="chain-house-1.jpg" alt="Chain House" width="400" height="260">
+        <img src="sister concern/chain-house-1.jpg" alt="Chain House" width="400" height="260">
         <div class="rg-other-card-body">
           <span class="rg-other-card-tag">Handcrafted</span>
           <h3>Chain House</h3>

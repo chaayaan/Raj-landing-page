@@ -43,7 +43,7 @@
 <!-- ══ PAGE HERO ══════════════════════════════ -->
 <section class="rg-detail-hero">
   <div class="rg-detail-hero-bg">
-    <img src="melting.png" alt="M/S Raj Aiswari Gold Chain Factory" width="1400" height="600">
+    <img src="sister concern/melting.png" alt="M/S Raj Aiswari Gold Chain Factory" width="1400" height="600">
   </div>
   <div class="rg-detail-hero-overlay"></div>
   <div class="rg-detail-hero-content">
@@ -79,7 +79,7 @@
       </div>
     </div>
     <div class="rg-detail-grid-img">
-      <img src="laser.jpg" alt="Automated Italian Gold Chain Machines" width="600" height="450">
+      <img src="sister concern/laser.jpg" alt="Automated Italian Gold Chain Machines" width="600" height="450">
     </div>
   </div>
 </section>
@@ -162,7 +162,7 @@
     <div class="rg-gold-rule" style="margin:12px auto 40px;"></div>
     <div class="rg-other-grid">
       <a href="sc-raj-aiswari.php" class="rg-other-card">
-        <img src="lab-to-market.jpg" alt="Raj Aiswari Machinery" width="400" height="260">
+        <img src="sister concern/lab-to-market.jpg" alt="Raj Aiswari Machinery" width="400" height="260">
         <div class="rg-other-card-body">
           <span class="rg-other-card-tag">Equipment</span>
           <h3>Raj Aiswari Machinery</h3>
@@ -171,7 +171,7 @@
         </div>
       </a>
       <a href="sc-gold-testing-center.php" class="rg-other-card">
-        <img src="lab-customer.jpg" alt="Gold Testing Center" width="400" height="260">
+        <img src="sister concern/lab-customer.jpg" alt="Gold Testing Center" width="400" height="260">
         <div class="rg-other-card-body">
           <span class="rg-other-card-tag">Laboratory</span>
           <h3>Gold Testing Center</h3>
@@ -180,7 +180,7 @@
         </div>
       </a>
       <a href="sc-chain-house.php" class="rg-other-card">
-        <img src="chain-house-1.jpg" alt="Chain House" width="400" height="260">
+        <img src="sister concern/chain-house-1.jpg" alt="Chain House" width="400" height="260">
         <div class="rg-other-card-body">
           <span class="rg-other-card-tag">Handcrafted</span>
           <h3>Chain House</h3>

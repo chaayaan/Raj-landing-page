@@ -40,10 +40,10 @@
     <a href="sc-raj-aiswari.php" class="rg-sc-images-link" aria-label="View Raj Aiswari Machinery details">
       <div class="rg-sc-images">
         <div class="rg-sc-img-main-wrap">
-          <img src="lab-to-market.jpg" alt="Raj Aiswari Machinery" width="700" height="500">
+          <img src="sister concern/lab-to-market.jpg" alt="Raj Aiswari Machinery" width="700" height="500">
         </div>
         <div class="rg-sc-img-sub-wrap">
-          <img src="interview.jpg" alt="Fischer XRF Machine" width="400" height="300">
+          <img src="sister concern/interview.jpg" alt="Fischer XRF Machine" width="400" height="300">
         </div>
       </div>
     </a>
@@ -80,10 +80,10 @@
     <a href="sc-gold-testing-center.php" class="rg-sc-images-link" aria-label="View Gold Testing Center details">
       <div class="rg-sc-images">
         <div class="rg-sc-img-main-wrap">
-          <img src="lab-customer.jpg" alt="Raj Aiswari Gold Testing Center" width="700" height="500">
+          <img src="sister concern/lab-customer.jpg" alt="Raj Aiswari Gold Testing Center" width="700" height="500">
         </div>
         <div class="rg-sc-img-sub-wrap">
-          <img src="jewlry-testing-machne.jpg" alt="Gold Testing Lab Interior" width="400" height="300">
+          <img src="sister concern/jewlry-testing-machne.jpg" alt="Gold Testing Lab Interior" width="400" height="300">
         </div>
       </div>
     </a>
@@ -120,10 +120,10 @@
     <a href="sc-ms-raj-aiswari.php" class="rg-sc-images-link" aria-label="View M/S Raj Aiswari details">
       <div class="rg-sc-images">
         <div class="rg-sc-img-main-wrap">
-          <img src="melting.png" alt="M/S Raj Aiswari Gold Chain Factory" width="700" height="500">
+          <img src="sister concern/melting.png" alt="M/S Raj Aiswari Gold Chain Factory" width="700" height="500">
         </div>
         <div class="rg-sc-img-sub-wrap">
-          <img src="laser.jpg" alt="Automated Italian Gold Chain Machines" width="400" height="300">
+          <img src="sister concern/laser.jpg" alt="Automated Italian Gold Chain Machines" width="400" height="300">
         </div>
       </div>
     </a>
@@ -156,10 +156,10 @@
     <a href="sc-chain-house.php" class="rg-sc-images-link" aria-label="View Chain House details">
       <div class="rg-sc-images">
         <div class="rg-sc-img-main-wrap">
-          <img src="chain-house-1.jpg" alt="Raj Aiswari Chain House" width="700" height="500">
+          <img src="sister concern/chain-house-1.jpg" alt="Raj Aiswari Chain House" width="700" height="500">
         </div>
         <div class="rg-sc-img-sub-wrap">
-          <img src="chain-house-2.jpg" alt="Handcrafted Gold Chains" width="400" height="300">
+          <img src="sister concern/chain-house-2.jpg" alt="Handcrafted Gold Chains" width="400" height="300">
         </div>
       </div>
     </a>
