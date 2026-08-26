@@ -42,12 +42,20 @@
     <div class="rg-hs-slide"><img src="banner/hero banner 1.png" alt="Raj Aiswari Banner 1" width="1366" height="768"></div>
     <div class="rg-hs-slide"><img src="banner/hero banner 2.png" alt="Raj Aiswari Banner 2" width="1366" height="768"></div>
     <div class="rg-hs-slide"><img src="banner/hero banner 3.png" alt="Raj Aiswari Banner 3" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="banner/hero banner 4.png" alt="Raj Aiswari Banner 4" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="banner/hero banner 5.png" alt="Raj Aiswari Banner 5" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="banner/hero banner 6.png" alt="Raj Aiswari Banner 6" width="1366" height="768"></div>
+    <div class="rg-hs-slide"><img src="banner/hero banner 7.png" alt="Raj Aiswari Banner 7" width="1366" height="768"></div>
   </div>
   <div class="rg-hs-dots">
     <button class="rg-hs-dot rg-hs-dot-active" data-i="0" aria-label="Slide 1"></button>
     <button class="rg-hs-dot" data-i="1" aria-label="Slide 2"></button>
     <button class="rg-hs-dot" data-i="2" aria-label="Slide 3"></button>
     <button class="rg-hs-dot" data-i="3" aria-label="Slide 4"></button>
+    <button class="rg-hs-dot" data-i="4" aria-label="Slide 5"></button>
+    <button class="rg-hs-dot" data-i="5" aria-label="Slide 6"></button>
+    <button class="rg-hs-dot" data-i="6" aria-label="Slide 7"></button>
+    <button class="rg-hs-dot" data-i="7" aria-label="Slide 8"></button>
   </div>
 </section>
 
@@ -861,7 +869,7 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
 (function () {
   var track   = document.getElementById('rgHsTrack');
   var dots    = document.querySelectorAll('.rg-hs-dot');
-  var total   = 4;
+  var total   = 8;
   var current = 0;
   var timer;
 
