@@ -186,7 +186,9 @@ img{max-width:100%;display:block;}
 </style>
 </head>
 <body>
-
+<?php
+include "header.php";
+?>
 <!-- ═══════════════════════════════════════════════
      HERO
 ════════════════════════════════════════════════ -->
@@ -581,7 +583,9 @@ img{max-width:100%;display:block;}
     </div>
   </div>
 </section>
-
+<?php
+include "footer.php";
+?>
 <script>
 /* One simple, gentle reveal-on-scroll — matches the index page's approach */
 (function(){
