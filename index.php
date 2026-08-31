@@ -156,8 +156,8 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
 <section class="rg-section" id="about">
   <div class="rg-about-grid">
     <div class="rg-about-images rg-reveal">
-      <img class="rg-about-img-main"   src="lab-customer.jpg" alt="Gold testing laboratory" width="800" height="600">
-      <img class="rg-about-img-accent" src="jewlry-testing-machne.jpg" alt="Precision measurement" width="600" height="450">
+      <img class="rg-about-img-main"   src="gallary/lab-customer.jpg" alt="Gold testing laboratory" width="800" height="600">
+      <img class="rg-about-img-accent" src="gallary/jewlry-testing-machne.jpg" alt="Precision measurement" width="600" height="450">
       <div class="rg-about-badge">
         <b>25</b>
         <small>Years</small>
