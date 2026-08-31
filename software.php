@@ -92,37 +92,58 @@ img{max-width:100%;display:block;}
 .sw-cta-jwl{color:var(--sw-jwl);border-color:var(--sw-jwl);}
 .sw-cta-jwl:hover{color:var(--sw-jwl-l);border-color:var(--sw-jwl-l);}
 
-/* ── Simple illustrative preview card (not a real UI, just a visual) ── */
-.sw-preview{background:var(--sw-dark);border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,.06);box-shadow:0 20px 60px rgba(0,0,0,.28);}
-.sw-preview-bar{display:flex;align-items:center;gap:8px;padding:12px 16px;background:rgba(255,255,255,.03);border-bottom:1px solid rgba(255,255,255,.05);}
-.sw-dot{width:9px;height:9px;border-radius:50%;}
-.sw-dot-red{background:#ff5f57;}.sw-dot-yel{background:#febc2e;}.sw-dot-grn{background:#28c840;}
-.sw-preview-bar-text{font-size:.66rem;color:rgba(255,255,255,.3);margin-left:8px;font-weight:500;}
-.sw-preview-body{padding:26px 22px;}
-.sw-preview-headline{font-size:1.05rem;font-weight:600;color:#fff;margin-bottom:4px;}
-.sw-preview-sub{font-size:.74rem;color:rgba(255,255,255,.35);margin-bottom:22px;}
-.sw-preview-stats{display:flex;gap:12px;margin-bottom:22px;flex-wrap:wrap;}
-.sw-pv-stat{flex:1;min-width:110px;padding:14px 16px;background:rgba(255,255,255,.03);border-radius:8px;border:1px solid rgba(255,255,255,.05);}
-.sw-pv-val{display:block;font-size:1.25rem;font-weight:600;color:#fff;line-height:1.1;}
-.sw-pv-val.gold{color:var(--sw-gold-l);}
-.sw-pv-val.green{color:#3DAF72;}
-.sw-pv-lbl{display:block;font-size:.62rem;color:rgba(255,255,255,.3);text-transform:uppercase;letter-spacing:.08em;margin-top:6px;}
-.sw-pv-list{display:flex;flex-direction:column;gap:10px;}
-.sw-pv-row{display:flex;align-items:center;justify-content:space-between;padding:11px 14px;background:rgba(255,255,255,.025);border-radius:7px;border:1px solid rgba(255,255,255,.04);}
-.sw-pv-row-left{display:flex;align-items:center;gap:10px;}
-.sw-pv-icon{width:28px;height:28px;border-radius:6px;background:rgba(184,136,30,.15);color:var(--sw-gold-l);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
-.sw-pv-row-left span{font-size:.78rem;color:rgba(255,255,255,.75);}
-.sw-pv-badge{font-size:.62rem;font-weight:600;padding:3px 10px;border-radius:20px;background:rgba(61,175,114,.15);color:#3DAF72;}
-.sw-pv-badge.amber{background:rgba(212,144,58,.15);color:var(--sw-jwl-l);}
-.sw-pv-badge.gold{background:rgba(184,136,30,.18);color:var(--sw-gold-l);}
+/* ── Real app-screenshot style preview (dashboard / billing UI) ── */
+.sw-preview{background:#fff;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,.08);box-shadow:0 20px 60px rgba(28,26,22,.16);}
+.sw-app{display:grid;grid-template-columns:120px 1fr;font-size:9px;}
 
-/* Tunch verify style preview */
-.sw-verify-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:10px;padding:18px;}
-.sw-verify-top{display:flex;align-items:center;gap:8px;color:#3DAF72;font-size:.78rem;font-weight:600;margin-bottom:14px;}
-.sw-verify-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px 16px;}
-.sw-vg span{display:block;font-size:.6rem;color:rgba(255,255,255,.3);text-transform:uppercase;letter-spacing:.06em;margin-bottom:3px;}
-.sw-vg strong{font-size:.8rem;color:rgba(255,255,255,.85);font-weight:500;}
-.sw-vg strong.gold{color:var(--sw-gold-l);}
+/* app sidebar (mini) */
+.sw-app-side{background:#1e2433;padding:12px 8px;display:flex;flex-direction:column;gap:2px;}
+.sw-app-brand{display:flex;align-items:center;gap:6px;color:#fff;font-weight:700;font-size:9px;padding:4px 4px 10px;letter-spacing:.02em;}
+.sw-app-brand .mark{width:16px;height:16px;border-radius:4px;background:var(--sw-gold);flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#1e2433;font-size:9px;font-weight:800;}
+.sw-app-nav-item{display:flex;align-items:center;gap:6px;padding:6px 7px;border-radius:5px;color:rgba(255,255,255,.5);font-size:8.5px;}
+.sw-app-nav-item .ic{width:10px;height:10px;border-radius:2px;background:rgba(255,255,255,.18);flex-shrink:0;}
+.sw-app-nav-item.on{background:rgba(184,136,30,.18);color:var(--sw-gold-l);}
+.sw-app-nav-item.on .ic{background:var(--sw-gold-l);}
+
+/* app main */
+.sw-app-main{background:#f4f5f7;padding:12px;}
+.sw-app-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;}
+.sw-app-top h5{font-size:11px;font-weight:700;color:#1c1a16;margin:0;}
+.sw-app-top span{font-size:7.5px;color:#8a8a8a;display:block;margin-top:1px;}
+.sw-app-pill{font-size:7px;font-weight:600;padding:3px 7px;border-radius:20px;background:#e7e9ee;color:#666;}
+
+.sw-app-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:8px;}
+.sw-app-stat{background:#fff;border:1px solid #e6e6e6;border-radius:6px;padding:7px 8px;border-top:2px solid var(--sw-gold);}
+.sw-app-stat.c-green{border-top-color:#1a6b3a;}
+.sw-app-stat.c-blue{border-top-color:#3a6ea8;}
+.sw-app-stat.c-purple{border-top-color:#6C3FA0;}
+.sw-app-stat b{display:block;font-size:11px;color:#1c1a16;line-height:1.2;}
+.sw-app-stat span{display:block;font-size:6.5px;color:#8a8a8a;text-transform:uppercase;letter-spacing:.03em;margin-top:2px;}
+
+.sw-app-panel{background:#fff;border:1px solid #e6e6e6;border-radius:6px;overflow:hidden;margin-bottom:6px;}
+.sw-app-panel-head{padding:6px 9px;background:#f9f6ee;border-bottom:1px solid #eee;font-size:7.5px;font-weight:700;color:#7A6A2E;display:flex;align-items:center;gap:5px;}
+.sw-app-row{display:flex;align-items:center;justify-content:space-between;padding:6px 9px;border-bottom:1px solid #f0f0f0;font-size:8px;color:#333;}
+.sw-app-row:last-child{border-bottom:none;}
+.sw-app-tag{font-size:6.5px;font-weight:700;padding:2px 6px;border-radius:10px;}
+.sw-app-tag.paid{background:#e8f5ee;color:#1a6b3a;}
+.sw-app-tag.pending{background:#fdf0e0;color:#a5690b;}
+.sw-app-tag.unpaid{background:#fdeceb;color:#c0392b;}
+.sw-app-bars{display:flex;align-items:flex-end;gap:4px;height:38px;padding:0 2px;}
+.sw-app-bar{flex:1;border-radius:2px 2px 0 0;background:linear-gradient(to top,var(--sw-gold),rgba(184,136,30,.35));}
+
+/* Billing form style preview */
+.sw-app-form-field{margin-bottom:6px;}
+.sw-app-form-field label{display:block;font-size:6.5px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:#8a8a8a;margin-bottom:2px;}
+.sw-app-form-field .box{border:1px solid #ddd;border-radius:4px;padding:5px 7px;font-size:8px;color:#aaa;background:#fff;}
+.sw-app-form-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+.sw-app-form-row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;}
+.sw-app-table-mini{border:1px solid #eee;border-radius:5px;overflow:hidden;margin-top:2px;}
+.sw-app-table-mini .thd{display:grid;grid-template-columns:2fr 1.4fr 1fr 1fr;background:#f9f6ee;padding:5px 8px;font-size:6px;font-weight:700;color:#8a7a4a;text-transform:uppercase;}
+.sw-app-table-mini .trow{display:grid;grid-template-columns:2fr 1.4fr 1fr 1fr;padding:6px 8px;font-size:7.5px;color:#333;border-top:1px solid #f2f2f2;align-items:center;}
+.sw-app-total{display:flex;justify-content:flex-end;align-items:center;gap:6px;padding:6px 2px 2px;font-size:7.5px;color:#8a8a8a;}
+.sw-app-total b{font-size:11px;color:#1a6b3a;}
+.sw-app-btn{display:inline-block;font-size:7.5px;font-weight:700;padding:5px 10px;border-radius:4px;background:var(--sw-gold);color:#fff;}
+.sw-app-btn.outline{background:#fff;border:1px solid #ddd;color:#555;}
 
 /* Fade-in on reveal — one orchestrated entrance per section */
 .sw-reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease, transform .7s ease;}
@@ -165,10 +186,6 @@ img{max-width:100%;display:block;}
 </style>
 </head>
 <body>
-
-<?php
-include "header.php";
-?>
 
 <!-- ═══════════════════════════════════════════════
      HERO
@@ -215,9 +232,8 @@ include "header.php";
   </div>
 </section>
 
-
 <!-- ═══════════════════════════════════════════════
-     01 — TUNCHMARK
+     01 — FINEBULLION DESK
 ════════════════════════════════════════════════ -->
 <section class="sw-product-section" id="sw-tunchmark">
   <div class="sw-prod-inner">
@@ -232,26 +248,45 @@ include "header.php";
     <div class="sw-prod-grid">
       <div class="sw-prod-visual sw-reveal">
         <div class="sw-preview">
-          <div class="sw-preview-bar">
-            <span class="sw-dot sw-dot-red"></span><span class="sw-dot sw-dot-yel"></span><span class="sw-dot sw-dot-grn"></span>
-            <span class="sw-preview-bar-text">TunchMark — Report Verify</span>
-          </div>
-          <div class="sw-preview-body">
-            <div class="sw-verify-card">
-              <div class="sw-verify-top">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                Report Verified — ID TN-A1B2C3
-              </div>
-              <div class="sw-verify-grid">
-                <div class="sw-vg"><span>Customer</span><strong>Abdul Karim</strong></div>
-                <div class="sw-vg"><span>Item</span><strong>Gold Chain</strong></div>
-                <div class="sw-vg"><span>Purity</span><strong class="gold">91.60%</strong></div>
-                <div class="sw-vg"><span>Karat</span><strong class="gold">22K</strong></div>
-              </div>
+          <div class="sw-app">
+            <div class="sw-app-side" style="background:#171614;">
+              <div class="sw-app-brand"><span class="mark">T</span>TunchMark</div>
+              <div class="sw-app-nav-item on"><span class="ic"></span>Dashboard</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Lab Billing</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>HUID Verify</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Machinery</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Finance</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Reports</div>
             </div>
-            <div class="sw-preview-stats" style="margin-top:18px;">
-              <div class="sw-pv-stat"><span class="sw-pv-val gold">25+</span><span class="sw-pv-lbl">Labs Using It</span></div>
-              <div class="sw-pv-stat"><span class="sw-pv-val green">Sent</span><span class="sw-pv-lbl">Daily Email Report</span></div>
+            <div class="sw-app-main">
+              <div class="sw-app-top">
+                <div><h5>Dashboard</h5><span>Lab overview — All-Time</span></div>
+                <span class="sw-app-pill">25+ Labs</span>
+              </div>
+              <div class="sw-app-stats">
+                <div class="sw-app-stat c-green"><b>184</b><span>Reports Billed</span></div>
+                <div class="sw-app-stat"><b>৳1.2L</b><span>Income (Month)</span></div>
+                <div class="sw-app-stat c-blue"><b>6</b><span>Pending Bills</span></div>
+                <div class="sw-app-stat c-purple"><b>Sent</b><span>Daily Email</span></div>
+              </div>
+              <div class="sw-app-panel">
+                <div class="sw-app-panel-head">Report Verification</div>
+                <div class="sw-app-row"><span>ID TN-A1B2C3 · Abdul Karim</span><span class="sw-app-tag paid">Verified</span></div>
+                <div class="sw-app-row"><span>Purity 91.60% · 22K</span><span class="sw-app-tag pending">Hallmark</span></div>
+              </div>
+              <div class="sw-app-panel">
+                <div class="sw-app-panel-head">Billing Summary</div>
+                <div style="padding:8px 9px;">
+                  <div class="sw-app-bars">
+                    <div class="sw-app-bar" style="height:35%"></div>
+                    <div class="sw-app-bar" style="height:60%"></div>
+                    <div class="sw-app-bar" style="height:45%"></div>
+                    <div class="sw-app-bar" style="height:80%"></div>
+                    <div class="sw-app-bar" style="height:52%"></div>
+                    <div class="sw-app-bar" style="height:95%"></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -294,93 +329,6 @@ include "header.php";
     </div>
   </div>
 </section>
-
-<!-- ═══════════════════════════════════════════════
-     02 — FINEBULLION DESK
-════════════════════════════════════════════════ -->
-<section class="sw-product-section" id="sw-finebullion">
-  <div class="sw-prod-inner">
-    <div class="sw-prod-header sw-reveal">
-      <div>
-        <span class="sw-prod-tag sw-tag-machine">For Gold Traders</span>
-        <h2 class="sw-prod-title">FineBullion <em>Desk</em></h2>
-        <p class="sw-prod-subtitle">A tool for buying, selling, and exchanging gold — while keeping an accurate record of everything in your vault.</p>
-      </div>
-    </div>
-
-    <div class="sw-prod-grid">
-      <div class="sw-prod-visual sw-reveal">
-        <div class="sw-preview">
-          <div class="sw-preview-bar">
-            <span class="sw-dot sw-dot-red"></span><span class="sw-dot sw-dot-yel"></span><span class="sw-dot sw-dot-grn"></span>
-            <span class="sw-preview-bar-text">FineBullion Desk</span>
-          </div>
-          <div class="sw-preview-body">
-            <div class="sw-preview-headline">Today's Overview</div>
-            <div class="sw-preview-sub">Gold vault &amp; trading summary</div>
-            <div class="sw-preview-stats">
-              <div class="sw-pv-stat"><span class="sw-pv-val gold">৳18.5L</span><span class="sw-pv-lbl">Today's Trade</span></div>
-              <div class="sw-pv-stat"><span class="sw-pv-val">22K g</span><span class="sw-pv-lbl">Vault Balance</span></div>
-              <div class="sw-pv-stat"><span class="sw-pv-val green">14</span><span class="sw-pv-lbl">Artisans</span></div>
-            </div>
-            <div class="sw-pv-list">
-              <div class="sw-pv-row">
-                <div class="sw-pv-row-left"><div class="sw-pv-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div><span>Gold Buy / Sell</span></div>
-                <span class="sw-pv-badge gold">Open</span>
-              </div>
-              <div class="sw-pv-row">
-                <div class="sw-pv-row-left"><div class="sw-pv-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div><span>24K Vault</span></div>
-                <span class="sw-pv-badge">Secure</span>
-              </div>
-              <div class="sw-pv-row">
-                <div class="sw-pv-row-left"><div class="sw-pv-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div><span>Stock Check</span></div>
-                <span class="sw-pv-badge">Automatic</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="sw-prod-content sw-reveal">
-        <p class="sw-prod-lead" style="font-size:.92rem;color:var(--sw-muted);font-weight:300;line-height:1.75;margin-bottom:28px;">
-          FineBullion Desk is a simple tool for gold traders. It helps you buy, sell, and exchange gold, keep track of
-          how much pure gold is in your vault, and manage your customers and artisans — all from one place.
-        </p>
-        <div class="sw-prod-features">
-          <div class="sw-feat">
-            <div class="sw-feat-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
-            <div><strong>Buy, Sell &amp; Exchange Gold</strong><span>Handles gold trades and works out the right value based on purity, automatically.</span></div>
-          </div>
-          <div class="sw-feat">
-            <div class="sw-feat-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
-            <div><strong>Vault &amp; Stock Tracking</strong><span>Keeps a running count of pure gold in your vault, and tracks stock separately for 18K, 20K, 21K, 22K, and 24K gold.</span></div>
-          </div>
-          <div class="sw-feat">
-            <div class="sw-feat-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg></div>
-            <div><strong>Stops Mistakes Before They Happen</strong><span>Checks your stock automatically before a sale, and blocks the transaction if there isn't enough gold in hand.</span></div>
-          </div>
-          <div class="sw-feat">
-            <div class="sw-feat-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/></svg></div>
-            <div><strong>Customer &amp; Artisan Records</strong><span>Keeps a full history for every customer and artisan, including gold handed over and gold returned.</span></div>
-          </div>
-          <div class="sw-feat">
-            <div class="sw-feat-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg></div>
-            <div><strong>Weights Shown the Traditional Way</strong><span>Stores every weight accurately, but shows it to you in Vori, Ana, Roti, and Point — the way you already work.</span></div>
-          </div>
-          <div class="sw-feat">
-            <div class="sw-feat-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
-            <div><strong>Expenses &amp; Simple Reports</strong><span>Tracks day-to-day business expenses and gives you a clear dashboard of how the business is doing.</span></div>
-          </div>
-        </div>
-        <a href="#sw-final-cta" class="sw-cta-link">Ask About FineBullion Desk<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══════════════════════════════════════════════
-     03 — JEWELRYKHATA
-════════════════════════════════════════════════ -->
 <section class="sw-product-section sw-section-alt" id="sw-jewelrykhata">
   <div class="sw-prod-inner">
     <div class="sw-prod-header sw-reveal">
@@ -394,30 +342,43 @@ include "header.php";
     <div class="sw-prod-grid sw-prod-grid-reverse">
       <div class="sw-prod-visual sw-reveal">
         <div class="sw-preview">
-          <div class="sw-preview-bar">
-            <span class="sw-dot sw-dot-red"></span><span class="sw-dot sw-dot-yel"></span><span class="sw-dot sw-dot-grn"></span>
-            <span class="sw-preview-bar-text">JewelryKhata</span>
-          </div>
-          <div class="sw-preview-body">
-            <div class="sw-preview-headline">Shop Summary</div>
-            <div class="sw-preview-sub">Sales, orders &amp; pawns at a glance</div>
-            <div class="sw-preview-stats">
-              <div class="sw-pv-stat"><span class="sw-pv-val green">24</span><span class="sw-pv-lbl">Sales Today</span></div>
-              <div class="sw-pv-stat"><span class="sw-pv-val gold">8</span><span class="sw-pv-lbl">Pending Orders</span></div>
-              <div class="sw-pv-stat"><span class="sw-pv-val">15</span><span class="sw-pv-lbl">Active Pawns</span></div>
+          <div class="sw-app">
+            <div class="sw-app-side">
+              <div class="sw-app-brand"><span class="mark">J</span>JewelryKhata</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Dashboard</div>
+              <div class="sw-app-nav-item on"><span class="ic"></span>New Order</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Customers</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Bills</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Bondok</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Inventory</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Reports</div>
             </div>
-            <div class="sw-pv-list">
-              <div class="sw-pv-row">
-                <div class="sw-pv-row-left"><div class="sw-pv-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div><span>Bill #JK-1024 — Gold Chain</span></div>
-                <span class="sw-pv-badge">Paid</span>
+            <div class="sw-app-main">
+              <div class="sw-app-top">
+                <div><h5>New Order</h5><span>Create a billing order</span></div>
+                <span class="sw-app-pill">#28153</span>
               </div>
-              <div class="sw-pv-row">
-                <div class="sw-pv-row-left"><div class="sw-pv-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg></div><span>Order #408 — Chain 22K</span></div>
-                <span class="sw-pv-badge amber">Making</span>
+              <div class="sw-app-panel">
+                <div class="sw-app-panel-head">Customer Information</div>
+                <div style="padding:8px 9px;">
+                  <div class="sw-app-form-row3" style="margin-bottom:6px;">
+                    <div class="sw-app-form-field"><label>Name</label><div class="box">Search or enter name</div></div>
+                    <div class="sw-app-form-field"><label>Phone</label><div class="box">Search or enter phone</div></div>
+                    <div class="sw-app-form-field"><label>Address</label><div class="box">Optional</div></div>
+                  </div>
+                </div>
               </div>
-              <div class="sw-pv-row">
-                <div class="sw-pv-row-left"><div class="sw-pv-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div><span>Bondok — Ring 22K</span></div>
-                <span class="sw-pv-badge gold">Active</span>
+              <div class="sw-app-panel">
+                <div class="sw-app-panel-head">Order Items</div>
+                <div class="sw-app-table-mini">
+                  <div class="thd"><span>Item</span><span>Weight</span><span>Karat</span><span>Price</span></div>
+                  <div class="trow"><span>Gold Chain</span><span>18.4g</span><span>22K</span><span>৳2,17,114</span></div>
+                </div>
+                <div class="sw-app-total">GRAND TOTAL <b>৳2,17,114</b></div>
+              </div>
+              <div style="display:flex;justify-content:flex-end;gap:6px;">
+                <span class="sw-app-btn outline">Reset</span>
+                <span class="sw-app-btn">Submit Order</span>
               </div>
             </div>
           </div>
@@ -470,6 +431,107 @@ include "header.php";
 </section>
 
 <!-- ═══════════════════════════════════════════════
+     03 — TUNCHMARK
+════════════════════════════════════════════════ -->
+<section class="sw-product-section" id="sw-finebullion">
+  <div class="sw-prod-inner">
+    <div class="sw-prod-header sw-reveal">
+      <div>
+        <span class="sw-prod-tag sw-tag-machine">For Gold Traders</span>
+        <h2 class="sw-prod-title">FineBullion <em>Desk</em></h2>
+        <p class="sw-prod-subtitle">A tool for buying, selling, and exchanging gold — while keeping an accurate record of everything in your vault.</p>
+      </div>
+    </div>
+
+    <div class="sw-prod-grid">
+      <div class="sw-prod-visual sw-reveal">
+        <div class="sw-preview">
+          <div class="sw-app">
+            <div class="sw-app-side">
+              <div class="sw-app-brand"><span class="mark">F</span>FineBullion</div>
+              <div class="sw-app-nav-item on"><span class="ic"></span>Dashboard</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Inventory</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Customers</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Exchange</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Sales</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Purchase</div>
+              <div class="sw-app-nav-item"><span class="ic"></span>Expenses</div>
+            </div>
+            <div class="sw-app-main">
+              <div class="sw-app-top">
+                <div><h5>Dashboard</h5><span>Business activity overview</span></div>
+                <span class="sw-app-pill">This Month</span>
+              </div>
+              <div class="sw-app-stats">
+                <div class="sw-app-stat"><b>25v 7a</b><span>Total Stock</span></div>
+                <div class="sw-app-stat c-green"><b>14v 7a</b><span>Pure Gold 24K</span></div>
+                <div class="sw-app-stat c-blue"><b>2 Low</b><span>Stock Alert</span></div>
+                <div class="sw-app-stat c-purple"><b>14</b><span>Artisans</span></div>
+              </div>
+              <div class="sw-app-panel">
+                <div class="sw-app-panel-head">Stock by Karat</div>
+                <div style="padding:8px 9px;">
+                  <div class="sw-app-bars">
+                    <div class="sw-app-bar" style="height:18%"></div>
+                    <div class="sw-app-bar" style="height:55%"></div>
+                    <div class="sw-app-bar" style="height:22%"></div>
+                    <div class="sw-app-bar" style="height:12%"></div>
+                    <div class="sw-app-bar" style="height:95%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="sw-app-panel">
+                <div class="sw-app-panel-head">Recent Gold Sale</div>
+                <div class="sw-app-row"><span>Ranka Jewellers · 22K</span><span class="sw-app-tag paid">Paid</span></div>
+                <div class="sw-app-row"><span>Qlik Gold · 24K</span><span class="sw-app-tag pending">Pending</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sw-prod-content sw-reveal">
+        <p class="sw-prod-lead" style="font-size:.92rem;color:var(--sw-muted);font-weight:300;line-height:1.75;margin-bottom:28px;">
+          FineBullion Desk is a simple tool for gold traders. It helps you buy, sell, and exchange gold, keep track of
+          how much pure gold is in your vault, and manage your customers and artisans — all from one place.
+        </p>
+        <div class="sw-prod-features">
+          <div class="sw-feat">
+            <div class="sw-feat-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
+            <div><strong>Buy, Sell &amp; Exchange Gold</strong><span>Handles gold trades and works out the right value based on purity, automatically.</span></div>
+          </div>
+          <div class="sw-feat">
+            <div class="sw-feat-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+            <div><strong>Vault &amp; Stock Tracking</strong><span>Keeps a running count of pure gold in your vault, and tracks stock separately for 18K, 20K, 21K, 22K, and 24K gold.</span></div>
+          </div>
+          <div class="sw-feat">
+            <div class="sw-feat-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg></div>
+            <div><strong>Stops Mistakes Before They Happen</strong><span>Checks your stock automatically before a sale, and blocks the transaction if there isn't enough gold in hand.</span></div>
+          </div>
+          <div class="sw-feat">
+            <div class="sw-feat-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/></svg></div>
+            <div><strong>Customer &amp; Artisan Records</strong><span>Keeps a full history for every customer and artisan, including gold handed over and gold returned.</span></div>
+          </div>
+          <div class="sw-feat">
+            <div class="sw-feat-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg></div>
+            <div><strong>Weights Shown the Traditional Way</strong><span>Stores every weight accurately, but shows it to you in Vori, Ana, Roti, and Point — the way you already work.</span></div>
+          </div>
+          <div class="sw-feat">
+            <div class="sw-feat-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+            <div><strong>Expenses &amp; Simple Reports</strong><span>Tracks day-to-day business expenses and gives you a clear dashboard of how the business is doing.</span></div>
+          </div>
+        </div>
+        <a href="#sw-final-cta" class="sw-cta-link">Ask About FineBullion Desk<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════
+     02 — JEWELRYKHATA
+════════════════════════════════════════════════ -->
+
+<!-- ═══════════════════════════════════════════════
      04 — WEBSITE BUILDING
 ════════════════════════════════════════════════ -->
 <section class="sw-brand-section sw-section-alt" id="sw-brand">
@@ -519,9 +581,6 @@ include "header.php";
     </div>
   </div>
 </section>
-<?php
-include "footer.php";
-?>
 
 <script>
 /* One simple, gentle reveal-on-scroll — matches the index page's approach */
