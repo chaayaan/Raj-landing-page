@@ -16,8 +16,22 @@
 <?php
 /* ══════════════════════════════════════════════════════════════════
    CLIENT / LAB DATA ARRAY
+   Part 1: existing clients (unchanged)
+   Part 2: newly added centres (no logo yet -> initials fallback is shown)
    ══════════════════════════════════════════════════════════════════ */
  $clients = [
+
+  /* ───────────── FIRST CARD ───────────── */
+  [
+    'logo'    => 'favicon.png',
+    'name'    => 'Raj Aiswari Gold Testing Centre',
+    'address' => 'Hazari Market (2nd Floor), Hazari Lane, Chittagong — 4000',
+    'phone'   => '01716-469866',
+    'website' => 'www.rajaiswari.com',
+    'website_url' => 'https://www.rajaiswari.com',
+  ],
+
+  /* ───────────── PART 1 : EXISTING CLIENTS ───────────── */
   [
     'logo'    => 'client-habiganj.png',
     'name'    => 'BSTI Dhaka',
@@ -76,7 +90,7 @@
   ],
   [
     'logo'    => 'client-german.png',
-    'name'    => 'MA GOLD TESTING CENTER',
+    'name'    => 'MA GOLD TESTING CENTRE',
     'address' => '18, Helatola road, 2nd Floor',
     'phone'   => '01319-592829, 024-78845382',
     'website' => '',
@@ -108,7 +122,7 @@
   ],
   [
     'logo'    => 'client-radhesheree.png',
-    'name'    => 'Radhesheree Gold Hallmark Center',
+    'name'    => 'Radhesheree Gold Hallmark Centre',
     'address' => 'Tekerhat Swarnakar Potti Rajoir, Madaripur',
     'phone'   => '+880 1750449455',
     'website' => '',
@@ -116,7 +130,7 @@
   ],
   [
     'logo'    => 'client-rpm.png',
-    'name'    => 'RPM Gold Testing Center',
+    'name'    => 'RPM Gold Testing Centre',
     'address' => 'Babur bari road (Dudh potty) Madhabdi',
     'phone'   => '+880 1871357531',
     'website' => '',
@@ -124,7 +138,7 @@
   ],
   [
     'logo'    => 'client-rpm.png',
-    'name'    => ' JAMALPUR GOLD',
+    'name'    => 'JAMALPUR GOLD',
     'address' => 'Mirja Complex Medical Road',
     'phone'   => '+880 1323536765',
     'website' => '',
@@ -140,7 +154,7 @@
   ],
   [
     'logo'    => 'client-madhupur.png',
-    'name'    => 'Madhupur Gold Testing Center',
+    'name'    => 'Madhupur Gold Testing Centre',
     'address' => 'Kudrat market, Sathi Cinema Hall Road, Madhupur',
     'phone'   => '+880 1797261563',
     'website' => '',
@@ -172,7 +186,7 @@
   ],
   [
     'logo'    => 'client-ss.png',
-    'name'    => 'SS Gold Testing Hallmark Center',
+    'name'    => 'SS Gold Testing Hallmark Centre',
     'address' => 'Beanibazar, National Market(1st floor), Sylhet',
     'phone'   => '01777-203698',
     'website' => '',
@@ -188,7 +202,7 @@
   ],
   [
     'logo'    => 'client-ajmeri.png',
-    'name'    => 'Ajmeri Gold Testing & Hallmark Center',
+    'name'    => 'Ajmeri Gold Testing & Hallmark Centre',
     'address' => '170,Alhera Jame Mosid Market (BGB gate no-3), Azimpur, Lalbagh, Dhaka-1205',
     'phone'   => '+880 1829-351600',
     'website' => '',
@@ -196,7 +210,7 @@
   ],
   [
     'logo'    => 'client-bismillah.png',
-    'name'    => 'Bismillah Gold Testing Center',
+    'name'    => 'Bismillah Gold Testing Centre',
     'address' => 'Modern Market, Chatipotti, Cumilla',
     'phone'   => '01833-355779, 01638-855508',
     'website' => '',
@@ -212,7 +226,7 @@
   ],
   [
     'logo'    => 'client-hossainpur.png',
-    'name'    => 'Hossainpur Hallmark Center',
+    'name'    => 'Hossainpur Hallmark Centre',
     'address' => 'Ground Floor Shop No. 2, Hashem Complex, Hossainpur North Bazar Shahrasti, Chandpur',
     'phone'   => '01712-187207, 01774-887488, 01329-957117',
     'website' => '',
@@ -250,6 +264,283 @@
     'website' => '',
     'website_url' => '',
   ],
+
+  /* ───────────── PART 2 : NEWLY ADDED CENTRES ───────────── */
+
+  /* Dhaka Division */
+  [
+    'logo'    => '',
+    'name'    => 'Ruposhi Bangla Testing Centre',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Asha & Muslim Gold Tons & Hallmark Lab',
+    'address' => 'Ashulia, Savar, Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Gazipur Gold Hallmark Centre',
+    'address' => 'Joydebpur, Gazipur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Bangladesh Gold (1)',
+    'address' => 'Narayanganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Bangladesh Gold (2)',
+    'address' => 'Narayanganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Maitree Gold',
+    'address' => 'Narayanganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Messrs Bangladesh Gold',
+    'address' => 'Narsingdi',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Narsingdi Gold Lab Limited',
+    'address' => 'Narsingdi',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Mirzapur Gold Testing Lab Limited',
+    'address' => 'Mirzapur, Tangail',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'GK Hallmark Centre',
+    'address' => 'Faridpur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'New Raj Aiswari Gold & Hallmark Centre',
+    'address' => 'Faridpur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  /* Mymensingh Division */
+  [
+    'logo'    => '',
+    'name'    => 'Ruposhi Bangla Gold Testing Centre (1)',
+    'address' => 'Kishoreganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Ruposhi Bangla Gold Testing Centre (2)',
+    'address' => 'Kishoreganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Gold Castle',
+    'address' => 'Kishoreganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Ruposhi Bangla Gold & Hallmark Centre',
+    'address' => 'Mymensingh',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  /* Cumilla / Brahmanbaria / Chandpur */
+  [
+    'logo'    => '',
+    'name'    => 'Cumilla Gold',
+    'address' => 'Cumilla',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Sottota Gold Testing Centre',
+    'address' => 'Cumilla',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'New Bangladesh Gold Testing & Hallmark Centre',
+    'address' => 'Homna, Cumilla',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'New Sonar Bangla Gold Testing',
+    'address' => 'Brahmanbaria',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Star Gold Limited',
+    'address' => 'Brahmanbaria',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Rodro Gold Testing & Hallmark Centre',
+    'address' => 'Matlab, Chandpur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Fashion Gold Testing & Hallmark',
+    'address' => 'Chandpur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Kalyan Gold & Hallmark Centre',
+    'address' => 'Chandpur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  /* Chattogram Division */
+  [
+    'logo'    => '',
+    'name'    => 'Rahman Gold Testing Centre',
+    'address' => 'Sitakunda, Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'German Gold Testing Centre',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'New German Gold Testing Centre',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Roy Gold Testing Centre',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Fisher Gold Testing Centre',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Doyamoy Gold Testing Centre',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+  [
+    'logo'    => '',
+    'name'    => 'Cox Gold & Hallmark Centre',
+    'address' => "Cox's Bazar",
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  /* Khulna Division */
+  [
+    'logo'    => '',
+    'name'    => 'Square Gold & Hallmark Centre',
+    'address' => 'Khulna',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  /* Latest addition */
+  [
+    'logo'    => '',
+    'name'    => 'RK GOLD TESTING CENTRE',
+    'address' => 'Hajari Lane, Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+];
+
+/* ── MANUAL SETTINGS (edit these by hand) ───────────────────────── */
+ $districts_covered = '30+';   // number shown in the "Districts Covered" box
+ $main_regions = [             // district pills shown on the page (first 8 on mobile)
+  'Dhaka', 'Chattogram', 'Sylhet', 'Mymensingh', 'Tangail',
+  'Khulna', "Cox's Bazar", 'Cumilla', 'Narayanganj', 'Narsingdi'
 ];
 ?>
 
@@ -272,7 +563,7 @@
       <span class="rg-cl-stat-lbl">Labs Served Nationwide</span>
     </div>
     <div class="rg-cl-stat">
-      <span class="rg-cl-stat-num">30+</span>
+      <span class="rg-cl-stat-num"><?php echo htmlspecialchars($districts_covered); ?></span>
       <span class="rg-cl-stat-lbl">Districts Covered</span>
     </div>
     <div class="rg-cl-stat">
@@ -288,38 +579,14 @@
 
   <!-- Region Pills -->
   <div class="rg-cl-pills rg-reveal">
-    <span class="rg-cl-pill">
+    <?php
+      foreach ($main_regions as $i => $region):
+    ?>
+    <span class="rg-cl-pill<?php echo $i >= 8 ? ' rg-cl-pill--desktop' : ''; ?>">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-      Dhaka
+      <?php echo htmlspecialchars($region); ?>
     </span>
-    <span class="rg-cl-pill">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-      Chattogram
-    </span>
-    <span class="rg-cl-pill">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-      Sylhet
-    </span>
-    <span class="rg-cl-pill">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-      Mymensingh
-    </span>
-    <span class="rg-cl-pill">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-      Tangail
-    </span>
-    <span class="rg-cl-pill">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-      Khulna
-    </span>
-    <span class="rg-cl-pill">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-      Cox's Bazar
-    </span>
-    <span class="rg-cl-pill">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-      Jhenaidah
-    </span>
+    <?php endforeach; ?>
     <span class="rg-cl-pill rg-cl-pill--more">+ More Regions</span>
   </div>
 
@@ -363,7 +630,7 @@
         <?php else: ?>
           <div class="rg-cl-logo-fallback">
             <?php
-              $words = explode(' ', $client['name']);
+              $words = explode(' ', trim($client['name']));
               $initials = '';
               foreach (array_slice($words, 0, 2) as $w) {
                 $initials .= strtoupper(mb_substr($w, 0, 1));
@@ -376,7 +643,7 @@
 
       <!-- Right: Name + Meta -->
       <div class="rg-cl-info">
-        <h3 class="rg-cl-name"><?php echo htmlspecialchars($client['name']); ?></h3>
+        <h3 class="rg-cl-name"><?php echo htmlspecialchars(trim($client['name'])); ?></h3>
 
         <!-- Address -->
         <div class="rg-cl-meta-row">
@@ -392,7 +659,11 @@
         <div class="rg-cl-meta-row">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.22 2.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.06 6.06l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
           <?php if (!empty($client['phone'])): ?>
-            <a href="tel:<?php echo preg_replace('/\s+/', '', $client['phone']); ?>" class="rg-cl-link-plain"><?php echo htmlspecialchars($client['phone']); ?></a>
+            <?php
+              $first_phone = trim(explode(',', $client['phone'])[0]);
+              $tel_href    = preg_replace('/[^\d+]/', '', $first_phone);
+            ?>
+            <a href="tel:<?php echo $tel_href; ?>" class="rg-cl-link-plain"><?php echo htmlspecialchars($client['phone']); ?></a>
           <?php else: ?>
             <span class="rg-cl-na">Not set yet</span>
           <?php endif; ?>
@@ -402,7 +673,15 @@
         <div class="rg-cl-meta-row">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
           <?php if (!empty($client['website'])): ?>
-            <a href="<?php echo htmlspecialchars($client['website_url'] ?: 'https://'.$client['website']); ?>" target="_blank" rel="noopener" class="rg-cl-link-web"><?php echo htmlspecialchars($client['website']); ?></a>
+            <?php
+              // Always build an absolute URL: without https:// the browser treats
+              // "www.example.com" as a path relative to the current page.
+              $site_url = trim(!empty($client['website_url']) ? $client['website_url'] : $client['website']);
+              if (!preg_match('#^https?://#i', $site_url)) {
+                $site_url = 'https://' . ltrim($site_url, '/');
+              }
+            ?>
+            <a href="<?php echo htmlspecialchars($site_url); ?>" target="_blank" rel="noopener" class="rg-cl-link-web"><?php echo htmlspecialchars($client['website']); ?></a>
           <?php else: ?>
             <span class="rg-cl-na">Not set yet</span>
           <?php endif; ?>
@@ -597,15 +876,6 @@ body {
   line-height: 1.7;
 }
 
-/* ── Responsive ──────────────────────────────────────────────────── */
-@media (max-width: 768px) {
-  .rg-cl-stats-row { grid-template-columns: repeat(3, 1fr); }
-  .rg-cl-provide-strip { grid-template-columns: 1fr; gap: 12px; }
-}
-@media (max-width: 480px) {
-  .rg-cl-stats-row { grid-template-columns: 1fr; }
-}
-
 /* ── Client Grid ─────────────────────────────────────────────────── */
 .rg-cl-grid {
   display: grid;
@@ -675,15 +945,6 @@ body {
 }
 
 /* ── Meta rows ───────────────────────────────────────────────────── */
-.rg-cl-meta-row {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  font-size: 0.76rem;
-  color: var(--rg-muted);
-  font-weight: 400;
-  line-height: 1.55;
-}
 .rg-cl-meta-row {
   display: flex;
   align-items: center;
@@ -766,12 +1027,30 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .rg-cl-stats-row { grid-template-columns: repeat(3, 1fr); }
+  .rg-cl-provide-strip { grid-template-columns: 1fr; gap: 12px; }
   .rg-cl-grid {
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 14px;
   }
 }
 @media (max-width: 480px) {
+  /* Simple mobile view: hide long descriptions */
+  .rg-cl-intro-text,
+  .rg-page-hero-sub,
+  .rg-cta-sub { display: none; }
+  .rg-cl-pill--desktop { display: none; }
+  .rg-page-hero { min-height: 200px; padding-bottom: 36px; }
+  .rg-cta-banner { padding: 44px 20px; }
+  .rg-cta-title { margin-bottom: 20px; }
+
+  /* Keep the 3 stats side by side on phones, just more compact */
+  .rg-cl-stats-row { grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 28px; }
+  .rg-cl-stat { padding: 16px 6px; gap: 6px; }
+  .rg-cl-stat-num { font-size: 1.55rem; }
+  .rg-cl-stat-lbl { font-size: 0.56rem; letter-spacing: 0.06em; line-height: 1.35; }
+  .rg-cl-pills { gap: 6px; margin-bottom: 36px; }
+  .rg-cl-pill { font-size: 0.68rem; padding: 4px 10px; }
   .rg-cl-grid {
     grid-template-columns: 1fr;
     gap: 12px;
@@ -810,4 +1089,3 @@ body {
 <?php include 'footer.php'; ?>
 </body>
 </html>
-
