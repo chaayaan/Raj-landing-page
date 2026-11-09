@@ -808,7 +808,11 @@ textarea.rg-field { resize: vertical; min-height: 110px; }
 /* ══════════════════════════════════════════════════════════
    WHATSAPP FLOATING BUTTON
 ══════════════════════════════════════════════════════════ */
-.rg-wa-wrap { position: fixed; bottom: 28px; right: 28px; z-index: 9999; display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
+.rg-wa-wrap { position: fixed; bottom: 28px; right: 28px; z-index: 9999; display: flex; flex-direction: column; align-items: flex-end; gap: 12px;
+  /* The wrapper is as big as the (invisible) popup, so it must not catch taps.
+     Only the real button and the OPEN popup are clickable. */
+  pointer-events: none; }
+.rg-wa-fab { pointer-events: auto; }
 
 .rg-wa-popup { width: 300px; background: #fff; border-radius: 16px; box-shadow: 0 12px 48px rgba(0,0,0,0.16), 0 2px 8px rgba(0,0,0,0.08); overflow: hidden; opacity: 0; transform: translateY(16px) scale(0.96); pointer-events: none; transition: opacity 0.3s ease, transform 0.3s ease; transform-origin: bottom right; }
 .rg-wa-popup.rg-wa-open { opacity: 1; transform: translateY(0) scale(1); pointer-events: all; }

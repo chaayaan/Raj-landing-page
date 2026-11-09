@@ -4,26 +4,115 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Raj Aiswari – Fischer Measurement Technologies Bangladesh</title>
-  
+
   <!-- SEO Meta -->
-  <meta name="description" content="Raj Aiswari is Bangladesh's authorized partner for Fischer Germany — providing gold testing machines, coating thickness gauges, and material analysis equipment since 1998.">
-  <meta name="keywords" content="Fischer Germany Bangladesh, gold testing machine, XRF machine, coating thickness gauge, material analysis, Raj Aiswari, gold purity tester">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://rajaiswari.com">
-  
+  <meta name="description" content="Raj Aiswari – also searched as Rajaiswari, Rajeswari, Rajeshwari, রাজঐশ্বরী, রাজেশ্বরী – is Bangladesh's authorized Fischer Germany partner for gold testing XRF machines, coating thickness gauges and hallmark centre setup since 1998. Hazari Lane, Chattogram.">
+  <meta name="keywords" content="Raj Aiswari, Rajaiswari, Raj Aishwari, Rajaishwari, Rajeswari, Rajeshwari, Raj Eswari, Raj Ishwari, Rajeswary, Raj Aiswary, রাজঐশ্বরী, রাজ ঐশ্বরী, রাজেশ্বরী, রাজ ঈশ্বরী, রাজ এশ্বরী, Fischer Germany Bangladesh, gold testing machine Bangladesh, XRF machine Bangladesh, coating thickness gauge, gold purity tester, Rajaiswari Gold Testing Center, hallmark machine Bangladesh, Hazari Lane Chattogram, স্বর্ণ পরীক্ষার মেশিন, গোল্ড টেস্টিং মেশিন, এক্সআরএফ মেশিন বাংলাদেশ, রাজঐশ্বরী গোল্ড টেস্টিং সেন্টার">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://rajaiswari.com/">
+
   <!-- Open Graph -->
-  <meta property="og:title" content="Raj Aiswari – Fischer Measurement Technologies Bangladesh">
-  <meta property="og:description" content="Bangladesh's trusted partner for world-class gold testing, coating thickness, and material analysis technologies since 1998.">
+  <meta property="og:title" content="Raj Aiswari (Rajaiswari / রাজঐশ্বরী) – Gold Testing Machines & Fischer Bangladesh">
+  <meta property="og:description" content="Raj Aiswari – also searched as Rajaiswari, Rajeswari, Rajeshwari, রাজঐশ্বরী, রাজেশ্বরী – is Bangladesh's authorized Fischer Germany partner for gold testing XRF machines, coating thickness gauges and hallmark centre setup since 1998. Hazari Lane, Chattogram.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rajaiswari.com/">
+  <meta property="og:site_name" content="Raj Aiswari (রাজঐশ্বরী)">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="bn_BD">
   <meta property="og:image" content="https://rajaiswari.com/f-m.jpg">
-  
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Raj Aiswari – Fischer Measurement Technologies Bangladesh">
-  <meta name="twitter:description" content="Bangladesh's trusted partner for gold testing and measurement technologies since 1998.">
+  <meta name="twitter:title" content="Raj Aiswari (Rajaiswari / রাজঐশ্বরী) – Gold Testing Machines & Fischer Bangladesh">
+  <meta name="twitter:description" content="Raj Aiswari – also searched as Rajaiswari, Rajeswari, Rajeshwari, রাজঐশ্বরী, রাজেশ্বরী – is Bangladesh's authorized Fischer Germany partner for gold testing XRF machines, coating thickness gauges and hallmark centre setup since 1998. Hazari Lane, Chattogram.">
   <meta name="twitter:image" content="https://rajaiswari.com/f-m.jpg">
-  
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "LocalBusiness",
+        "Organization"
+      ],
+      "@id": "https://rajaiswari.com/#org",
+      "name": "Raj Aiswari",
+      "alternateName": [
+        "Rajaiswari",
+        "Raj Aishwari",
+        "Rajaishwari",
+        "Rajeswari",
+        "Rajeshwari",
+        "Raj Eswari",
+        "Raj Ishwari",
+        "Rajeswary",
+        "Raj Aiswary",
+        "রাজঐশ্বরী",
+        "রাজ ঐশ্বরী",
+        "রাজেশ্বরী",
+        "রাজ ঈশ্বরী",
+        "রাজ এশ্বরী",
+        "Raj Aiswari Gold Testing Centre",
+        "Rajaiswari Gold Testing Center",
+        "Raj Aiswari Gold"
+      ],
+      "url": "https://rajaiswari.com/",
+      "logo": "https://rajaiswari.com/logo.jpg",
+      "image": "https://rajaiswari.com/f-m.jpg",
+      "description": "Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী) is Bangladesh's authorized partner for Fischer Germany gold testing XRF machines and hallmark centre solutions since 1998.",
+      "telephone": "+8801716469866",
+      "email": "shimudeb@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Hazari Market (2nd Floor), Hazari Lane",
+        "addressLocality": "Chattogram",
+        "postalCode": "4000",
+        "addressCountry": "BD"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Bangladesh"
+      },
+      "sameAs": [
+        "https://www.facebook.com/rajasiwari"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://rajaiswari.com/#website",
+      "url": "https://rajaiswari.com/",
+      "name": "Raj Aiswari",
+      "alternateName": [
+        "Rajaiswari",
+        "Rajeswari",
+        "রাজঐশ্বরী"
+      ],
+      "publisher": {
+        "@id": "https://rajaiswari.com/#org"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rajaiswari.com/#page",
+      "url": "https://rajaiswari.com/",
+      "name": "Raj Aiswari – Fischer Measurement Technologies Bangladesh",
+      "description": "Raj Aiswari – also searched as Rajaiswari, Rajeswari, Rajeshwari, রাজঐশ্বরী, রাজেশ্বরী – is Bangladesh's authorized Fischer Germany partner for gold testing XRF machines, coating thickness gauges and hallmark centre setup since 1998. Hazari Lane, Chattogram.",
+      "isPartOf": {
+        "@id": "https://rajaiswari.com/#website"
+      },
+      "about": {
+        "@id": "https://rajaiswari.com/#org"
+      },
+      "inLanguage": [
+        "en",
+        "bn"
+      ]
+    }
+  ]
+}
+</script>
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
@@ -147,8 +236,8 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
     <?php endforeach; ?>
 
   </div>
-  <div style="text-align:center;margin-top:32px;" class="rg-reveal">
-    <a href="products.php" class="rg-btn-gold" style="background:var(--rg-gold);color:#fff;padding:12px 32px;font-size:0.82rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;display:inline-block;transition:background 0.3s;">View All Products →</a>
+  <div class="rg-viewall-wrap rg-reveal">
+    <a href="products.php" class="rg-viewall-btn">View All Products →</a>
   </div>
 </section>
 
@@ -538,6 +627,27 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
 
 <!-- ══ STYLES ════════════════════════════════════ -->
 <style>
+/* ── View All buttons: always clickable / tappable on mobile ── */
+.rg-viewall-wrap {
+  text-align: center; margin-top: 32px;
+  position: relative; z-index: 5;           /* keep above neighbouring sections */
+  clear: both;
+}
+.rg-viewall-btn {
+  position: relative; z-index: 5;
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 44px;                         /* comfortable touch target */
+  background: var(--rg-gold, #B8881E); color: #fff;
+  padding: 12px 32px; font-size: 0.82rem; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none;
+  border-radius: 2px; cursor: pointer;
+  pointer-events: auto;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(184,136,30,0.25);
+  transition: background 0.3s;
+}
+.rg-viewall-btn:hover, .rg-viewall-btn:active { background: #9A7218; color: #fff; }
+
 /* ── Homepage product card category tag ──────── */
 .rg-prod-cat-tag {
   display: inline-block; font-size: 0.58rem; font-weight: 700;

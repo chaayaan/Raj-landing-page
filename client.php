@@ -3,7 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Clients – Raj Aiswari | Trusted Gold Testing Partners</title>
+  <title>Our Clients – Raj Aiswari Gold Testing Centre | রাজঐশ্বরী Bangladesh</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী, রাজেশ্বরী) clients: 60+ gold testing and hallmark centres across Bangladesh – Dhaka, Chattogram, Cumilla, Narayanganj, Tangail, Khulna and more – using Fischer XRF machines.">
+  <meta name="keywords" content="Raj Aiswari, Rajaiswari, Raj Aishwari, Rajaishwari, Rajeswari, Rajeshwari, Raj Eswari, Raj Ishwari, Rajeswary, Raj Aiswary, রাজঐশ্বরী, রাজ ঐশ্বরী, রাজেশ্বরী, রাজ ঈশ্বরী, রাজ এশ্বরী, Raj Aiswari clients, Rajaiswari gold testing centre, Rajaiswari Gold Testing Center Chattagram, gold testing centre Bangladesh, hallmark centre Bangladesh, gold hallmark lab, XRF gold testing Bangladesh, Fischer XRF Bangladesh, Hazari Lane Chattogram gold testing, স্বর্ণ পরীক্ষা কেন্দ্র, গোল্ড টেস্টিং সেন্টার, হলমার্ক সেন্টার, রাজঐশ্বরী গোল্ড টেস্টিং সেন্টার, হাজারী লেন চট্টগ্রাম">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://rajaiswari.com/client.php">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Our Clients – Raj Aiswari Gold Testing Centre | রাজঐশ্বরী Bangladesh">
+  <meta property="og:description" content="Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী, রাজেশ্বরী) clients: 60+ gold testing and hallmark centres across Bangladesh – Dhaka, Chattogram, Cumilla, Narayanganj, Tangail, Khulna and more – using Fischer XRF machines.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rajaiswari.com/client.php">
+  <meta property="og:site_name" content="Raj Aiswari (রাজঐশ্বরী)">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="bn_BD">
+  <meta property="og:image" content="https://rajaiswari.com/f-m.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Our Clients – Raj Aiswari Gold Testing Centre | রাজঐশ্বরী Bangladesh">
+  <meta name="twitter:description" content="Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী, রাজেশ্বরী) clients: 60+ gold testing and hallmark centres across Bangladesh – Dhaka, Chattogram, Cumilla, Narayanganj, Tangail, Khulna and more – using Fischer XRF machines.">
+  <meta name="twitter:image" content="https://rajaiswari.com/f-m.jpg">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "LocalBusiness",
+        "Organization"
+      ],
+      "@id": "https://rajaiswari.com/#org",
+      "name": "Raj Aiswari",
+      "alternateName": [
+        "Rajaiswari",
+        "Raj Aishwari",
+        "Rajaishwari",
+        "Rajeswari",
+        "Rajeshwari",
+        "Raj Eswari",
+        "Raj Ishwari",
+        "Rajeswary",
+        "Raj Aiswary",
+        "রাজঐশ্বরী",
+        "রাজ ঐশ্বরী",
+        "রাজেশ্বরী",
+        "রাজ ঈশ্বরী",
+        "রাজ এশ্বরী",
+        "Raj Aiswari Gold Testing Centre",
+        "Rajaiswari Gold Testing Center",
+        "Raj Aiswari Gold"
+      ],
+      "url": "https://rajaiswari.com/",
+      "logo": "https://rajaiswari.com/logo.jpg",
+      "image": "https://rajaiswari.com/f-m.jpg",
+      "description": "Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী) is Bangladesh's authorized partner for Fischer Germany gold testing XRF machines and hallmark centre solutions since 1998.",
+      "telephone": "+8801716469866",
+      "email": "shimudeb@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Hazari Market (2nd Floor), Hazari Lane",
+        "addressLocality": "Chattogram",
+        "postalCode": "4000",
+        "addressCountry": "BD"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Bangladesh"
+      },
+      "sameAs": [
+        "https://www.facebook.com/rajasiwari"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://rajaiswari.com/#website",
+      "url": "https://rajaiswari.com/",
+      "name": "Raj Aiswari",
+      "alternateName": [
+        "Rajaiswari",
+        "Rajeswari",
+        "রাজঐশ্বরী"
+      ],
+      "publisher": {
+        "@id": "https://rajaiswari.com/#org"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rajaiswari.com/client.php#page",
+      "url": "https://rajaiswari.com/client.php",
+      "name": "Our Clients – Raj Aiswari Gold Testing Centre",
+      "description": "Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী, রাজেশ্বরী) clients: 60+ gold testing and hallmark centres across Bangladesh – Dhaka, Chattogram, Cumilla, Narayanganj, Tangail, Khulna and more – using Fischer XRF machines.",
+      "isPartOf": {
+        "@id": "https://rajaiswari.com/#website"
+      },
+      "about": {
+        "@id": "https://rajaiswari.com/#org"
+      },
+      "inLanguage": [
+        "en",
+        "bn"
+      ]
+    }
+  ]
+}
+</script>
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
   <meta name="theme-color" content="#B8881E">
