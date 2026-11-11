@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Raj Aiswari – Fischer Measurement Technologies Bangladesh</title>
+  <title>Raj Aiswari (Rajaiswari / রাজঐশ্বরী) – Gold Testing Machines & Fischer Bangladesh</title>
 
   <!-- SEO Meta -->
   <meta name="description" content="Raj Aiswari – also searched as Rajaiswari, Rajeswari, Rajeshwari, রাজঐশ্বরী, রাজেশ্বরী – is Bangladesh's authorized Fischer Germany partner for gold testing XRF machines, coating thickness gauges and hallmark centre setup since 1998. Hazari Lane, Chattogram.">
-  <meta name="keywords" content="Raj Aiswari, Rajaiswari, Raj Aishwari, Rajaishwari, Rajeswari, Rajeshwari, Raj Eswari, Raj Ishwari, Rajeswary, Raj Aiswary, রাজঐশ্বরী, রাজ ঐশ্বরী, রাজেশ্বরী, রাজ ঈশ্বরী, রাজ এশ্বরী, Fischer Germany Bangladesh, gold testing machine Bangladesh, XRF machine Bangladesh, coating thickness gauge, gold purity tester, Rajaiswari Gold Testing Center, hallmark machine Bangladesh, Hazari Lane Chattogram, স্বর্ণ পরীক্ষার মেশিন, গোল্ড টেস্টিং মেশিন, এক্সআরএফ মেশিন বাংলাদেশ, রাজঐশ্বরী গোল্ড টেস্টিং সেন্টার">
+  <meta name="keywords" content="Orotig Bangladesh, Sisma Bangladesh, Rajesh Enterprises Bangladesh, gold refining machine Bangladesh, laser welding machine jewellery, Raj Aiswari, Rajaiswari, Raj Aishwari, Rajaishwari, Rajeswari, Rajeshwari, Raj Eswari, Raj Ishwari, Rajeswary, Raj Aiswary, রাজঐশ্বরী, রাজ ঐশ্বরী, রাজেশ্বরী, রাজ ঈশ্বরী, রাজ এশ্বরী, Fischer Germany Bangladesh, gold testing machine Bangladesh, XRF machine Bangladesh, coating thickness gauge, gold purity tester, Rajaiswari Gold Testing Center, hallmark machine Bangladesh, Hazari Lane Chattogram, স্বর্ণ পরীক্ষার মেশিন, গোল্ড টেস্টিং মেশিন, এক্সআরএফ মেশিন বাংলাদেশ, রাজঐশ্বরী গোল্ড টেস্টিং সেন্টার">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://rajaiswari.com/">
 
@@ -151,20 +151,24 @@
 <!-- ══ STATS ══════════════════════════════════════ -->
 <div class="rg-stats-bar">
   <div class="rg-stat-item rg-reveal">
-    <span class="rg-stat-num">25+</span>
+    <span class="rg-stat-num">30+</span>
     <span class="rg-stat-label">Years of Experience</span>
   </div>
   <div class="rg-stat-item rg-reveal rg-d1">
-    <span class="rg-stat-num">8+</span>
+    <span class="rg-stat-num">9+</span>
     <span class="rg-stat-label">Global Technology Partners</span>
   </div>
   <div class="rg-stat-item rg-reveal rg-d2">
-    <span class="rg-stat-num">45+</span>
+    <span class="rg-stat-num">101+</span>
     <span class="rg-stat-label">Lab Setups Completed</span>
   </div>
   <div class="rg-stat-item rg-reveal rg-d3">
     <span class="rg-stat-num">4</span>
     <span class="rg-stat-label">Sister Concerns</span>
+  </div>
+  <div class="rg-stat-item rg-reveal rg-d4">
+    <span class="rg-stat-num">40+</span>
+    <span class="rg-stat-label">Districts Covered</span>
   </div>
   <div class="rg-stat-item rg-reveal rg-d4">
     <span class="rg-stat-num">2000+</span>
@@ -176,18 +180,22 @@
 <div class="rg-marquee-wrap">
   <div class="rg-marquee-track">
     <span class="rg-marquee-item"><a href="https://www.helmut-fischer.com/" target="_blank" rel="noopener">FISCHER Germany</a><span class="rg-marquee-dot"></span></span>
-    <span class="rg-marquee-item"><a href="https://www.sisma.com" target="_blank" rel="noopener">SISMA Italy</a><span class="rg-marquee-dot"></span></span>
+    <span class="rg-marquee-item"><a href="https://www.sisma.com/en/" target="_blank" rel="noopener">SISMA Italy</a><span class="rg-marquee-dot"></span></span>
     <span class="rg-marquee-item"><a href="https://www.omper.it" target="_blank" rel="noopener">OMPER Italy</a><span class="rg-marquee-dot"></span></span>
     <span class="rg-marquee-item"><a href="https://www.mt.com" target="_blank" rel="noopener">Mettler Switzerland</a><span class="rg-marquee-dot"></span></span>
     <span class="rg-marquee-item"><a href="https://www.dougolagerhk.com" target="_blank" rel="noopener">Dougo Lager Hong Kong</a><span class="rg-marquee-dot"></span></span>
+    <span class="rg-marquee-item"><a href="https://orotig.com/en/" target="_blank" rel="noopener">OROTIG Italy</a><span class="rg-marquee-dot"></span></span>
+    <span class="rg-marquee-item"><a href="https://www.rajeshenterprises.net/" target="_blank" rel="noopener">Rajesh Enterprises India</a><span class="rg-marquee-dot"></span></span>
     <span class="rg-marquee-item"><a href="https://www.italimpianti.it" target="_blank" rel="noopener">ITALIMPIANTI Italy</a><span class="rg-marquee-dot"></span></span>
     <span class="rg-marquee-item"><a href="https://www.allprase.com" target="_blank" rel="noopener">All Prase Turkey</a><span class="rg-marquee-dot"></span></span>
     <!-- duplicate for seamless loop -->
     <span class="rg-marquee-item"><a href="https://www.helmut-fischer.com/" target="_blank" rel="noopener">FISCHER Germany</a><span class="rg-marquee-dot"></span></span>
-    <span class="rg-marquee-item"><a href="https://www.sisma.com" target="_blank" rel="noopener">SISMA Italy</a><span class="rg-marquee-dot"></span></span>
+    <span class="rg-marquee-item"><a href="https://www.sisma.com/en/" target="_blank" rel="noopener">SISMA Italy</a><span class="rg-marquee-dot"></span></span>
     <span class="rg-marquee-item"><a href="https://www.omper.it" target="_blank" rel="noopener">OMPER Italy</a><span class="rg-marquee-dot"></span></span>
     <span class="rg-marquee-item"><a href="https://www.mt.com" target="_blank" rel="noopener">Mettler Switzerland</a><span class="rg-marquee-dot"></span></span>
     <span class="rg-marquee-item"><a href="https://www.dougolagerhk.com" target="_blank" rel="noopener">Dougo Lager Hong Kong</a><span class="rg-marquee-dot"></span></span>
+    <span class="rg-marquee-item"><a href="https://orotig.com/en/" target="_blank" rel="noopener">OROTIG Italy</a><span class="rg-marquee-dot"></span></span>
+    <span class="rg-marquee-item"><a href="https://www.rajeshenterprises.net/" target="_blank" rel="noopener">Rajesh Enterprises India</a><span class="rg-marquee-dot"></span></span>
     <span class="rg-marquee-item"><a href="https://www.italimpianti.it" target="_blank" rel="noopener">ITALIMPIANTI Italy</a><span class="rg-marquee-dot"></span></span>
     <span class="rg-marquee-item"><a href="https://www.allprase.com" target="_blank" rel="noopener">All Prase Turkey</a><span class="rg-marquee-dot"></span></span>
   </div>
@@ -257,7 +265,7 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
       <h2 class="rg-section-title rg-reveal">Pioneering Gold <em>Technology</em> in Bangladesh</h2>
       <div class="rg-gold-rule rg-reveal"></div>
       <p class="rg-reveal">Raj Aiswari is a name synonymous with focused technology in Bangladesh's gold sector. Since 1998, we have been at the forefront of transforming how the nation approaches gold testing, measurement, and quality assurance.</p>
-      <p class="rg-reveal rg-d1">We are the authorized representative for Fischer Measurement Technologies in Bangladesh, bringing German precision engineering alongside world-class partners from Italy, Switzerland, Hong Kong, and Turkey.</p>
+      <p class="rg-reveal rg-d1">We are the authorized representative for Fischer Measurement Technologies in Bangladesh, bringing German precision engineering alongside world-class partners from Italy, Switzerland, India, Hong Kong, and Turkey.</p>
       <p class="rg-reveal rg-d2">With more than 25 years of combined competency in our field, we deliver not just machines — but confidence, accuracy, and trust to every workshop and lab we serve.</p>
       <div class="rg-partner-chips rg-reveal rg-d3">
         <span class="rg-chip">Fischer Germany</span>
@@ -265,6 +273,8 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
         <span class="rg-chip">Omper Italy</span>
         <span class="rg-chip">Mettler Swiss</span>
         <span class="rg-chip">Dougo Lager HK</span>
+        <span class="rg-chip">Orotig Italy</span>
+        <span class="rg-chip">Rajesh Enterprises India</span>
         <span class="rg-chip">All Prase Turkey</span>
       </div>
     </div>
@@ -285,7 +295,7 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
       <span class="rg-client-country">Germany</span>
     </a>
 
-    <a href="https://www.sisma.com" target="_blank" rel="noopener" class="rg-client-card rg-reveal rg-d1">
+    <a href="https://www.sisma.com/en/" target="_blank" rel="noopener" class="rg-client-card rg-reveal rg-d1">
       <img src="logo sisma.png" alt="Sisma Italy" width="80" height="80"
         onerror="this.src='https://ui-avatars.com/api/?name=Sisma&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.4'">
       <span class="rg-client-name">Sisma</span>
@@ -293,7 +303,7 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
     </a>
 
     <a href="https://www.omper.it" target="_blank" rel="noopener" class="rg-client-card rg-reveal rg-d2">
-      <img src="https://logo.clearbit.com/omper.it" alt="Omper Italy" width="80" height="80"
+      <img src="logo omper.png" alt="Omper Italy" width="80" height="80"
         onerror="this.src='https://ui-avatars.com/api/?name=Omper&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.4'">
       <span class="rg-client-name">Omper</span>
       <span class="rg-client-country">Italy</span>
@@ -325,6 +335,20 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
       <span class="rg-client-country">Hong Kong</span>
     </a>
 
+    <a href="https://orotig.com/en/" target="_blank" rel="noopener" class="rg-client-card rg-reveal rg-d1">
+      <img src="logo orotig.png" alt="Orotig Italy" width="80" height="80"
+        onerror="this.src='https://ui-avatars.com/api/?name=Orotig&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.35'">
+      <span class="rg-client-name">Orotig</span>
+      <span class="rg-client-country">Italy</span>
+    </a>
+
+    <a href="https://www.rajeshenterprises.net/" target="_blank" rel="noopener" class="rg-client-card rg-reveal rg-d2">
+      <img src="logo rajesh enterprises.png" alt="Rajesh Enterprises India" width="80" height="80"
+        onerror="this.src='https://ui-avatars.com/api/?name=Rajesh+Enterprises&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.3'">
+      <span class="rg-client-name">Rajesh Enterprises</span>
+      <span class="rg-client-country">India</span>
+    </a>
+
     <a href="https://www.rajaiswari.com" target="_blank" rel="noopener" class="rg-client-card rg-reveal">
       <img src="https://rajaiswarigold.com/wp-content/themes/rajaiswarigold/img/raj1.jpg" alt="Raj Aiswari Gold" width="80" height="80"
         onerror="this.src='https://ui-avatars.com/api/?name=RAJ&background=F5EDD6&color=B8881E&size=80&bold=true&font-size=0.5'">
@@ -332,6 +356,9 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
       <span class="rg-client-country">Bangladesh</span>
     </a>
 
+  </div>
+  <div class="rg-viewall-wrap rg-reveal">
+    <a href="partners.php" class="rg-viewall-btn">View All Partners →</a>
   </div>
 </section>
 
@@ -354,7 +381,7 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
     <div class="rg-why-card rg-reveal rg-d2">
       <div class="rg-why-icon">🌍</div>
       <h3>Global Partnerships</h3>
-      <p>8+ international technology leaders — we bring the world's most advanced precision tools directly to Bangladesh's gold market.</p>
+      <p>9+ international technology leaders — we bring the world's most advanced precision tools directly to Bangladesh's gold market.</p>
     </div>
   </div>
 </section>
@@ -731,6 +758,10 @@ $_delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4', '',];
   .rg-stat-item { flex: 0 0 100%; }
 }
 
+/* ── Partners: 10 cards = two even rows of 5 on desktop ── */
+@media (min-width: 901px) {
+  .rg-clients-grid { grid-template-columns: repeat(5, 1fr); }
+}
 /* ── Partners section description ────────────── */
 #partners .rg-section-title { margin-bottom: 4px; }
 

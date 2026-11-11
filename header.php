@@ -32,6 +32,7 @@
     <li><a href="index.php#about">About Us</a></li>
     <li><a href="products.php">Products</a></li>
     <li><a href="client.php">Clients</a></li>
+    <li><a href="partners.php">Partners</a></li>
     <li class="rg-nav-dropdown">
       <a href="sister-concern.php" class="rg-nav-dropdown-trigger">
         Sister Concern
@@ -46,7 +47,6 @@
         <li><a href="sister-concern.php" class="rg-dd-viewall">View All Sister Concerns →</a></li>
       </ul>
     </li>
-    <li><a href="software.php">Softwares</a></li>
     <li><a href="search_report.php">Verify Report</a></li>
     <li><a href="contact.php">Contact</a></li>
   </ul>
@@ -75,6 +75,7 @@
   <a href="index.php#about"    onclick="rgCloseMenu()">About Us</a>
   <a href="products.php"       onclick="rgCloseMenu()">Products</a>
   <a href="client.php"         onclick="rgCloseMenu()">Clients</a>
+  <a href="partners.php"       onclick="rgCloseMenu()">Partners</a>
   <div class="rg-mob-dropdown">
     <button class="rg-mob-dropdown-trigger" onclick="rgToggleMobDropdown(this)">
       Sister Concern
@@ -88,7 +89,6 @@
       <a href="sister-concern.php" onclick="rgCloseMenu()" class="rg-dd-viewall">View All Sister Concerns →</a>
     </div>
   </div>
-  <a href="software.php"       onclick="rgCloseMenu()">Softwares</a>
   <a href="search_report.php"  onclick="rgCloseMenu()">Verify Report</a>
   <a href="contact.php"        onclick="rgCloseMenu()">Contact</a>
   <div class="rg-mob-social">
@@ -259,6 +259,16 @@ a { text-decoration: none; }
 
 /* Links */
 .rg-nav-links { display: flex; gap: 28px; list-style: none; }
+.rg-nav-links > li > a { white-space: nowrap; }
+@media (max-width: 1400px) { .rg-nav-links { gap: 16px; } .rg-nav-links > li > a { letter-spacing: 0.05em; font-size: 0.76rem; } }
+/* Below 1000px the full menu no longer fits (9 links) — use the hamburger menu earlier than 900px */
+@media (max-width: 1000px) {
+  .rg-nav { padding: 0 20px; gap: 10px; }
+  .rg-nav-links, .rg-nav-social { display: none !important; }
+  .rg-hamburger { display: flex !important; }
+  .rg-nav-huid-search { display: flex !important; align-items: center; gap: 6px; flex: 1; max-width: 220px; margin: 0 12px; }
+}
+@media (min-width: 1001px) and (max-width: 1100px) { .rg-nav-social { display: none !important; } .rg-nav { padding: 0 16px; } .rg-nav-links { gap: 9px; } .rg-nav-links > li > a { letter-spacing: 0; font-size: 0.68rem; } .rg-nav-brand-text { font-size: 1.15rem; } }
 .rg-nav-links > li > a {
   color: var(--rg-muted); font-size: 0.8rem; font-weight: 500;
   letter-spacing: 0.1em; text-transform: uppercase;

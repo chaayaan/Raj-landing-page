@@ -6,14 +6,14 @@
   <title>Our Clients – Raj Aiswari Gold Testing Centre | রাজঐশ্বরী Bangladesh</title>
 
   <!-- SEO Meta -->
-  <meta name="description" content="Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী, রাজেশ্বরী) clients: 60+ gold testing and hallmark centres across Bangladesh – Dhaka, Chattogram, Cumilla, Narayanganj, Tangail, Khulna and more – using Fischer XRF machines.">
+  <meta name="description" content="Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী, রাজেশ্বরী) clients: 100+ gold testing and hallmark centres across Bangladesh – Dhaka, Chattogram, Cumilla, Narayanganj, Tangail, Khulna and more – using Fischer XRF machines.">
   <meta name="keywords" content="Raj Aiswari, Rajaiswari, Raj Aishwari, Rajaishwari, Rajeswari, Rajeshwari, Raj Eswari, Raj Ishwari, Rajeswary, Raj Aiswary, রাজঐশ্বরী, রাজ ঐশ্বরী, রাজেশ্বরী, রাজ ঈশ্বরী, রাজ এশ্বরী, Raj Aiswari clients, Rajaiswari gold testing centre, Rajaiswari Gold Testing Center Chattagram, gold testing centre Bangladesh, hallmark centre Bangladesh, gold hallmark lab, XRF gold testing Bangladesh, Fischer XRF Bangladesh, Hazari Lane Chattogram gold testing, স্বর্ণ পরীক্ষা কেন্দ্র, গোল্ড টেস্টিং সেন্টার, হলমার্ক সেন্টার, রাজঐশ্বরী গোল্ড টেস্টিং সেন্টার, হাজারী লেন চট্টগ্রাম">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://rajaiswari.com/client.php">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Our Clients – Raj Aiswari Gold Testing Centre | রাজঐশ্বরী Bangladesh">
-  <meta property="og:description" content="Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী, রাজেশ্বরী) clients: 60+ gold testing and hallmark centres across Bangladesh – Dhaka, Chattogram, Cumilla, Narayanganj, Tangail, Khulna and more – using Fischer XRF machines.">
+  <meta property="og:description" content="Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী, রাজেশ্বরী) clients: 100+ gold testing and hallmark centres across Bangladesh – Dhaka, Chattogram, Cumilla, Narayanganj, Tangail, Khulna and more – using Fischer XRF machines.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rajaiswari.com/client.php">
   <meta property="og:site_name" content="Raj Aiswari (রাজঐশ্বরী)">
@@ -24,7 +24,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Our Clients – Raj Aiswari Gold Testing Centre | রাজঐশ্বরী Bangladesh">
-  <meta name="twitter:description" content="Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী, রাজেশ্বরী) clients: 60+ gold testing and hallmark centres across Bangladesh – Dhaka, Chattogram, Cumilla, Narayanganj, Tangail, Khulna and more – using Fischer XRF machines.">
+  <meta name="twitter:description" content="Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী, রাজেশ্বরী) clients: 100+ gold testing and hallmark centres across Bangladesh – Dhaka, Chattogram, Cumilla, Narayanganj, Tangail, Khulna and more – using Fischer XRF machines.">
   <meta name="twitter:image" content="https://rajaiswari.com/f-m.jpg">
 
   <script type="application/ld+json">
@@ -97,7 +97,7 @@
       "@id": "https://rajaiswari.com/client.php#page",
       "url": "https://rajaiswari.com/client.php",
       "name": "Our Clients – Raj Aiswari Gold Testing Centre",
-      "description": "Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী, রাজেশ্বরী) clients: 60+ gold testing and hallmark centres across Bangladesh – Dhaka, Chattogram, Cumilla, Narayanganj, Tangail, Khulna and more – using Fischer XRF machines.",
+      "description": "Raj Aiswari (Rajaiswari, Rajeswari, রাজঐশ্বরী, রাজেশ্বরী) clients: 100+ gold testing and hallmark centres across Bangladesh – Dhaka, Chattogram, Cumilla, Narayanganj, Tangail, Khulna and more – using Fischer XRF machines.",
       "isPartOf": {
         "@id": "https://rajaiswari.com/#website"
       },
@@ -123,9 +123,8 @@
 
 <?php
 /* ══════════════════════════════════════════════════════════════════
-   CLIENT / LAB DATA ARRAY
-   Part 1: existing clients (unchanged)
-   Part 2: newly added centres (no logo yet -> initials fallback is shown)
+   CLIENT / LAB DATA ARRAY  (edit here: name, address, phone, website, logo)
+   Entries without a logo file show an initials circle instead.
    ══════════════════════════════════════════════════════════════════ */
  $clients = [
 
@@ -139,349 +138,888 @@
     'website_url' => 'https://www.rajaiswari.com',
   ],
 
-  /* ───────────── PART 1 : EXISTING CLIENTS ───────────── */
   [
     'logo'    => 'client-habiganj.png',
-    'name'    => 'BSTI Dhaka',
+    'name'    => 'BSTI',
     'address' => 'Dhaka',
     'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
   [
     'logo'    => 'client-habiganj.png',
-    'name'    => 'Hazrat Shahjalal International Airport',
-    'address' => 'Hazrat Shahjalal International Airport, Dhaka',
+    'name'    => 'Dhaka Customs House',
+    'address' => 'Airport, Dhaka',
     'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
   [
-    'logo'    => 'client-habiganj.png',
-    'name'    => 'Dhaka Gold Pvt. Ltd.',
-    'address' => 'Dhaka',
+    'logo'    => '',
+    'name'    => 'M/s Bangladesh Gold',
+    'address' => 'Narsingdi',
     'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
   [
-    'logo'    => 'client-habiganj.png',
-    'name'    => 'Ruposhi Gold Pvt. Ltd.',
-    'address' => 'Dhaka',
+    'logo'    => '',
+    'name'    => 'Star Gold LTD',
+    'address' => 'Brahmanbaria',
     'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
-  [
-    'logo'    => 'client-habiganj.png',
-    'name'    => 'Bangla Gold Pvt. Ltd.',
-    'address' => 'Dhaka',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-habiganj.png',
-    'name'    => 'Habiganj Gold',
-    'address' => 'Safiya Mansion(1st floor) Bogla Bazar',
-    'phone'   => '01779053607, 01854142915',
-    'website' => '',
-    'website_url' => '',
-  ],
+
   [
     'logo'    => 'client-savar.png',
-    'name'    => 'Savar Gold',
-    'address' => 'Janata Gold Plaza, Savar',
-    'phone'   => '01811492909, 01830017385',
+    'name'    => 'Shavar Gold',
+    'address' => 'Savar, Dhaka',
+    'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
   [
-    'logo'    => 'client-german.png',
-    'name'    => 'MA GOLD TESTING CENTRE',
-    'address' => '18, Helatola road, 2nd Floor',
-    'phone'   => '01319-592829, 024-78845382',
+    'logo'    => '',
+    'name'    => 'Bangladesh Gold',
+    'address' => 'Narayanganj',
+    'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
   [
-    'logo'    => 'client-german.png',
-    'name'    => 'German Gold Testing',
-    'address' => 'Polok Tower (2nd floor), Swanakar Potti, Manikgonj',
-    'phone'   => '01617335880',
+    'logo'    => '',
+    'name'    => 'German Gold',
+    'address' => 'Hazari Lane, Chattogram',
+    'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
   [
-    'logo'    => 'client-joypara.png',
-    'name'    => 'Joy Para Gold Lab',
-    'address' => 'Joypara Bazar, (puraton swarnakar potti), Dohar, Dhaka-1330',
-    'phone'   => '01324930998',
+    'logo'    => '',
+    'name'    => 'Comilla Gold',
+    'address' => 'Cumilla',
+    'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
   [
-    'logo'    => 'client-makka.png',
-    'name'    => 'Makka Gold',
-    'address' => 'Shahajada Complex (1st Floor)',
-    'phone'   => '+880 1712650088',
+    'logo'    => '',
+    'name'    => 'Rupashi Bangla',
+    'address' => 'Kishoreganj',
+    'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Rahman Gold',
+    'address' => 'Sitakunda, Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-habiganj.png',
+    'name'    => 'Bangla Gold',
+    'address' => 'Tanti Bazar, Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'G.K Gold Testing',
+    'address' => 'Faridpur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Rudro Gold',
+    'address' => 'Arong Bazar, Matlab',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-habiganj.png',
+    'name'    => 'Dhaka Gold',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Sonar Bangla',
+    'address' => 'Brahmanbaria',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-rpm.png',
+    'name'    => 'Jamalpur Gold',
+    'address' => 'Jamalpur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-narsingdi.png',
+    'name'    => 'Norsingdi Gold',
+    'address' => 'Narsingdi',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Mirzapur Gold LTD',
+    'address' => 'Mirzapur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-tangail.png',
+    'name'    => 'Tangail Gold',
+    'address' => 'Tangail',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Roy Gold (old: BD Gold)',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Fischer Gold Testing',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Satata Gold',
+    'address' => 'Cumilla',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
   [
     'logo'    => 'client-radhesheree.png',
-    'name'    => 'Radhesheree Gold Hallmark Centre',
-    'address' => 'Tekerhat Swarnakar Potti Rajoir, Madaripur',
-    'phone'   => '+880 1750449455',
+    'name'    => 'Tekerhat Gold',
+    'address' => 'Tekerhat',
+    'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Matri Gold',
+    'address' => 'Narayanganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Jahangir Traders',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Doyamoy Gold Testing',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Gazipur Gold',
+    'address' => 'Gazipur, Joydebpur Bazar',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Fashion Gold Testing',
+    'address' => 'Chandpur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'New Bangladesh Gold',
+    'address' => 'Homna',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Kallyan Gold Testing',
+    'address' => 'Chandpur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Moymansing Gold Lab (New Rupashi Gold)',
+    'address' => 'Mymensingh',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Coxs Bazar Gold Testing',
+    'address' => 'Cox\'s Bazar',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'New Rajaiswari Gold',
+    'address' => 'Faridpur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'New Rupashi Gold',
+    'address' => 'Mymensingh',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Rupashi Bangla (2)',
+    'address' => 'Kishoreganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Asha Muslim Gold',
+    'address' => 'Ashulia',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-habiganj.png',
+    'name'    => 'Rupashi Gold',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-kalihati.png',
+    'name'    => 'Kalihati Gold',
+    'address' => 'Kalihati, Tangail',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-joypara.png',
+    'name'    => 'Joypara Gold Testing',
+    'address' => 'Dohar',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Patuakhali Gold',
+    'address' => 'Patuakhali',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Satta Gold Testing',
+    'address' => 'Kaliganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
   [
     'logo'    => 'client-rpm.png',
-    'name'    => 'RPM Gold Testing Centre',
-    'address' => 'Babur bari road (Dudh potty) Madhabdi',
-    'phone'   => '+880 1871357531',
+    'name'    => 'RPM Gold Testing',
+    'address' => 'Madhabdi',
+    'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
   [
-    'logo'    => 'client-rpm.png',
-    'name'    => 'JAMALPUR GOLD',
-    'address' => 'Mirja Complex Medical Road',
-    'phone'   => '+880 1323536765',
+    'logo'    => '',
+    'name'    => 'Sri Krishna Gold Testing',
+    'address' => 'Chattogram',
+    'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
   [
-    'logo'    => 'client-annya.png',
-    'name'    => 'Annya Gold',
-    'address' => 'Chandina Bazar, Comilla, Bangladesh',
-    'phone'   => '+880 1834997299',
+    'logo'    => '',
+    'name'    => 'Star Gold',
+    'address' => 'Raipur',
+    'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
-  [
-    'logo'    => 'client-madhupur.png',
-    'name'    => 'Madhupur Gold Testing Centre',
-    'address' => 'Kudrat market, Sathi Cinema Hall Road, Madhupur',
-    'phone'   => '+880 1797261563',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-naha.png',
-    'name'    => 'Naha Gold',
-    'address' => '159/A ,Hajari market(5th floor),Hajari lane',
-    'phone'   => '+880 1618992982',
-    'website' => '',
-    'website_url' => '',
-  ],
+
   [
     'logo'    => 'client-netrokona.png',
     'name'    => 'Netrokona Gold Lab',
-    'address' => 'Choto Bazar, Netrokona',
-    'phone'   => '+880 1712613060',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-valuka.png',
-    'name'    => 'Valuka Gold Lab',
-    'address' => 'Gafargaon Road, Sarkar tower(1st floor), Valuka',
-    'phone'   => '01716-830700, 01732-141862',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-ss.png',
-    'name'    => 'SS Gold Testing Hallmark Centre',
-    'address' => 'Beanibazar, National Market(1st floor), Sylhet',
-    'phone'   => '01777-203698',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-yadab.png',
-    'name'    => 'Yadab Gold Testing Lab',
-    'address' => 'Hajari market(1st floor),Hajari lane, Chattagram-4000',
-    'phone'   => '+880 1890-649561',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-ajmeri.png',
-    'name'    => 'Ajmeri Gold Testing & Hallmark Centre',
-    'address' => '170,Alhera Jame Mosid Market (BGB gate no-3), Azimpur, Lalbagh, Dhaka-1205',
-    'phone'   => '+880 1829-351600',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-bismillah.png',
-    'name'    => 'Bismillah Gold Testing Centre',
-    'address' => 'Modern Market, Chatipotti, Cumilla',
-    'phone'   => '01833-355779, 01638-855508',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-sonargoan.png',
-    'name'    => 'Sonargoan Gold Lab',
-    'address' => 'M. Rahman Plaza(2nd floor), Thana road, Sonargoan',
-    'phone'   => '+880 1775511644',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-hossainpur.png',
-    'name'    => 'Hossainpur Hallmark Centre',
-    'address' => 'Ground Floor Shop No. 2, Hashem Complex, Hossainpur North Bazar Shahrasti, Chandpur',
-    'phone'   => '01712-187207, 01774-887488, 01329-957117',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-naha-hallmark.png',
-    'name'    => 'Naha Chain & Dice House',
-    'address' => 'Morshed Alam Complex (5th Floor), Chaumuhani, Noakhali.',
-    'phone'   => '01603-089632, 01761-88343',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-narsingdi.png',
-    'name'    => 'Narsingdi Gold Hallmark',
-    'address' => 'Ayesha plaza 2nd floor, kali bari road, Narsingdi',
-    'phone'   => '+880 1323710515',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-tangail.png',
-    'name'    => 'Tangail Gold House',
-    'address' => 'Monika Market, Choyani Bazar, Tangail.',
-    'phone'   => '01787-442895, 01323-807293',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => 'client-kalihati.png',
-    'name'    => 'Kalihati Gold Testing',
-    'address' => 'Paulpara Road, Hamidpur Bazar, Kalihati,Tangail',
-    'phone'   => '+880 1837419912',
+    'address' => 'Netrokona',
+    'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
 
-  /* ───────────── PART 2 : NEWLY ADDED CENTRES ───────────── */
+  [
+    'logo'    => 'client-naha.png',
+    'name'    => 'Noha Gold',
+    'address' => 'Noakhali',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
 
-  /* Dhaka Division */
   [
     'logo'    => '',
-    'name'    => 'Ruposhi Bangla Testing Centre',
+    'name'    => 'Sikder Gold',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Voirab Gold',
+    'address' => 'Bhairab',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Boalmari Gold',
+    'address' => 'Boalmari',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-naha-hallmark.png',
+    'name'    => 'Naha Manufacturing',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-annya.png',
+    'name'    => 'Annya Gold',
+    'address' => 'Chandina',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Companyganj Gold Testing',
+    'address' => 'Companyganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Narail Gold Testing',
+    'address' => 'Narail',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-madhupur.png',
+    'name'    => 'Modhupur Gold Testing',
+    'address' => 'Madhupur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Swarna Shilpaloy',
+    'address' => 'Feni',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Hobiganj Gold Testing',
+    'address' => 'Habiganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'A One Gold and Hallmark',
+    'address' => 'Saidpur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'MM Torch and Gold',
     'address' => 'Dhaka',
     'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
   [
-    'logo'    => '',
-    'name'    => 'Asha & Muslim Gold Tons & Hallmark Lab',
-    'address' => 'Ashulia, Savar, Dhaka',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Gazipur Gold Hallmark Centre',
-    'address' => 'Joydebpur, Gazipur',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Bangladesh Gold (1)',
-    'address' => 'Narayanganj',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Bangladesh Gold (2)',
-    'address' => 'Narayanganj',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Maitree Gold',
-    'address' => 'Narayanganj',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Messrs Bangladesh Gold',
-    'address' => 'Narsingdi',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Narsingdi Gold Lab Limited',
-    'address' => 'Narsingdi',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Mirzapur Gold Testing Lab Limited',
-    'address' => 'Mirzapur, Tangail',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'GK Hallmark Centre',
-    'address' => 'Faridpur',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'New Raj Aiswari Gold & Hallmark Centre',
-    'address' => 'Faridpur',
+    'logo'    => 'client-sonargoan.png',
+    'name'    => 'Sonargaon Gold and Hallmark',
+    'address' => 'Sonargaon',
     'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
 
-  /* Mymensingh Division */
   [
     'logo'    => '',
-    'name'    => 'Ruposhi Bangla Gold Testing Centre (1)',
-    'address' => 'Kishoreganj',
+    'name'    => 'Sonali Gold Testing',
+    'address' => 'Cumilla',
     'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
   [
     'logo'    => '',
-    'name'    => 'Ruposhi Bangla Gold Testing Centre (2)',
-    'address' => 'Kishoreganj',
+    'name'    => 'Roy Gold Testing and Hallmark',
+    'address' => 'Chattogram',
     'phone'   => '',
     'website' => '',
     'website_url' => '',
   ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Ma Chain House and Gold Testing',
+    'address' => 'Khulna',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Narayanganj Gold Testing',
+    'address' => 'Narayanganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Arabian Jewellers and Gold Testing',
+    'address' => 'Gouripur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Sonar Bangla Gold Testing (Swarna Mahal)',
+    'address' => 'Bogura',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'M/s Gold Solution',
+    'address' => 'Tanti Bazar',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Mokka Gold',
+    'address' => 'Tanti Bazar',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Swarna Gold (Corporation)',
+    'address' => 'Dhaka (Tanti Bazar)',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Square Gold',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Laxmi Narayan Gold Testing',
+    'address' => 'Matlab',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Prince Corporation',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-german.png',
+    'name'    => 'German Gold',
+    'address' => 'Manikganj',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Asia Gold',
+    'address' => 'Tanti Bazar',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Biswajit Roy',
+    'address' => '',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Saidur Gold Testing',
+    'address' => '',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Utpal Gold Testing',
+    'address' => '',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Amjad Gold Testing',
+    'address' => '',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Imrul Gold Testing',
+    'address' => '',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Biswakarma Buliyan',
+    'address' => '',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Doman Gold Testing and Hallmark Centre',
+    'address' => 'Nilphamari',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Gold World Jewellery',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Ruma Gold Hallmark Lab',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Gold Solution',
+    'address' => 'Tanti Bazar, Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'M.N. Gold Testing',
+    'address' => 'Cumilla',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-bismillah.png',
+    'name'    => 'Bismilla Gold Testing',
+    'address' => 'Cumilla',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Gouripur Gold Testing',
+    'address' => 'Cumilla',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Saraswati IC Gold',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'BD Gold Testing Centre',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Joy Gopal Traders',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-yadab.png',
+    'name'    => 'Yadav Gold Testing',
+    'address' => 'Chattogram',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Jhikagacha Gold Testing',
+    'address' => 'Jashore',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-ss.png',
+    'name'    => 'S.S. Gold Testing',
+    'address' => 'Sylhet',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-valuka.png',
+    'name'    => 'Bhaluka Gold Lab',
+    'address' => 'Mymensingh',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-hossainpur.png',
+    'name'    => 'Hosainpur Hallmark Centre',
+    'address' => 'Chandpur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Joina Bazar Gold',
+    'address' => 'Gazipur',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => 'client-ajmeri.png',
+    'name'    => 'Ajmiri Gold Testing Lab',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Modina Gold',
+    'address' => 'Dhaka',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
+  [
+    'logo'    => '',
+    'name'    => 'Lohagara Gold Testing',
+    'address' => '',
+    'phone'   => '',
+    'website' => '',
+    'website_url' => '',
+  ],
+
   [
     'logo'    => '',
     'name'    => 'Gold Castle',
@@ -490,162 +1028,10 @@
     'website' => '',
     'website_url' => '',
   ],
-  [
-    'logo'    => '',
-    'name'    => 'Ruposhi Bangla Gold & Hallmark Centre',
-    'address' => 'Mymensingh',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-
-  /* Cumilla / Brahmanbaria / Chandpur */
-  [
-    'logo'    => '',
-    'name'    => 'Cumilla Gold',
-    'address' => 'Cumilla',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Sottota Gold Testing Centre',
-    'address' => 'Cumilla',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'New Bangladesh Gold Testing & Hallmark Centre',
-    'address' => 'Homna, Cumilla',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'New Sonar Bangla Gold Testing',
-    'address' => 'Brahmanbaria',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Star Gold Limited',
-    'address' => 'Brahmanbaria',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Rodro Gold Testing & Hallmark Centre',
-    'address' => 'Matlab, Chandpur',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Fashion Gold Testing & Hallmark',
-    'address' => 'Chandpur',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Kalyan Gold & Hallmark Centre',
-    'address' => 'Chandpur',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-
-  /* Chattogram Division */
-  [
-    'logo'    => '',
-    'name'    => 'Rahman Gold Testing Centre',
-    'address' => 'Sitakunda, Chattogram',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'German Gold Testing Centre',
-    'address' => 'Chattogram',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'New German Gold Testing Centre',
-    'address' => 'Chattogram',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Roy Gold Testing Centre',
-    'address' => 'Chattogram',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Fisher Gold Testing Centre',
-    'address' => 'Chattogram',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Doyamoy Gold Testing Centre',
-    'address' => 'Chattogram',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-  [
-    'logo'    => '',
-    'name'    => 'Cox Gold & Hallmark Centre',
-    'address' => "Cox's Bazar",
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-
-  /* Khulna Division */
-  [
-    'logo'    => '',
-    'name'    => 'Square Gold & Hallmark Centre',
-    'address' => 'Khulna',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
-
-  /* Latest addition */
-  [
-    'logo'    => '',
-    'name'    => 'RK GOLD TESTING CENTRE',
-    'address' => 'Hajari Lane, Chattogram',
-    'phone'   => '',
-    'website' => '',
-    'website_url' => '',
-  ],
 ];
 
 /* ── MANUAL SETTINGS (edit these by hand) ───────────────────────── */
- $districts_covered = '30+';   // number shown in the "Districts Covered" box
+ $districts_covered = '40+';   // number shown in the "Districts Covered" box
  $main_regions = [             // district pills shown on the page (first 8 on mobile)
   'Dhaka', 'Chattogram', 'Sylhet', 'Mymensingh', 'Tangail',
   'Khulna', "Cox's Bazar", 'Cumilla', 'Narayanganj', 'Narsingdi'
