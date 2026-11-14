@@ -47,6 +47,11 @@ $category_meta = [
         'heading' => 'Clean, Efficient <em>Melting</em> &amp; Casting',
         'desc'    => 'Flameless induction melting and vacuum pressure casting systems for gold, silver, and precious metal alloys — from jewellers to refineries.',
     ],
+    'Chain machine' => [
+        'label'   => 'Chain Machines',
+        'heading' => 'Gold <em>Chain</em> Making Machines',
+        'desc'    => 'Automatic Sisma machines for gold chain production &mdash; Figaro, spiral, cable, Venetian, bead and special chains, plus chain finishing and processing equipment.',
+    ],
     'electronic precision balance scale' => [
         'label'   => 'Precision Weighing',
         'heading' => 'Accurate <em>Weighing</em> Solutions',
@@ -126,7 +131,7 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
         <div class="rg-pg-card rg-reveal <?= $delay ?>"
              data-id="<?= (int)$p['id'] ?>"
              data-name="<?= htmlspecialchars($p['name']) ?>"
-             data-cat-label="<?= htmlspecialchars($p['category_label']) ?>"
+             data-cat-label="<?= htmlspecialchars($p['sub_category'] ?? $p['category_label']) ?>"
              data-desc="<?= htmlspecialchars($p['description']) ?>"
              data-img="<?= htmlspecialchars($p['image']) ?>"
              data-wa="<?= htmlspecialchars($wa_inquire_url) ?>">
@@ -134,11 +139,11 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
           <div class="rg-pg-img-wrap">
             <img src="<?= htmlspecialchars($p['image']) ?>"
                  alt="<?= htmlspecialchars($p['name']) ?>"
-                 width="300" height="300">
+                 loading="lazy">
           </div>
 
           <div class="rg-pg-body">
-            <span class="rg-pg-cat-tag"><?= htmlspecialchars($p['category_label']) ?></span>
+            <span class="rg-pg-cat-tag"><?= htmlspecialchars($p['sub_category'] ?? $p['category_label']) ?></span>
             <h3 class="rg-pg-name"><?= htmlspecialchars($p['name']) ?></h3>
             <p class="rg-pg-short-desc"><?= htmlspecialchars($p['short_desc']) ?></p>
           </div>
@@ -172,7 +177,7 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
     </button>
     <div class="rg-modal-inner">
       <div class="rg-modal-img-wrap">
-        <img id="rgModalImg" src="" alt="" width="400" height="400">
+        <img id="rgModalImg" src="" alt="">
       </div>
       <div class="rg-modal-content">
         <span class="rg-modal-tag" id="rgModalTag"></span>
@@ -250,7 +255,7 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
 .rg-pg-card:hover { box-shadow: 0 8px 32px rgba(184,136,30,0.13); transform: translateY(-3px); }
 
 .rg-pg-img-wrap { position: relative; overflow: hidden; background: var(--rg-bg2); display: flex; align-items: center; justify-content: center; }
-.rg-pg-img-wrap img { width: 100%; height: auto; object-fit: contain; transition: transform 0.4s; }
+.rg-pg-img-wrap img { height: 240px; width: auto; max-width: 100%; object-fit: contain; display: block; transition: transform 0.4s; }
 .rg-pg-card:hover .rg-pg-img-wrap img { transform: scale(1.05); }
 
 .rg-pg-body { padding: 12px 13px 14px; }
@@ -306,7 +311,7 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
   width: 100%; overflow: hidden; display: flex; align-items: center; justify-content: center;
   border-radius: 12px 0 0 12px; background: var(--rg-bg2); flex-shrink: 0;
 }
-.rg-modal-img-wrap img { width: 100%; height: auto; max-height: 100%; object-fit: contain; }
+.rg-modal-img-wrap img { height: 320px; width: auto; max-width: 100%; object-fit: contain; display: block; }
 .rg-modal-content { padding: 32px 28px; display: flex; flex-direction: column; justify-content: center; }
 
 .rg-modal-tag {
