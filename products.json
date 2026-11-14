@@ -1,15 +1,6 @@
 [
-  {
+    {
     "id": 1,
-    "category": "Gold testing machine",
-    "category_label": "Gold testing machine",
-    "name": "GOLDSCOPE SD\u00ae 510",
-    "description": "The GOLDSCOPE SD\u00ae 510 is a high-precision XRF gold testing machine that delivers fast, accurate, and non-destructive precious metal analysis. Built for reliability, it provides consistent results for professional gold testing and quality verification.",
-    "short_desc": "High-precision XRF gold testing machine for fast, accurate, and non-destructive precious metal analysis.",
-    "image": "machines/goldscope_sd_510.png"
-  },
-  {
-    "id": 2,
     "category": "Gold testing machine",
     "category_label": "Gold testing machine",
     "name": "GOLDSCOPE SD\u00ae 515",
@@ -18,16 +9,16 @@
     "image": "machines/goldscope_sd_515.png"
   },
   {
-    "id": 3,
+    "id": 2,
     "category": "Gold testing machine",
     "category_label": "Gold testing machine",
-    "name": "GOLDSCOPE SD\u00ae 520",
-    "description": "The GOLDSCOPE SD\u00ae 520 is an advanced XRF gold testing machine that accurately detects precious metals and elements such as Iridium and Ruthenium through non-destructive analysis. Designed for professional use, it delivers fast, precise, and reliable results for quality verification.",
-    "short_desc": "Advanced XRF gold testing machine with fast, precise, and non-destructive elemental analysis.",
-    "image": "machines/goldscope_sd_520.png"
+    "name": "GOLDSCOPE SD\u00ae 510",
+    "description": "The GOLDSCOPE SD\u00ae 510 is a high-precision XRF gold testing machine that delivers fast, accurate, and non-destructive precious metal analysis. Built for reliability, it provides consistent results for professional gold testing and quality verification.",
+    "short_desc": "High-precision XRF gold testing machine for fast, accurate, and non-destructive precious metal analysis.",
+    "image": "machines/goldscope_sd_510.png"
   },
   {
-    "id": 4,
+    "id": 3,
     "category": "Gold testing machine",
     "category_label": "Gold testing machine",
     "name": "GOLDSCOPE SD\u00ae 550",
@@ -36,7 +27,34 @@
     "image": "machines/goldscope_sd_550.png"
   },
   {
+    "id": 4,
+    "category": "Gold testing machine",
+    "category_label": "Gold testing machine",
+    "name": "GOLDSCOPE SD\u00ae 520",
+    "description": "The GOLDSCOPE SD\u00ae 520 is an advanced XRF gold testing machine that accurately detects precious metals and elements such as Iridium and Ruthenium through non-destructive analysis. Designed for professional use, it delivers fast, precise, and reliable results for quality verification.",
+    "short_desc": "Advanced XRF gold testing machine with fast, precise, and non-destructive elemental analysis.",
+    "image": "machines/goldscope_sd_520.png"
+  },
+  {
     "id": 5,
+    "category": "Gold testing machine",
+    "category_label": "Gold testing machine",
+    "name": "FISCHERSCOPE GOLDSCOPE SD 530",
+    "description": "The FISCHERSCOPE GOLDSCOPE SD 530 is a high-performance XRF spectrometer designed for fast, precise, and non-destructive analysis of gold, silver, and other precious metals. Equipped with a Peltier-cooled Silicon Drift Detector (SDD) and advanced DPP+ technology, it delivers excellent accuracy, high detection sensitivity, and repeatability. With interchangeable measurement apertures and the ability to analyze up to 24 elements simultaneously, it is ideal for hallmarking centers, gold refineries, testing laboratories, and assaying centers.",
+    "short_desc": "High-performance XRF gold testing machine with advanced DPP+ technology for precise precious metal analysis.",
+    "image": "machines/goldscope_sd_530.png"
+  },
+  {
+    "id": 6,
+    "category": "Gold testing machine",
+    "category_label": "Gold testing machine",
+    "name": "FISCHERSCOPE GOLDSCOPE SD 300",
+    "description": "The FISCHERSCOPE GOLDSCOPE SD 300 is a compact bench-top XRF spectrometer designed for fast, accurate, and non-destructive analysis of jewelry, coins, and precious metals. Equipped with a modern Silicon Drift Detector (SDD), it offers high precision, calibration-free analysis, and user-friendly operation with integrated computer, display, and FISIQ X software. Ideal for jewelry retailers, banks, pawn shops, and gold trading businesses.",
+    "short_desc": "Compact XRF gold testing machine for fast, accurate, and non-destructive precious metal analysis.",
+    "image": "machines/goldscope_sd_300.png"
+  },
+  {
+    "id": 7,
     "category": "Gold testing machine",
     "category_label": "Gold testing machine",
     "name": "GOLDSCOPE SD\u00ae 600",
@@ -44,17 +62,35 @@
     "short_desc": "High-performance XRF gold testing machine for fast, accurate, and non-destructive analysis.",
     "image": "machines/goldscope_sd_600.png"
   },
-  {
-    "id": 6,
-    "category": "Gold testing machine",
-    "category_label": "Gold testing machine",
-    "name": "FISCHERSCOPE X-Ray XAN 120",
-    "description": "The FISCHERSCOPE X-Ray XAN 120 is a tabletop EDXRF spectrometer designed for fast, accurate, and non-destructive analysis of precious metals and alloys. It is ideal for testing gold, silver, platinum, and rhodium, with Fischer WinFT software for reliable material analysis and measurement evaluation.",
-    "short_desc": "Tabletop EDXRF spectrometer for fast, accurate, and non-destructive precious metal analysis.",
-    "image": "machines/fischerscope_xray_xan_120.jpg"
+    {
+    "id": 8,
+    "category": "Gold refining machine",
+    "category_label": "Gold refining machine",
+    "name": "5 Kg Automatic Gold Refining Machine",
+    "description": "The 5 Kg Automatic Gold Refining Machine is designed for efficient and precise gold purification, recycling, and refining of various types of gold scrap and waste, including old jewellery, sweeping dust, and polishing waste. It offers up to 99.99% purity and 100% material recovery with an advanced vacuum-based filtration system, automatic acid filling, triple-cycling condenser, and anticorrosive PPH construction. Its pollution-control system ensures odour-free and smoke-free operation, making it suitable for jewellery showrooms, shops, and professional refining facilities.",
+    "short_desc": "5 Kg automatic gold refining machine with up to 99.99% purity, vacuum filtration, and advanced pollution-control technology.",
+    "image": "machines/rajesh_gold_refining_machine_5kg.png"
   },
   {
-    "id": 7,
+    "id": 9,
+    "category": "Gold refining machine",
+    "category_label": "Gold refining machine",
+    "name": "1 Kg Automatic Gold Refining Machine",
+    "description": "The 1 Kg Automatic Gold Refining Machine is designed for efficient and precise gold purification using advanced electrolytic processing technology. With a processing capacity of 1 kg per batch, this fully automatic machine minimizes manual effort while ensuring consistent refining results, reduced processing time, and safer operation. Featuring a durable metal body and installation support, it is suitable for professional gold refining applications.",
+    "short_desc": "1 Kg automatic electrolytic gold refining machine designed for precise purification and efficient operation.",
+    "image": "machines/rajesh_gold_refining_machine_1kg.png"
+  },
+  {
+    "id": 10,
+    "category": "Gold refining machine",
+    "category_label": "Gold refining machine",
+    "name": "20 Kg Automatic Gold Refining Machine",
+    "description": "The 20 Kg Automatic Gold Refining Machine is designed for efficient and precise gold purification with a 20 kg processing capacity. Using advanced electrolytic processing technology, this fully automatic system simplifies the refining process while minimizing manual effort. Built with a durable polypropylene body and titanium components, it delivers up to 99.99% gold purity. It features a 1 HP motor, electric power supply, and reliable automatic operation, making it suitable for professional gold refining facilities.",
+    "short_desc": "20 Kg automatic electrolytic gold refining machine delivering up to 99.99% purity with efficient and reliable operation.",
+    "image": "machines/rajesh_gold_refining_machine_20kg.png"
+  },
+  {
+    "id": 11,
     "category": "Fiber Laser Marking Machine",
     "category_label": "Fiber Laser Marking Machine",
     "name": "Fiber Laser Marking Machine",
@@ -63,7 +99,7 @@
     "image": "machines/Fiber Laser Marking Machine.png"
   },
   {
-    "id": 8,
+    "id": 12,
     "category": "Fiber Laser Marking and Engraving Machine",
     "category_label": "Fiber Laser Marking and Engraving Machine",
     "name": "Fiber Laser Marking and Engraving Machine",
@@ -72,7 +108,7 @@
     "image": "machines/3D Fiber Laser Marking and Engraving Machine.png"
   },
   {
-    "id": 9,
+    "id": 13,
     "category": "laser spot welding machine",
     "category_label": "laser spot welding machine",
     "name": "laser spot welding machine",
@@ -81,7 +117,7 @@
     "image": "machines/laser-spot-welding-machine.png"
   },
   {
-    "id": 10,
+    "id": 14,
     "category": "laser spot welding machine",
     "category_label": "laser spot welding machine",
     "name": "Jewelry Laser Welding and Soldering Machine",
@@ -90,7 +126,7 @@
     "image": "machines/Jewelry Laser Welding and Soldering Machine.png"
   },
   {
-    "id": 11,
+    "id": 15,
     "category": "Melting Machine",
     "category_label": "Melting Machine",
     "name": "Gold Induction Melting Machine (500-gram capacity)",
@@ -99,7 +135,7 @@
     "image": "machines/Melting Machine  500-gram.png"
   },
   {
-    "id": 12,
+    "id": 16,
     "category": "Melting Machine",
     "category_label": "Melting Machine",
     "name": "Gold Induction Melting Machine (500 grams to 2 kg capacity)",
@@ -108,7 +144,7 @@
     "image": "machines/Melting Machine 500grams to 2kg.png"
   },
   {
-    "id": 13,
+    "id": 17,
     "category": "Melting Machine",
     "category_label": "Melting Machine",
     "name": "Gold Induction Melting Machine (1 kg to 5 kg capacity)",
@@ -117,7 +153,7 @@
     "image": "machines/Melting Machine 1kg to 5kg.png"
   },
   {
-    "id": 14,
+    "id": 18,
     "category": "Melting Machine",
     "category_label": "Melting Machine",
     "name": "Shapet Vacuum Pressure Casting Machine",
@@ -126,7 +162,7 @@
     "image": "machines/Shapet Vacuum Pressure Casting Machine.png"
   },
   {
-    "id": 15,
+    "id": 19,
     "category": "Melting Machine",
     "category_label": "Melting Machine",
     "name": "Shapet Induction Melting Mini+",
@@ -135,7 +171,7 @@
     "image": "machines/Shapet Induction Melting Mini+.png"
   },
   {
-    "id": 16,
+    "id": 20,
     "category": "electronic precision balance scale",
     "category_label": "electronic precision balance scale",
     "name": "electronic precision balance scale",
@@ -144,7 +180,7 @@
     "image": "machines/electronic precision balance scale.png"
   },
   {
-    "id": 17,
+    "id": 21,
     "category": "electronic precision balance scale",
     "category_label": "electronic precision balance scale",
     "name": "electronic precision balance scale",
@@ -153,7 +189,7 @@
     "image": "machines/electronic precision balance scale 2.png"
   },
   {
-    "id": 18,
+    "id": 22,
     "category": "graphite crucible",
     "category_label": "graphite crucible",
     "name": "graphite crucible",
@@ -162,7 +198,7 @@
     "image": "machines/graphite crucible.png"
   },
   {
-    "id": 19,
+    "id": 23,
     "category": "graphite crucible",
     "category_label": "graphite crucible",
     "name": "graphite crucible",

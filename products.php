@@ -22,6 +22,11 @@ $category_meta = [
         'heading' => 'Certified <em>Gold</em> Purity Testing',
         'desc'    => "Trusted by Bangladesh's leading jewellers and gold testing centres — our XRF gold testing solutions deliver unmatched accuracy and speed.",
     ],
+    'Gold refining machine' => [
+        'label'   => 'Gold Refining',
+        'heading' => 'Automatic <em>Gold</em> Refining Systems',
+        'desc'    => 'Automatic electrolytic gold refining machines from 1 Kg to 20 Kg capacity — up to 99.99% purity for jewellery scrap, sweeping dust, and polishing waste, with safe, low-pollution operation.',
+    ],
     'Fiber Laser Marking Machine' => [
         'label'   => 'Laser Marking',
         'heading' => 'Precision <em>Laser</em> Marking &amp; Engraving',
@@ -77,7 +82,7 @@ $delay_classes = ['', 'rg-d1', 'rg-d2', 'rg-d3', 'rg-d4'];
   <div class="rg-page-hero-content">
     <div class="rg-eyebrow rg-reveal" style="justify-content:center;">Fischer Measurement Technologies</div>
     <h1 class="rg-section-title rg-reveal" style="color:#FDFAF4;text-align:center;">Our <em>Products</em></h1>
-    <p class="rg-page-hero-sub rg-reveal">World-class precision instruments for gold testing, coating measurement, and material analysis — brought to Bangladesh since 1998.</p>
+    <p class="rg-page-hero-sub rg-reveal">World-class precision instruments for gold testing, refining, coating measurement, and material analysis — brought to Bangladesh since 1998.</p>
   </div>
 </section>
 
